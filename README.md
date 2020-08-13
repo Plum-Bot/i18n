@@ -1,5 +1,7 @@
 # I18n
 
+[![Bot Badge](https://img.shields.io/static/v1?label=bot&message=Plum&logo=DISCORD&logoColor=white&color=c44040)](https://plum-bot.xyz)
+
 Manages the translation files used by Plum. They're downloaded every reboot.
 
 ## Contributing
@@ -18,7 +20,7 @@ Enter the folder and check out the JSON files. Each JSON is made like this:
 ```
 
 DON'T rename the files and DON'T edit the keys names, otherwise it won't work. `{{placeholder}}`s
-are also values that shouldn't be edited, they'll be replaces at runtime.
+are also values that shouldn't be edited, they'll be replaced at runtime.
 
 Once you're done translating, just send a pull request. If it's accepted, you'll see your
 changes on the next reboot of the bot.
