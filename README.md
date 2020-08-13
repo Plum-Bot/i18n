@@ -24,5 +24,3 @@ Once you're done translating, just send a pull request. If it's accepted, you'll
 changes on the next reboot of the bot.
 
 Obviously, don't forget to [join our Discord!](https://discord.gg/MDtgmEM)
-
-<iframe src="https://discord.com/widget?id=689149132371263604&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
