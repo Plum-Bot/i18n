@@ -1,4 +1,7 @@
 {
+    "PAGINATION": "Page {{page}} of {{pages}}",
+    "EXPIRATION": "This menu will expire in {{minutes}} minutes.",
+    
     "NO_PERMS": {
         "TITLE": "You don't have the permission to run this command",
         "DESC": "The minimum permission is **{{name}}** [{{level}}]"
