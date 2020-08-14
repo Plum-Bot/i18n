@@ -1,3 +1,40 @@
 {
-    "DESCRIPTION": "Shows a list of command or more information about a command."
+    "DESCRIPTION": "Shows a list of command or more information about a command.",
+
+    "CMD_LIST": "List of all commands",
+
+    "MORE_HELP": {
+        "TITLE": "{{info}} More info",
+        "DESC": "The command usage notation is the following:\n\n`<argument>`: Denotes a required argument\n`[argument]`: Denotes an optional argument\n`(argument)`: Denotes an argument that, based on the other arguments, may be required or optional",
+
+        "FIELD": {
+            "TITLE": "Exclusive arguments",
+            "DESC": "Some arguments are in the notation `argument1|argument2`. In those cases, you may only have either `argument1` or `argument2`, but not both."
+        }
+    },
+
+    "PREFIX": "The prefix for this server is: {{prefix}}",
+
+    "COMMAND": {
+        "TITLE": "{{info}} Help for command: {{command}}",
+        
+        "MORE_INFO": "[More info about this command]({{domain}}/commands/{{command}})"
+    },
+
+    "LIMITATIONS": {
+        "TITLE": "{{lock}} Limitations",
+
+        "GUILD": "{{server}} Server only",
+        "OWNER": "{{user}} Bot Owner only",
+        "NSFW": "{{channel}} NSFW channels only",
+        "PREMIUM": "{{premium}} Premium users only"
+    },
+
+    "LEVEL": "{{numbers}} Level",
+    "EXAMPLES_KEY": "{{paper}} Examples",
+    "USAGE": "{{message}} Usage",
+    "ALIAS": "{{alias}} Alias",
+    "ALIAS_PLURAL": "{{alias}} Aliases",
+
+    "NO_CMDS": "You have no usable commands. Contact the owner for more info."
 }

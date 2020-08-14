@@ -1,7 +1,7 @@
 {
     "PAGINATION": "Page {{page}} of {{pages}}",
     "EXPIRATION": "This menu will expire in {{minutes}} minutes.",
-    
+
     "NO_PERMS": {
         "TITLE": "You don't have the permission to run this command",
         "DESC": "The minimum permission is **{{name}}** [{{level}}]"
@@ -54,5 +54,8 @@
             "NAME": "Bot owner",
             "DESC": "The Bot owner, or the Developer, is who made the bot."
         }
-    }
+    },
+
+    "USEFUL_LINKS": "Useful links",
+    "USEFUL_LINKS_TEXT": "[Official Website]({{domain}}) |  [All commands]({{commands}}) | [Official Support Server]({{server}})"
 }
