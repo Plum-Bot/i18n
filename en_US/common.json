@@ -59,5 +59,9 @@
     "USEFUL_LINKS": "Useful links",
     "USEFUL_LINKS_TEXT": "[Official Website]({{domain}}) |  [All commands]({{commands}}) | [Official Support Server]({{server}})",
 
-    "MADE_BY": "{{name}} is made by {{tag}}"
+    "MADE_BY": "{{name}} is made by {{tag}}",
+
+    "AND": "and",
+
+    "REMINDER": "You asked me to remind you:\n> {{text}}"
 }

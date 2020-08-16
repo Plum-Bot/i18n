@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Calculates how much of the year has passed and how many days are left.",
+
+    "YEAR_PROGRESS": "{{year}} Progress",
+    "PERCENTAGE": "Percentage",
+    "PROGRESS": "Progress",
+    "DAYS_LEFT": "Days left"
+}
