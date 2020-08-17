@@ -1,0 +1,15 @@
+{
+    "DESCRIPTION": "Lists your active reminders and lets you delete them.",
+
+    "ARG_delete": "delete",
+
+    "ERRORS": {
+        "INVALID_ARG": "The argument to `delete` must be an index number.",
+        "NO_REM": "There's no reminder stored with that ID. A typo?"
+    },
+
+    "DELETE_OK": "The reminder was successfully deleted.",
+
+    "EMBED_TITLE": "Your reminders",
+    "EMBED_EMPTY": "You have no reminders set. Add one with `{{prefix}} remindme 5m, do something`"
+}

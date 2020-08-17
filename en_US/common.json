@@ -63,5 +63,8 @@
 
     "AND": "and",
 
-    "REMINDER": "You asked me to remind you:\n> {{text}}"
+    "REMINDER": "You asked me to remind you:\n> {{text}}",
+
+    "TIME_AGO": "{{time}} ago",
+    "IN_TIME": "in {{time}}"
 }
