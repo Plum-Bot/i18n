@@ -1,5 +1,5 @@
 {
-    "DESCRIPTION": "Sets you up a reminder so you don't forget something _really_ important... 😰",
+    "DESCRIPTION": "Sets you up a reminder so you don't forget something _really_ important... 😅",
 
     "FORMAT_ERROR": "You didn't enter a duration. To enter a duration, type the duration before the reminder, separated by a comma, like so: `{{prefix}}remindme 5m, do something`.",
     "INVALID_DURATION": "You entered an invalid duration. For help, check these guides:\n> {{duration}}\n> {{date}}",
