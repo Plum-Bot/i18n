@@ -22,6 +22,10 @@ Enter the folder and check out the JSON files. Each JSON is made like this:
 DON'T rename the files and DON'T edit the keys names, otherwise it won't work. `{{placeholder}}`s
 are also values that shouldn't be edited, they'll be replaced at runtime.
 
+Keys that start with a double slash (for example, `// comment to translators`) are just comments
+to provide more context or an explanation for a better understanding of the meaning of the translations.
+They can be safely removed in the translations.
+
 Once you're done translating, just send a pull request. If it's accepted, you'll see your
 changes on the next reboot of the bot.
 

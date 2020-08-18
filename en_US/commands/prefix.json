@@ -1,5 +1,5 @@
 {
-    "DESCRIPTION": "\u200b",
+    "DESCRIPTION": "Set the prefix for a server.",
 
     "PREFIX": "Prefix",
     "PREFIX_DESC": "The prefix for this server is `{{prefix}}`"
