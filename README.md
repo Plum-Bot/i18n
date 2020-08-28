@@ -1,6 +1,6 @@
 # I18n
 
-[![Bot Badge](https://img.shields.io/static/v1?label=bot&message=Plum&logo=DISCORD&logoColor=white&color=c44040)](https://plum-bot.xyz)
+[![Bot Badge](https://img.shields.io/static/v1?label=bot&message=Plum&logo=DISCORD&logoColor=white&color=c44040)](https://plum-bot.xyz) [![Discord Badge](https://discord.com/api/guilds/689149132371263604/widget.png?style=shield)](https://discord.gg/MDtgmEM)
 
 Manages the translation files used by Plum. They're downloaded every reboot.
 

@@ -7,6 +7,16 @@
         "DESC": "The minimum permission is **{{name}}** [{{level}}]"
     },
 
+    "ARG_ERRORS": {
+        "NOT_ENOUGH": "There are not enough arguments! The minimum is {{length}}",
+        "INVALID": {
+            "ERROR": "The command was called incorrectly.",
+            "INFO": "The proper usage is: `{{usage}}`"
+        }
+    },
+
+    "COOLDOWN": "You may not use the `{{command}}` command for another {{time}}.",
+
     "CMD_ERROR": {
         "TEXT": "Support Server: {{invite}}",
         "TITLE": "Uh-oh! An error occurred.",
@@ -66,5 +76,7 @@
     "REMINDER": "You asked me to remind you:\n> {{text}}",
 
     "TIME_AGO": "{{time}} ago",
-    "IN_TIME": "in {{time}}"
+    "IN_TIME": "in {{time}}",
+
+    "NO_BIO": "No bio set"
 }

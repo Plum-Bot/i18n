@@ -20,6 +20,8 @@
         "PERMISSION": "You don't have the permission to use the `{{command}}` command.",
         "MISSING_PERM_ONE": "I need the **{{perm}}** permission to run the `{{command}}` command.",
         "MISSING_PERM_MORE": "I need the following permissions to run the `{{command}}` command:\n\n{{list}}",
+        "MISSING_PERM_USER_ONE": "You need the **{{perm}}** permission to run the `{{command}}` command.",
+        "MISSING_PERM_USER_MORE": "You need the following permissions to run the `{{command}}` command:\n\n{{list}}",
         "THROTTLING": "You may not use the `{{command}}` command again for another {{seconds}}s",
 
         "PAGINATION": "You already have a pagination menu open! Close it or wait for it to expire and retry.",

@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Converts your text into an MP3 file.",
+
+    "OK": "Here's your spoken text.",
+    "ERROR": "An unexpected error happened. Retry later."
+}

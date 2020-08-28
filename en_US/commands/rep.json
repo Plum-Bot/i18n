@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Award someone a global reputation point.",
+
+    "SELF_REP": "You can't award yourself a reputation point!",
+    "BOT_REP": "You can't award a bot a reputation point!",
+    "AWARD": "**{{user}}** has been awarded a reputation point and now sits at **{{reps}}** point(s).",
+    "TOO_SOON": "You can't give **{{user}}** a reputation point because you already gave them one recently. You can give them another reputation point in {{time}}."
+}
