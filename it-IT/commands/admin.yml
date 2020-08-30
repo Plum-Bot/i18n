@@ -1,0 +1,31 @@
+DESCRIPTION: Gestisce la parte amministrativa del bot
+ERRORS:
+  INVALID_ACTION: |-
+    L'azione deve essere una delle seguenti:
+
+    {{list}}
+  INVALID_ACTION_SUB: |-
+    L'azione per `{{sub}}` deve essere una delle seguenti:
+
+    {{list}}
+  NO_ID: Questo comando richiede un ID
+  NO_ID_USER: L'ID fornito non corrisponde ad un utente.
+  NO_ID_SERVER: L'ID fornito non corrisponde ad un server.
+  HAS_FLAG: "**{{name}}** ha già il flag `{{flag}}`"
+  DOES_NOT_HAVE_FLAG: "**{{name}}** non ha il flag `{{flag}}`"
+  UNKNOWN: Qualcosa è andato storto! Per favore, riprova
+USER:
+  VIEW:
+    TITLE: Amministrazione utente
+    FLAGS: Flag
+    SERVERS: Server in comune
+    TEXT: Ecco alcune informazioni su **{{name}}** [`{{id}}`]
+SERVER:
+  VIEW:
+    TITLE: Amministrazione server
+    FLAGS: Flag
+    TEXT: Ecco alcune informazioni su **{{name}}** [`{{id}}`]
+FLAGS:
+  OK_ADD: Il flag è stato aggiunto correttamente.
+  OK_DELETE: Il flag è stato eliminato correttamente.
+  NONE: Nessun flag

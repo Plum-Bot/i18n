@@ -1,0 +1,3 @@
+DESCRIPTION: Imposta il prefisso per il server.
+PREFIX: Prefisso
+PREFIX_DESC: Il prefisso di questo server è `{{prefix}}`

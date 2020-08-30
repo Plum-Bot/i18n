@@ -1,0 +1,32 @@
+DESCRIPTION: Mostra una lista di comandi o maggiori informazioni su un comando.
+CMD_LIST: Lista di tutti i comandi
+MORE_HELP:
+  TITLE: "{{info}} Maggiori informazioni"
+  DESC: >-
+    La notazione dei comandi è la seguente:
+
+    `<argomento>`: Descrive un argomento obbligatorio
+
+    `[argomento]`: Descrive un argomento facoltativo
+
+    `(argomento)`: Descrive un argomento che, in base agli altri argomenti, può essere obbligatorio o facoltativo
+  FIELD:
+    TITLE: Argomenti esclusivi
+    DESC: Alcuni argomenti possono essere mostrati come `argomento1|argomento2`. In questi casi,
+      potrai scrivere solo `argomento1` o `argomento2`, ma non entrambi.
+PREFIX: "Il prefisso per questo server è: {{prefix}}"
+COMMAND:
+  TITLE: "{{info}} Pagina di aiuto per il comando: {{command}}"
+  MORE_INFO: "[Ulteriori informazioni su questo comando]({{domain}}/commands/{{command}})"
+LIMITATIONS:
+  TITLE: "{{lock}} Limitazioni"
+  GUILD: "{{server}} Eseguibile solo in un Server"
+  OWNER: "{{user}} Eseguibile solo dagli Sviluppatori"
+  NSFW: "{{channel}} Eseguibile solo in un canale NSFW"
+  PREMIUM: "{{premium}} Eseguibile solo dagli utenti [Premium]({{domain}}/support)"
+LEVEL: "{{numbers}} Livello"
+EXAMPLES_KEY: "{{paper}} Esempi"
+USAGE: "{{message}} Utilizzo"
+ALIAS: "{{alias}} Altro nome"
+ALIAS_PLURAL: "{{alias}} Altri nomi"
+NO_CMDS: Non puoi usare nessun comando. Contatta lo sviluppatore per informazioni.

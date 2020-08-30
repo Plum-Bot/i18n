@@ -3,5 +3,10 @@
         "name": "American English",
         "localizedName": "American English",
         "flag": "🇺🇸"
+    },
+    "it-IT": {
+        "name": "Italiano",
+        "localizedName": "Italian",
+        "flag": "🇮🇹"
     }
 }

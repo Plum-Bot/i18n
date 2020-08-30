@@ -1,0 +1,11 @@
+DESCRIPTION: Imposta la tua bio in modo che gli altri utenti la possano vedere
+INFO_BIO: |-
+  La tua bio è:
+
+  > _{{bio}}_
+NO_BIO_TO_CLEAR: Non c'è nessuna bio da cancellare!
+BIO_SET: |-
+  La tua bio è:
+
+  > _{{bio}}_
+BIO_CLEARED: La tua bio è stata cancellata.

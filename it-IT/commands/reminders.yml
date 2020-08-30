@@ -1,0 +1,8 @@
+DESCRIPTION: Lista i tuoi promemoria attivi e ti permette di eliminarli.
+ARG_delete: elimina
+ERRORS:
+  INVALID_ARG: L'argomento per `elimina` deve essere un numero.
+  NO_REM: Non c'è nessun promemoria salvato con questo ID. L'hai mica scritto male?
+DELETE_OK: Il promemoria è stato eliminato correttamente.
+EMBED_TITLE: I tuoi promemoria
+EMBED_EMPTY: Non hai promemoria impostati. Aggiungine uno con `{{prefix}}remindme 5m, fare qualcosa`

@@ -1,0 +1,5 @@
+DESCRIPTION: Calcola la percentuale di tempo passata dall'inizio dell'anno e quanto manca alla fine.
+YEAR_PROGRESS: "Progresso {{year}}"
+PERCENTAGE: Percentuale
+PROGRESS: Progresso
+DAYS_LEFT: Giorni rimanenti

@@ -1,0 +1,42 @@
+PAGINATION_MENU:
+  TITLE: Menu interattivo
+  DESCRIPTION: |-
+    Questa è la pagina di aiuto per il menu interattivo.
+    La seguente è la spiegazione delle reazioni.
+  FIELD_EMOJIS: Emoji
+  FIELD_EMOJIS_TEXT_A: |-
+    {{first}} Vai alla prima pagina.
+    {{prev}} Vai indietro di una pagina, o vai all'ultima pagina se sei alla prima.
+    {{stop}} Ferma il menu interattivo.
+    {{next}} Vai avanti di una pagina, o torna alla prima se sei all'ultima.
+    {{last}} Vai all'ultima pagina.
+    {{info}} Attiva o disattiva questo menu.
+  FIELD_EMOJIS_TEXT_B: |-
+    {{first}} Vai alla prima pagina.
+    {{prev}} Vai indietro di una pagina, o vai all'ultima pagina se sei alla prima.
+    {{stop}} Ferma il menu interattivo.
+    {{next}} Vai avanti di una pagina, o torna alla prima se sei all'ultima.
+    {{last}} Vai all'ultima pagina.
+    {{info}} Attiva o disattiva questo menu.
+    {{additional}} Mostra informazioni aggiuntive sull'argomento.
+  FIELD_BACK: Come torno indietro?
+  FIELD_BACK_TEXT: Reagisci ancora con {{info}}.
+  EXPIRED_TIME: Il menu interattivo è scaduto.
+  EXPIRED_MANUAL: Il menu interattivo è stato fermato.
+ERRORS:
+  GUILD: Il comando `{{command}}` deve essere usato in un server.
+  NSFW: Il comando `{{command}}` deve essere usato in un canale NSFW.
+  PERMISSION: Non hai il permesso di usare il comando `{{command}}`.
+  MISSING_PERM_ONE: Mi serve il permesso **{{perm}}** per eseguire il comando `{{command}}`.
+  MISSING_PERM_MORE: |-
+    Mi servono i seguenti permessi per eseguire il comando `{{command}}`:
+
+    {{list}}
+  MISSING_PERM_USER_ONE: Ti serve il permesso **{{perm}}** per eseguire il comando `{{command}}`.
+  MISSING_PERM_USER_MORE: |-
+    Ti servono i seguenti permessi per eseguire il comando `{{command}}`:
+
+    {{list}}
+  THROTTLING: Non puoi usare il comando `{{command}}` per altri {{seconds}}
+  PAGINATION: hai già un menu interattivo aperto! Chiudilo o aspetta che scada e riprova.
+  # UNAVAILABLE_FLAVOR: This command isn't available in this version of the bot. Contact the Developer to know more.

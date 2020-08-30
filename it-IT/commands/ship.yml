@@ -1,0 +1,15 @@
+DESCRIPTION: Shippa una coppia per far vedere quanto pensi stiano bene insieme!
+NO_USERS: Devi specificare almeno un utente da shippare.
+SAME_PERSON_MONO: Ti shippi da solo? Non pensi di meritarti più affetto?
+SAME_PERSON_DUO: Shippi la stessa persona? Non pensi che dovrebbe meritare più affetto?
+SHIP: |-
+  🛥 NUOVA SHIP: **{{name}}** 💖
+  Affinità: **{{affinity}}%** [{{progress}}]
+  {{line}}
+LINES:
+  - Non è amore... 😡
+  - Solo amici. A meno che... 😳
+  - Leggermente attratti 😘
+  - Innamorati 🥰
+  - L'amore è nell'aria 😍
+  

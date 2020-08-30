@@ -1,0 +1,3 @@
+DESCRIPTION: Pinga un sito web e ne mostra l'anteprima.
+TITLE: "Ping: {{website}}"
+PING: "{{number}}ms"

@@ -1,0 +1,70 @@
+PAGINATION: Pagina {{page}} di {{pages}}
+EXPIRATION: Questo menu scadrà tra {{minutes}} minuti.
+NO_PERMS:
+  TITLE: Non hai il permesso di eseguire questo comando
+  DESC: Il livello di permesso minimo è **{{name}}** [{{level}}]
+ARG_ERRORS:
+  NOT_ENOUGH: Non ci sono abbastanza argomenti per eseguire il
+    comando! Il minimo è {{length}}
+  INVALID:
+    ERROR: Il comando non è stato chiamato correttamente.
+    INFO: "Il formato corretto è: `{{usage}}`"
+COOLDOWN: Non potrai usare il comando `{{command}}` per altri {{time}}.
+CMD_ERROR:
+  TEXT: "Server di supporto: {{invite}}"
+  TITLE: Oh-oh! È capitato un errore.
+  DESC: Contatta gli sviluppatori nel server di supporto per avvisarli di questo errore.
+PERM_MANAGE_EMOJIS: Gestire gli emoji
+PERM_KICK_MEMBERS: Espellere i membri
+PERM_BAN_MEMBERS: Bannare i membri
+PERM_MANAGE_ROLES: Gestire i roli
+PERM_MANAGE_MESSAGES: Gestire i messaggi
+PERM_EMBED_LINKS: Incorporare link
+PERM_USE_EXTERNAL_EMOJIS: Usare emoji esterni
+PERMS:
+  "0":
+    NAME: Bot
+    DESC: I bot sono dei pezzi di codice che eseguono azioni su richiesta.
+  "1":
+    NAME: Utente
+    DESC: Chiunque non è un bot è un utente.
+  "2":
+    NAME: Moderatore del server
+    DESC: I moderatori del server moderano il server e lo mantengono pulito.
+  "3":
+    NAME: Amministratore del server
+    DESC: Gli amministratori del server aiutano il proprietario ad amministrare il server.
+  "4":
+    NAME: Proprietario del server
+    DESC: I proprietari del server sono le persone che hanno creato il server o chi ne eredita.
+  "9":
+    NAME: Helpers del bot
+    DESC: I così detti "Helper del bot" aiutano il proprietario del bot ad amministrare il bot.
+  "10":
+    NAME: Proprietario del bot
+    DESC: Il proprietario del bot, o lo Sviluppatore, è colui che ha creato il bot.
+  "-1":
+    NAME: Utente bannato
+    DESC: Questi utenti hanno violato i [Termini di Servizio]({{domain}}/terms) e sono stati bannati.
+USEFUL_LINKS: Link utili
+USEFUL_LINKS_TEXT: "[Sito web]({{domain}}) | [Tutti i comandi]({{commands}}) | [Server di supporto]({{server}})"
+MADE_BY: "{{name}} è fatto da {{tag}}"
+AND: e
+REMINDER: |-
+  Mi hai chiesto di ricordarti:
+  > {{text}}
+TIME_AGO: "{{time}} fa"
+IN_TIME: tra {{time}}
+NO_BIO: Nessuna bio impostata
+
+STATUSES:
+  dnd: Non disturbare
+  idle: Idle # ?
+  online: Online
+  offline: Offline
+
+REPS: "{{count}} punto reputazione"
+REPS_plural: "{{count}} punti reputazione"
+
+# This is an action (ie, the user can use this to imply something in a command)
+CLEAR: cancella

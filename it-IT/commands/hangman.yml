@@ -1,0 +1,25 @@
+DESCRIPTION: Gioca all'impiccato, ma con un amico.
+
+QUESTION: "{{member}}, vuoi giocare all'Impiccato con {{user}}?"
+
+EMBED:
+  TITLE: Gioco dell'Impiccato
+  STATE: Stato
+
+  NEXT_TURN: Prossimo turno
+  TURN_AFTER: Turno dopo
+
+  GUESSED: Tentativi
+  FAILED: Tentativi falliti
+  GUESSED_NONE: Nessuno
+  FAILED_NONE: Nessuno
+  LIVES: Vita
+  LIVES_plural: Vite
+
+WIN_MESSAGE: Avete vinto!
+LOSE_MESSAGE: Avete perso...
+
+# States
+IN_PROGRESS: In corso
+WON: Avete vinto
+LOST: Avete perso

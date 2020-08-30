@@ -1,0 +1,8 @@
+LEAVE: Utente uscito
+COUNT: Ora il server ha {{count}} membro.
+COUNT_plural: Ora il server ha {{count}} membri.
+ACCT_AGE: Creazione dell'account
+FOOTER: "{{tag}} [{{id}}]"
+JOINED_AT: Entrato il
+ROLES: Ruolo
+ROLES_plural: Ruoli
