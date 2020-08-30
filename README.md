@@ -16,6 +16,12 @@ Enter the folder and check out the YML files. Each YML is made like this:
 ```yaml
 # Comment to explain
 KEY: Value, with a {{placeholder}}
+KEY_WITH_OBJECTS:
+    NESTED_KEY:
+        - Array values
+        - Start with
+        - a dash
+    ANOTHER_KEY: This key is nested
 ```
 
 As per the YML spec, indentation is important.
