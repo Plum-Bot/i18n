@@ -24,7 +24,7 @@ LIMITATIONS:
   GUILD: "{{server}} Server only"
   OWNER: "{{user}} Bot Owner only"
   NSFW: "{{channel}} NSFW channels only"
-  PREMIUM: "{{premium}} Premium users only"
+  PREMIUM: "{{premium}} [Premium]({{domain}}/support) users only"
 LEVEL: "{{numbers}} Level"
 EXAMPLES_KEY: "{{paper}} Examples"
 USAGE: "{{message}} Usage"
