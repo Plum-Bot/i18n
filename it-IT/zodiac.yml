@@ -1,0 +1,26 @@
+WESTERN:
+  ARIES: aries
+  TAURUS: taurus
+  GEMINI: gemini
+  CANCER: cancer
+  LEO: leo
+  VIRGO: virgo
+  LIBRA: libra
+  SCORPIO: scorpio
+  SAGITTARIUS: sagittarius
+  CAPRICORN: capricorn
+  AQUARIUS: aquarius
+  PISCES: pisces
+CHINESE:
+  RAT: rat
+  OX: ox
+  TIGER: tiger
+  RABBIT: rabbit
+  DRAGON: dragon
+  SNAKE: snake
+  HORSE: horse
+  GOAT: goat
+  MONKEY: monkey
+  ROOSTER: rooster
+  DOG: dog
+  PIG: pig
