@@ -1,0 +1,23 @@
+DESCRIPTION: Shows info about someone
+
+USERNAME: 'Username: **{{username}}**'
+NICKNAME: 'Nickname: **{{nickname}}**'
+DISCRIMINATOR: 'Discriminator: #**{{discrim}}**'
+ACCT_CREATE: On Discord since **{{date}}**
+SERVER_JOIN: In this server since **{{date}}**
+
+ACTIVITY: Activity
+NO_ACTIVITY: Not playing anything and no custom status set.
+
+ACTIVITY_TYPE:
+  '0': Playing **{{game}}**
+  '1': Streaming **{{game}}**
+  '2': Listening to **{{game}}**
+
+STATUS: Status
+
+REPS: Reputation points
+
+ROLES: Role
+ROLES_plural: Roles
+ROLES_NONE: None

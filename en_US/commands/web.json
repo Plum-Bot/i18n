@@ -1,6 +1,0 @@
-{
-    "DESCRIPTION": "Ping a website and preview its content.",
-
-    "TITLE": "Ping: {{website}}",
-    "PING": "{{number}}ms"
-}

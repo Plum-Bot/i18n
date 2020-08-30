@@ -1,8 +1,0 @@
-{
-    "DESCRIPTION": "Lets you play Scopa (the classic Italian game) with someone else.",
-    
-    "QUESTION": "{{member}}, do you want to play Scopa with {{user}}?",
-
-    "STATUS": "It's **{{next}}**'s turn\n**{{stack}}** cards remain on the stack.",
-    "CARD_NOT_IN_HAND": "That card is not in your hand! You can't play it."
-}

@@ -1,7 +1,0 @@
-{
-    "DESCRIPTION": "Sets your bio for other users to see",
-
-    "INFO_BIO": "Your bio is:\n\n{{bio}}",
-    "NO_BIO_TO_CLEAR": "There's no bio for me to clear!",
-    "BIO_SET": "Your bio has been saved:\n\n{{bio}}"
-}

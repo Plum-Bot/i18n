@@ -1,0 +1,5 @@
+JOIN: User joined
+COUNT: This server now has {{count}} member.
+COUNT_plural: This server now has {{count}} members.
+ACCT_AGE: Account creation
+FOOTER: "{{tag}} [{{id}}]"

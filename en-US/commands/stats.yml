@@ -1,0 +1,16 @@
+DESCRIPTION: Shows statistics such as uptime, memory usage and lib versions.
+EMBED_TITLE: STATISTICS
+EMBED_DESC: "{{name}} version {{version}}"
+MEMORY_USAGE: Memory Usage
+MEMORY_USAGE_DESC: "{{mb}} MB"
+UPTIME: Uptime
+USERS: Users
+USERS_DESC: |-
+  **• Users**: {{users}}
+  **• Channels**: {{channels}}
+  **• Servers**: {{servers}}
+VERSIONS: Versions
+VERSIONS_DESC: |-
+  **• Eris**: v{{discord}}
+  **• Node.js**: {{node}}
+CREATION_DATE: Creation date

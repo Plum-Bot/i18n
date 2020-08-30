@@ -8,21 +8,22 @@ Manages the translation files used by Plum. They're downloaded every reboot.
 
 To help translate Plum, clone this repository and check if the folder of the language
 you're translating exists.
-If it doesn't, copy the folder `en_US` and rename it as the ISO 639-1 code formatted as:
-`lang_REGION` (example: `it_IT`). If it does, don't do anything.
+If it doesn't, copy the folder `en-US` and rename it as the ISO 639-1 code formatted as:
+`lang-REGION` (example: `it-IT`). If it does, don't do anything.
 
-Enter the folder and check out the JSON files. Each JSON is made like this:
+Enter the folder and check out the YML files. Each YML is made like this:
 
-```json
-{
-    "KEY": "Value, with a {{placeholder}}"
-}
+```yaml
+# Comment to explain
+KEY: Value, with a {{placeholder}}
 ```
+
+As per the YML spec, indentation is important.
 
 DON'T rename the files and DON'T edit the keys names, otherwise it won't work. `{{placeholder}}`s
 are also values that shouldn't be edited, they'll be replaced at runtime.
 
-Keys that start with a double slash (for example, `// comment to translators`) are just comments
+Lines that start with a hash sign (`#`) are just comments
 to provide more context or an explanation for a better understanding of the meaning of the translations.
 They can be safely removed in the translations.
 
