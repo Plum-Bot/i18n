@@ -1,4 +1,4 @@
-DESCRIPTION: Ti fa giocare a Scopa (il classico Gioco di Carte italiano) con qualcun'altro.
+DESCRIPTION: Ti fa giocare a Scopa (il classico gioco di carte italiano) con qualcun altro.
 QUESTION: "{{member}}, ti va di giocare a Scopa con {{user}}?"
 STATUS: |-
   È il turno di **{{next}}**
