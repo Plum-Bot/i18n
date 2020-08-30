@@ -1,14 +1,13 @@
-# please include something that says this command only shows the horoscope in
-  English
-DESCRIPTION: Shows your horoscope. Use the `--chinese` flag to show your chinese horoscope.
-ERROR_MUST_SPECIFY: You must specify a sign!
-ERROR_MUST_SPECIFY_CHINESE: You must specify a chinese zodiac sign!
+# please include something that says this command only shows the horoscope in English  
+DESCRIPTION: Mostra il tuo oroscopio. Aggiungi il flag `--chinese` per vedere il tuo oroscopio cinese.
+ERROR_MUST_SPECIFY: Devi specificare un segno zodiacale!
+ERROR_MUST_SPECIFY_CHINESE: Devi specificare un segno zodiacale cinese!
 ERROR_MUST_SPECIFY_INFO: >-
-  If you don't want to do that now, you can set up yours in the configuration
-  page.
+  Se non vuoi farlo ora, puoi configurarne uno nella pagina di
+  configurazione.
 
   {{page}}
-INVALID_SIGN: You must specify a valid sign.
-INVALID_SIGN_CHINESE: You must specify a valid chinese zodiac sign.
-EMBED_FOOTER: Horoscope of
-EMBED_FOOTER_CHINESE: Chinese horoscope of
+INVALID_SIGN: Devi specificare un segno zodiacale valido.
+INVALID_SIGN_CHINESE: Devi specificare un segno zodiacale cinese valido.
+EMBED_FOOTER: Oroscopio di
+EMBED_FOOTER_CHINESE: Oroscopio cinese di

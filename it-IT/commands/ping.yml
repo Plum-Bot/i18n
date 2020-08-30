@@ -1,6 +1,6 @@
-DESCRIPTION: Shows how fast the bot is able to respond.
+DESCRIPTION: Testa la velocità di risposta del bot.
 PINGING: Pinging...
 PING: Ping!
 PONG: Pong!
-PING_TIME: Ping time
+PING_TIME: Tempo di ping
 HEARTBEAT: Heartbeat

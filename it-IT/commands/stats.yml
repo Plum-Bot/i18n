@@ -1,16 +1,16 @@
-DESCRIPTION: Shows statistics such as uptime, memory usage and lib versions.
-EMBED_TITLE: STATISTICS
-EMBED_DESC: "{{name}} version {{version}}"
-MEMORY_USAGE: Memory Usage
+DESCRIPTION: Mostra statistiche come da quanto il bot è online, il consumo di memoria e le versioni delle librerie.
+EMBED_TITLE: STATISTICHE
+EMBED_DESC: "{{name}} versione {{version}}"
+MEMORY_USAGE: Consumo di memoria
 MEMORY_USAGE_DESC: "{{mb}} MB"
 UPTIME: Uptime
-USERS: Users
+USERS: Utenti
 USERS_DESC: |-
-  **• Users**: {{users}}
-  **• Channels**: {{channels}}
-  **• Servers**: {{servers}}
-VERSIONS: Versions
+  **• Utenti**: {{users}}
+  **• Canali**: {{channels}}
+  **• Server**: {{servers}}
+VERSIONS: Versioni
 VERSIONS_DESC: |-
   **• Eris**: v{{discord}}
   **• Node.js**: {{node}}
-CREATION_DATE: Creation date
+CREATION_DATE: Data di creazione

@@ -1,12 +1,10 @@
 ADDED:
-  EMOJIS: "{{count}} emoji added"
-  EMOJIS_plural: "{{count}} emojis added"
+  EMOJIS: "{{count}} emoji aggiunta"
+  EMOJIS_plural: "{{count}} emoji aggiunte"
   EMBED:
     TITLE: Emoji
-    TITLE_plural: Emojis
 DELETED:
-  EMOJIS: "{{count}} emoji removed"
-  EMOJIS_plural: "{{count}} emojis removed"
+  EMOJIS: "{{count}} emoji eliminata"
+  EMOJIS_plural: "{{count}} emoji eliminate"
   EMBED:
     TITLE: Emoji
-    TITLE_plural: Emojis

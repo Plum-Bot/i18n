@@ -1,31 +1,31 @@
-DESCRIPTION: Manages the bot's administration side
+DESCRIPTION: Gestisce la parte amministrativa del bot
 ERRORS:
   INVALID_ACTION: |-
-    The action must be one of these:
+    L'azione deve essere una delle seguenti:
 
     {{list}}
   INVALID_ACTION_SUB: |-
-    The action for `{{sub}}` must be one of these:
+    L'azione per `{{sub}}` deve essere una delle seguenti:
 
     {{list}}
-  NO_ID: This command requires an ID
-  NO_ID_USER: That ID doesn't resolve to a user.
-  NO_ID_SERVER: That ID doesn't resolve to a server.
-  HAS_FLAG: "**{{name}}** already has the flag `{{flag}}`"
-  DOES_NOT_HAVE_FLAG: "**{{name}}** doesn't have the flag `{{flag}}`"
-  UNKNOWN: Something went wrong! Please retry
+  NO_ID: Questo comando richiede un ID
+  NO_ID_USER: L'ID fornito non corrisponde ad un utente.
+  NO_ID_SERVER: L'ID fornito non corrisponde ad un server.
+  HAS_FLAG: "**{{name}}** ha già il flag `{{flag}}`"
+  DOES_NOT_HAVE_FLAG: "**{{name}}** non ha il flag `{{flag}}`"
+  UNKNOWN: Qualcosa è andato storto! Per favore, riprova
 USER:
   VIEW:
-    TITLE: User Administration
-    FLAGS: Flags
-    SERVERS: Mutual servers
-    TEXT: Here's more info about **{{name}}** [`{{id}}`]
+    TITLE: Amministrazione utente
+    FLAGS: Flag
+    SERVERS: Server in comune
+    TEXT: Ecco alcune informazioni su **{{name}}** [`{{id}}`]
 SERVER:
   VIEW:
-    TITLE: Server Administration
-    FLAGS: Flags
-    TEXT: Here's more info about **{{name}}** [`{{id}}`]
+    TITLE: Amministrazione server
+    FLAGS: Flag
+    TEXT: Ecco alcune informazioni su **{{name}}** [`{{id}}`]
 FLAGS:
-  OK_ADD: The flag was added successfully.
-  OK_DELETE: The flag was deleted successfully.
-  NONE: No flags
+  OK_ADD: Il flag è stato aggiunto correttamente.
+  OK_DELETE: Il flag è stato eliminato correttamente.
+  NONE: Nessun flag

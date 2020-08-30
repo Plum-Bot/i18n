@@ -1,6 +1,6 @@
-DESCRIPTION: Lets you play Scopa (the classic Italian game) with someone else.
-QUESTION: "{{member}}, do you want to play Scopa with {{user}}?"
+DESCRIPTION: Ti fa giocare a Scopa (il classico Gioco di Carte italiano) con qualcun'altro.
+QUESTION: "{{member}}, ti va di giocare a Scopa con {{user}}?"
 STATUS: |-
-  It's **{{next}}**'s turn
-  **{{stack}}** cards remain on the stack.
-CARD_NOT_IN_HAND: That card is not in your hand! You can't play it.
+  È il turno di **{{next}}**
+  **{{stack}}** carte rimangono nel mazzo.
+CARD_NOT_IN_HAND: Non hai questa carta in mano! Non puoi giocare con questa.

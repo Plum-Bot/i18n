@@ -1,8 +1,8 @@
-DESCRIPTION: Lists your active reminders and lets you delete them.
-ARG_delete: delete
+DESCRIPTION: Lista i tuoi promemoria attivi e ti permette di eliminarli.
+ARG_delete: elimina
 ERRORS:
-  INVALID_ARG: The argument to `delete` must be an index number.
-  NO_REM: There's no reminder stored with that ID. A typo?
-DELETE_OK: The reminder was successfully deleted.
-EMBED_TITLE: Your reminders
-EMBED_EMPTY: You have no reminders set. Add one with `{{prefix}} remindme 5m, do something`
+  INVALID_ARG: L'argomento per `elimina` deve essere un numero.
+  NO_REM: Non c'è nessun promemoria salvato con questo ID. L'hai mica scritto male?
+DELETE_OK: Il promemoria è stato eliminato correttamente.
+EMBED_TITLE: I tuoi promemoria
+EMBED_EMPTY: Non hai promemoria impostati. Aggiungine uno con `{{prefix}}remindme 5m, fare qualcosa`

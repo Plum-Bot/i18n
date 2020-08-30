@@ -1,15 +1,15 @@
-DESCRIPTION: Lets you play Connect 4 with someone else.
-QUESTION: "{{member}}, do you want to play Connect Four with {{user}}?"
+DESCRIPTION: Ti permette di giocare a Forza 4 con qualcun altro.
+QUESTION: "{{member}}, vuoi giocare a Forza 4 con {{user}}?"
 STATES:
-  - Awaiting player 2
-  - Game in progress
-  - Red won
-  - Yellow won
-  - It's a tie!
-  - Invalid state
-WIN_MESSAGE: "{{user}}, you won!"
+  - Aspettando il giocatore 2
+  - Partita in corso
+  - Il rosso ha vinto
+  - Il giallo ha vinto
+  - È un pareggio!
+  - Stato non valido
+WIN_MESSAGE: "{{user}}, hai vinto!"
 EMBED:
-  TITLE: Connect Four game
-  NEXT_TURN: Next turn
+  TITLE: Forza 4
+  NEXT_TURN: Prossimo turno
   TURN_AFTER: Turn after
-  STATE: State
+  STATE: Stato

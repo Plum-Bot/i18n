@@ -1,4 +1,4 @@
-DESCRIPTION: Reloads a command, loading its changes.
-NO_CMD: A command with name or alias `{{command}}` wasn't found.
-CMD_OK: The `{{command}}` command was reloaded.
-CMD_ERROR: An unknown error occurred while reloading the `{{command}}` command.
+DESCRIPTION: Ricarica un comando, caricando i cambiamenti.
+NO_CMD: Un comando con il nome o alias `{{command}}` non è stato trovato.
+CMD_OK: Il comando `{{command}}` è stato ricaricato.
+CMD_ERROR: Errore nel ricaricare il comando`{{command}}`.

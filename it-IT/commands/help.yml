@@ -1,33 +1,32 @@
-DESCRIPTION: Shows a list of command or more information about a command.
-CMD_LIST: List of all commands
+DESCRIPTION: Mostra una lista di comandi o maggiori informazioni su un comando.
+CMD_LIST: Lista di tutti i comandi
 MORE_HELP:
-  TITLE: "{{info}} More info"
+  TITLE: "{{info}} Maggiori informazioni"
   DESC: >-
-    The command usage notation is the following:
+    La notazione dei comandi è la seguente:
 
+    `<argomento>`: Descrive un argomento obbligatorio
 
-    `<argument>`: Denotes a required argument
+    `[argomento]`: Descrive un argomento facoltativo
 
-    `[argument]`: Denotes an optional argument
-
-    `(argument)`: Denotes an argument that, based on the other arguments, may be required or optional
+    `(argomento)`: Descrive un argomento che, in base agli altri argomenti, può essere obbligatorio o facoltativo
   FIELD:
-    TITLE: Exclusive arguments
-    DESC: Some arguments are in the notation `argument1|argument2`. In those cases,
-      you may only have either `argument1` or `argument2`, but not both.
-PREFIX: "The prefix for this server is: {{prefix}}"
+    TITLE: Argomenti esclusivi
+    DESC: Alcuni argomenti possono essere mostrati come `argomento1|argomento2`. In questi casi,
+      potrai scrivere solo `argomento1` o `argomento2`, ma non entrambi.
+PREFIX: "Il prefisso per questo server è: {{prefix}}"
 COMMAND:
-  TITLE: "{{info}} Help for command: {{command}}"
-  MORE_INFO: "[More info about this command]({{domain}}/commands/{{command}})"
+  TITLE: "{{info}} Pagina di aiuto per il comando: {{command}}"
+  MORE_INFO: "[Ulteriori informazioni su questo comando]({{domain}}/commands/{{command}})"
 LIMITATIONS:
-  TITLE: "{{lock}} Limitations"
-  GUILD: "{{server}} Server only"
-  OWNER: "{{user}} Bot Owner only"
-  NSFW: "{{channel}} NSFW channels only"
-  PREMIUM: "{{premium}} Premium users only"
-LEVEL: "{{numbers}} Level"
-EXAMPLES_KEY: "{{paper}} Examples"
-USAGE: "{{message}} Usage"
-ALIAS: "{{alias}} Alias"
-ALIAS_PLURAL: "{{alias}} Aliases"
-NO_CMDS: You have no usable commands. Contact the owner for more info.
+  TITLE: "{{lock}} Limitazioni"
+  GUILD: "{{server}} Eseguibile solo in un Server"
+  OWNER: "{{user}} Eseguibile solo dagli Sviluppatori"
+  NSFW: "{{channel}} Eseguibile solo in un canale NSFW"
+  PREMIUM: "{{premium}} Eseguibile solo dagli utenti [Premium]({{domain}}/support)"
+LEVEL: "{{numbers}} Livello"
+EXAMPLES_KEY: "{{paper}} Esempi"
+USAGE: "{{message}} Utilizzo"
+ALIAS: "{{alias}} Altro nome"
+ALIAS_PLURAL: "{{alias}} Altri nomi"
+NO_CMDS: Non puoi usare nessun comando. Contatta lo sviluppatore per informazioni.

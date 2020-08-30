@@ -1,16 +1,16 @@
-DESCRIPTION: Sets you up a reminder so you don't forget something _really_ important... 😅
-FORMAT_ERROR: "You didn't enter a duration. To enter a duration, type the duration before
-  the reminder, separated by a comma, like so: `{{prefix}}remindme 5m, do
-  something`."
+DESCRIPTION: Imposta un promemoria così da non dimenticarti di fare qualcosa di _davvero_ importante... 😅
+FORMAT_ERROR: "Non hai specificato una durata. Per specificare la durata, scrivila prima
+  del promemoria, separata da una virgola, tipo così: `{{prefix}}remindme 5m, fare
+  qualcosa`."
 INVALID_DURATION: |-
-  You entered an invalid duration. For help, check these guides:
+  Hai specificato una durata non valida. Per aiuto, dai un'occhiata a queste linee guida:
   > {{duration}}
   > {{date}}
-TIME_TOO_MUCH_PREMIUM: The duration for Premium users must be between 5 seconds and 1 month.
-TIME_TOO_MUCH_REGULAR: The duration for normal users must be between 5 seconds and 1 week. **Update
-  to Premium for an extended duration of 1 month!** Use the `{{prefix}} premium`
-  command to know how.
-NO_REMINDER: You have to enter something to remind you of.
+TIME_TOO_MUCH_PREMIUM: La durata per gli utenti Premium deve essere tra 5 secondi ed un mese.
+TIME_TOO_MUCH_REGULAR: La durata per gli utenti normali deve essere tra 5 secondi ed una settimana. **Passa
+  a Premium per estendere la durata ad un mese!** Usa il comando `{{prefix}} premium`
+  per scoprire come.
+NO_REMINDER: Devi scrivere cosa ti dovrei ricordare.
 OK: |-
-  Alright! I'll remind you this in {{duration}}:
+  Ottimo! Ti ricorderò questo tra {{duration}}:
   > {{reminder}}

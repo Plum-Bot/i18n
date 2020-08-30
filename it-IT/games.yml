@@ -1,21 +1,20 @@
 MORE_THAN_10M:
-  QUESTION: You already have an ongoing game, but it's been going on for more than 10
-    minutes. Do you wanna delete it?
-  DELETE_OK: The game was deleted
-  DELETE_NO: I won't delete the game.
+  QUESTION: Hai già una partita in corso, ma è iniziata più di 10 minuti fa. Vuoi cancellarla?
+  DELETE_OK: La partita è stata cancellata.
+  DELETE_NO: Non cancellerò la partita.
 ERRORS:
-  PLAY_AGAINST_SELF: You can't play against yourself!
-  PLAY_AGAINST_BOT: You can't play against a bot!
-  ONGOING_GAME_YOU: You already have an ongoing game.
-  ONGOING_GAME_OTHER: "{{user}} already has an ongoing game."
-  RUNNING_QUESTION: "{{user}} is already being asked something (probably another user asked them
-    to play). Wait for them to reply to that and retry."
-  RUNNING_QUESTION_YOU: You're already being asked something (probably another user asked you to
-    play). Reply to that and retry.
+  PLAY_AGAINST_SELF: Non puoi giocare contro te stesso!
+  PLAY_AGAINST_BOT: Non puoi giocare contro un bot!
+  ONGOING_GAME_YOU: Hai già una partita in corso.
+  ONGOING_GAME_OTHER: "{{user}} ha già una partita in corso."
+  RUNNING_QUESTION: "A {{user}} sta già venendo chiesto qualcosa (forse qualcuno gli ha
+    chiesto di giocare). Aspetta che risponda e riprova."
+  RUNNING_QUESTION_YOU: Ti sta già venendo chiesto qualcosa (forse qualcuno ti ha chiesto
+    di giocare). Rispondi a quello e riprova.
 
   # Should never be called, but it's best to translate it anyways
-  GAME_ALREADY_STARTED: You already have an ongoing game.
+  GAME_ALREADY_STARTED: Hai già una partita in corso.
 
-  NO_GAME: You don't have any ongoing games.
-  INVALID_MOVE: That isn't a valid move for this game.
-  NOT_YOUR_TURN: This is not your turn. Wait for your opponent to play and only _then_ go.
+  NO_GAME: Non hai partite in corso.
+  INVALID_MOVE: Non è una mossa valida per questo gioco.
+  NOT_YOUR_TURN: Non è il tuo turno. Aspetta che il tuo avversario faccia la sua mossa.

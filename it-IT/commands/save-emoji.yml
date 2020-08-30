@@ -1,4 +1,4 @@
-DESCRIPTION: Lets you quickly save an image link or an attachment as an emoji.
+DESCRIPTION: Ti permette di salvare velocemente il link di un'immagine o un allegato all'interno di un'emoji.
 
-ADDED_BY: Added by {{user}}
-DONE: "The emoji was created: {{emoji}}"
+ADDED_BY: Aggiunta da {{user}}
+DONE: "Emoji creata: {{emoji}}"
