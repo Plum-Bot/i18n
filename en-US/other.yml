@@ -25,7 +25,7 @@ PAGINATION_MENU:
   EXPIRED_MANUAL: The interactive menu has been successfully terminated.
 ERRORS:
   GUILD: The `{{command}}` command must be used in a server channel.
-  NSFW: The `{{command}}` command must be used in a server channel.
+  NSFW: The `{{command}}` command must be used in an NSFW channel.
   PERMISSION: You don't have the permission to use the `{{command}}` command.
   MISSING_PERM_ONE: I need the **{{perm}}** permission to run the `{{command}}` command.
   MISSING_PERM_MORE: |-
