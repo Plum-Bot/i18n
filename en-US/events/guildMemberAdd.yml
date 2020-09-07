@@ -3,3 +3,8 @@ COUNT: This server now has {{count}} member.
 COUNT_plural: This server now has {{count}} members.
 ACCT_AGE: Account creation
 FOOTER: "{{tag}} [{{id}}]"
+ADDED_ROLES: Role added back by Role Persistence
+ADDED_ROLES_plural: Roles added back by Role Persistence
+
+# Used in the audit logs
+ROLE_PERSISTENCE: Added by Role Persistence

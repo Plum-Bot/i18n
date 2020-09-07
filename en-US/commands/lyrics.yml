@@ -1,0 +1,11 @@
+DESCRIPTION: Find the lyrics of a song
+
+ERROR:
+  UNKNOWN: "An unknown error happened. The server said this:\n> {{error}}"
+  NOT_FOUND: I couldn't find the song you're looking for. Try with different search terms or another song.
+
+LYRICS: |-
+  **{{title}}**
+  _{{author}}_
+
+  {{lyrics}}

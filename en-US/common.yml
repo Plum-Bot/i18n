@@ -20,6 +20,7 @@ PERM_MANAGE_ROLES: Manage roles
 PERM_MANAGE_MESSAGES: Manage messages
 PERM_EMBED_LINKS: Embed links
 PERM_USE_EXTERNAL_EMOJIS: Use external emojis
+PERM_ATTACH_FILES: Attach files
 PERMS:
   "0":
     NAME: Bot
@@ -69,3 +70,12 @@ REPS_plural: "{{count}} reputation points"
 
 # This is an action (ie, the user can use this to imply something in a command)
 CLEAR: clear
+
+# Settings types
+TYPES:
+  STRING: String,
+  BOOL: True/False
+  ROLE: Role
+  CHANNEL: Text Channel
+  COMMAND: Bot command
+  INTEGER: Number

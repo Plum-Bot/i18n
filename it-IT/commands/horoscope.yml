@@ -1,5 +1,5 @@
 # please include something that says this command only shows the horoscope in English  
-DESCRIPTION: Mostra il tuo oroscopio. Aggiungi il flag `--chinese` per vedere il tuo oroscopio cinese.
+DESCRIPTION: Mostra il tuo oroscopo (in inglese). Aggiungi il flag `--chinese` per vedere il tuo oroscopio cinese.
 ERROR_MUST_SPECIFY: Devi specificare un segno zodiacale!
 ERROR_MUST_SPECIFY_CHINESE: Devi specificare un segno zodiacale cinese!
 ERROR_MUST_SPECIFY_INFO: >-
@@ -9,5 +9,5 @@ ERROR_MUST_SPECIFY_INFO: >-
   {{page}}
 INVALID_SIGN: Devi specificare un segno zodiacale valido.
 INVALID_SIGN_CHINESE: Devi specificare un segno zodiacale cinese valido.
-EMBED_FOOTER: Oroscopio di
-EMBED_FOOTER_CHINESE: Oroscopio cinese di
+EMBED_FOOTER: Oroscopo di
+EMBED_FOOTER_CHINESE: Oroscopo cinese di
