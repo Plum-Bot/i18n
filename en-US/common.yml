@@ -68,14 +68,21 @@ STATUSES:
 REPS: "{{count}} reputation point"
 REPS_plural: "{{count}} reputation points"
 
-# This is an action (ie, the user can use this to imply something in a command)
+CANCELLING: Cancelling...
+
+# This is an action (ie, the user can use this to imply something in a command)
 CLEAR: clear
+ADD: add
+REMOVE: remove
+CANCEL: cancel
 
 # Settings types
 TYPES:
-  STRING: String,
+  STRING: String
   BOOL: True/False
   ROLE: Role
   CHANNEL: Text Channel
   COMMAND: Bot command
   INTEGER: Number
+
+  LIST_OF: List of {{type}} values

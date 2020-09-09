@@ -59,12 +59,15 @@ NO_BIO: Nessuna bio impostata
 
 STATUSES:
   dnd: Non disturbare
-  idle: Idle # ?
+  idle: Inattivo
   online: Online
   offline: Offline
 
 REPS: "{{count}} punto reputazione"
 REPS_plural: "{{count}} punti reputazione"
 
-# This is an action (ie, the user can use this to imply something in a command)
+# This is an action (ie, the user can use this to imply something in a command)
 CLEAR: cancella
+ADD: aggiungi
+REMOVE: rimuovi
+CANCEL: annulla
