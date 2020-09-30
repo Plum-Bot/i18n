@@ -1,0 +1,9 @@
+DESCRIPTION: Shows the disabled commands.
+
+NO_COMMANDS: This server doesn't have any disabled commands.
+COMMANDS: |-
+  The following commands are disabled:
+
+  {{commands}}
+
+  To enable a command, use `{{prefix}} enable <command>`.

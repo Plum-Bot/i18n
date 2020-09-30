@@ -1,0 +1,12 @@
+TITLE: Swear
+CONTENT: |-
+  Content:
+  
+  {{content}}
+
+TRIGGERING: "Triggering word: {{wordList}}"
+TRIGGERING_plural: "Triggering words: {{wordList}}"
+
+CHANNEL: Channel
+CAUGHT_ON: Caught on
+MESSAGE_ID: Message ID

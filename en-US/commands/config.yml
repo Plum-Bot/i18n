@@ -16,7 +16,7 @@ ARRAY:
         This key holds is a list of values.
         Say one of the following to manipulate it:
         > **{{add}}** to add something as the last element
-        > **{{remove}}** to remove aomething at an index
+        > **{{remove}}** to remove something at an index
         > **{{clear}}** to remove every value in the list
 
         For reference, the list of values contains the following values:
@@ -36,6 +36,14 @@ ARRAY:
     OK_REMOVE: Successfully removed `{{value}}` from the **{{name}}** configuration item
 
     INVALID_ACTION: There was a fatal error. Retry.
+
+    NO_VALUES: This list is empty.
+
+    ERRORS:
+        NO_VALUES: There are no values to delete.
+        NAN: Enter the number of the value you wish to delete!
+        OUT_OF_BOUNDS_LT0: That number is too small! Be sure to enter a number between 1 and {{bound}} (inclusive).
+        OUT_OF_BOUNDS_GTI: That number is too big! Be sure to enter a number between 1 and {{bound}} (inclusive).
 
 NO_DESC: No description
 NO_VAL: No value

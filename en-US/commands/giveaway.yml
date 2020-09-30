@@ -1,0 +1,18 @@
+DESCRIPTION: Creates and manages giveaways
+
+# Errors
+NO_DURATION: You entered an invalid duration.
+TOO_SMALL_DUR: "You entered a duration shorter than the minimum. The minimum is: **{{min}}**"
+TOO_LARGE_DUR: "You entered a duration longer than the maximum. The maximum is: **{{max}}**"
+
+NEW: Giveaway!
+BODY: |-
+  **{{prize}}** is being given away.
+  Giveaway hosted by {{host}}
+ENDS_AT: "This giveaway ends:"
+
+OVER: |-
+  **{{prize}}** was won by {{winner}}
+ENDED_AT: Giveaway ended
+
+CALL_TO_PRIZE: "{{user}}, come collect your **{{prize}}**"

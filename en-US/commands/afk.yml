@@ -1,0 +1,12 @@
+# AKF means Away From Keyboard. If it sounds right, maybe
+# use the appropriate translation, instead of "AFK"
+
+DESCRIPTION: Sets your AFK status.
+
+YOURE_AFK: You're AFK.
+YOU_ARENT_AFK: You aren't AFK.
+
+STATUS_UPDATED: |-
+  Your AFK message has been updated:
+
+  >>> {{message}}

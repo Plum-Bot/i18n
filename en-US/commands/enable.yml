@@ -1,0 +1,4 @@
+DESCRIPTION: Enables a previously disabled command.
+
+COMMAND_NOT_DISABLED: This command is already enabled!
+COMMAND_ENABLED: The {{command}} command has been enabled.
