@@ -1,0 +1,5 @@
+DESCRIPTION: Executes shell code (owner only)
+
+TITLE: Code execution results
+STDOUT: Standard Output
+STDERR: Standard Error
