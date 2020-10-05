@@ -39,7 +39,7 @@ PERMS:
     DESC: I proprietari del server sono le persone che hanno creato il server o chi ne eredita.
   "9":
     NAME: Helpers del bot
-    DESC: I così detti "Helper del bot" aiutano il proprietario del bot ad amministrare il bot.
+    DESC: I cosiddetti "Helper del bot" aiutano il proprietario del bot ad amministrare il bot.
   "10":
     NAME: Proprietario del bot
     DESC: Il proprietario del bot, o lo Sviluppatore, è colui che ha creato il bot.
