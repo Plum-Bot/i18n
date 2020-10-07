@@ -91,5 +91,6 @@ TYPES:
 NO_CONTENT: No content
 MESSAGE_LINK: Message link
 GO_TO_MESSAGE: Go to message
+UNCACHED_MESSAGE: Uncached message # Alternatively: "Message not in cache"
 
 AFK: This user is AFK
