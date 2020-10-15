@@ -76,6 +76,7 @@ CLEAR: clear
 ADD: add
 REMOVE: remove
 CANCEL: cancel
+CLOSE: close
 
 # Settings types
 TYPES:
