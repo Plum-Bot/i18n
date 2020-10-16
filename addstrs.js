@@ -1,10 +1,13 @@
 const fs = require("fs");
 const YAML = require("yaml");
-const folder = process.argv[2];
+const folder = process.argv[2].trim();
+
 
 let count = 0;
 
-if (!fs.existsSync(`./${folder}`) || !fs.statSync(`./${folder}`).isDirectory()) {
+if (["en-us", "en_us"].some(f => f == folder.toLowerCase())) {
+    console.error("You can't import to English!")
+} else if (!fs.existsSync(`./${folder}`) || !fs.statSync(`./${folder}`).isDirectory()) {
     console.error(`"${folder}" doesn't exist or is not a directory.`);
 } else {
     manage(`./en-US`, fs.readdirSync(`./en-US`));
