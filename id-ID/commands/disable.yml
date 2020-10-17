@@ -1,0 +1,6 @@
+DESCRIPTION: Mengaktifkan perintah yang sebelumnya dinonaktifkan.
+
+COMMAND_NOT_ENABLED: Perintah ini sudah dinonaktifkan!
+COMMAND_DISABLED: Perintah {{command}} telah dinonaktifkan.
+
+SHIELDED: Perintah ini dilindungi dan tidak dapat dinonaktifkan.

@@ -1,0 +1,7 @@
+DESCRIPTION: Dapatkan tautan undangan untuk bot..
+
+TITLE: Undang {{bot}}
+DESC: |-
+  Ini tautan undangan Anda. Itu baru saja dibuat dengan izin optimal.
+
+  {{link}}

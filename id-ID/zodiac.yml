@@ -1,0 +1,26 @@
+WESTERN:
+  ARIES: aries
+  TAURUS: taurus
+  GEMINI: gemini
+  CANCER: cancer
+  LEO: leo
+  VIRGO: virgo
+  LIBRA: libra
+  SCORPIO: scorpio
+  SAGITTARIUS: sagittarius
+  CAPRICORN: capricorn
+  AQUARIUS: aquarius
+  PISCES: pisces
+CHINESE:
+  RAT: tikus
+  OX: lembu
+  TIGER: macan
+  RABBIT: kelinci
+  DRAGON: naga
+  SNAKE: ular
+  HORSE: kuda
+  GOAT: kambing
+  MONKEY: monyet
+  ROOSTER: ayam jantan
+  DOG: sapi
+  PIG: babi

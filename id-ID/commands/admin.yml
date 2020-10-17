@@ -1,0 +1,31 @@
+DESCRIPTION: Mengelola sisi administrasi bot
+ERRORS:
+  INVALID_ACTION: |-
+    Aksi harus salah satu dari berikut ini:
+
+    {{list}}
+  INVALID_ACTION_SUB: |-
+    Aksi untuk `{{sub}}` harus salah satu dari berikut ini:
+
+    {{list}}
+  NO_ID_USER: ID ini tidak mengatasi user.
+  NO_ID: Perintah ini mewajibkan ID
+  NO_ID_SERVER: ID ini tidak mengatasi server.
+  HAS_FLAG: "**{{name}}** telah memiliki bendera `{{flag}}`"
+  DOES_NOT_HAVE_FLAG: "**{{name}}** tidak memiliki bendera `{{flag}}`"
+  UNKNOWN: Terjadi kesalahan! Coba lagi
+USER:
+  VIEW:
+    TITLE: Administrasi Pengguna
+    FLAGS: Bendera
+    SERVERS: Server Yang Sama
+    TEXT: Berikut info lebih lanjut tentang **{{name}}** [`{{id}}`]
+SERVER:
+  VIEW:
+    TITLE: Administrasi Server
+    FLAGS: Bendera
+    TEXT: Berikut info lebih lanjut tentang **{{name}}** [`{{id}}`]
+FLAGS:
+  OK_ADD: Bendara berhasil ditambah.
+  OK_DELETE: Bendera berhasil dihapus.
+  NONE: Tidak ada bendera

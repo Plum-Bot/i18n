@@ -1,0 +1,15 @@
+TITLE: Saluran diperbarui
+
+OLD:
+  NAME: Nama lama
+  POS: Posisi lama
+  NSFW: NSFW lama
+  TOPIC: Topik lama
+  BITRATE: Bitrate lama
+
+NEW:
+  NAME: Nama baru
+  POS: Posisi baru
+  NSFW: NSFW baru
+  TOPIC: Topik baru
+  BITRATE: Bitrate baru

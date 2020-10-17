@@ -1,0 +1,12 @@
+TITLE: Makian
+CONTENT: |-
+  Konten:
+
+  {{content}}
+
+TRIGGERING: "Kata yang memicu: {{wordList}}"
+TRIGGERING_plural: "Kata yang memicu: {{wordList}}"
+
+CHANNEL: Saluran
+CAUGHT_ON: Tertangkap pada
+MESSAGE_ID: ID pesan

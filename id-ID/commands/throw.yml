@@ -1,0 +1,20 @@
+DESCRIPTION: Lempar sesuatu ke seseorang!
+
+SOMETHING:
+  - kursi
+  - alpaka
+  - server murah
+  - jam dinding
+  - boneka boneka Pikachu
+  - kursi, banyak sekali
+  - rambut palsu
+  - iPhone 4S
+  - mesin kopi
+  - headset stereo
+  - sebungkus permen karet
+  - sebuah taksi
+  - keyboard
+  - sebuah piano
+  - ~~ poster yang mewakili masyarakat mengerikan yang kita tinggali ~~ Maksudku ... piano
+
+SENTENCE: Lempar **{{something}}** ke **{{someone}}**!

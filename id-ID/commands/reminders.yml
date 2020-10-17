@@ -1,0 +1,8 @@
+DESCRIPTION: Mencantumkan pengingat aktif Anda dan memungkinkan Anda menghapusnya.
+ARG_delete: hapus
+ERRORS:
+  INVALID_ARG: Argumen untuk `delete` harus berupa nomor indeks.
+  NO_REM: Tidak ada pengingat yang disimpan dengan ID itu. Salah ketik?
+DELETE_OK: Pengingat berhasil dihapus.
+EMBED_TITLE: Pengingat Anda
+EMBED_EMPTY: Anda tidak memiliki pengingat yang disetel. Tambahkan satu dengan `{{prefix}} ingatkan saya 5m, lakukan sesuatu`

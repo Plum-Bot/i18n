@@ -1,0 +1,6 @@
+DESCRIPTION: Memungkinkan Anda bermain Scopa (permainan klasik Italia) dengan orang lain.
+QUESTION: "{{member}}, apakah Anda ingin bermain Scopa dengan {{user}}?"
+STATUS: |-
+  Giliran **{{next}}**
+  **{{stack}}** kartu tetap berada di tumpukan.
+CARD_NOT_IN_HAND: Kartu itu tidak ada di tangan Anda! Anda tidak bisa memainkannya.

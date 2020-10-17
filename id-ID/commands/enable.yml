@@ -1,0 +1,4 @@
+DESCRIPTION: Mengaktifkan perintah yang sebelumnya dinonaktifkan.
+
+COMMAND_NOT_DISABLED: Perintah ini sudah diaktifkan!
+COMMAND_ENABLED: Perintah {{command}} telah diaktifkan.

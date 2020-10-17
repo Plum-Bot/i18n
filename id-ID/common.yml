@@ -1,0 +1,96 @@
+PAGINATION: Halaman {{page}} dari {{pages}}
+EXPIRATION: Menu ini akan kadaluwarsa dalam {{minutes}} menit.
+NO_PERMS:
+  TITLE: Anda tidak memiliki izin untuk menjalankan perintah ini
+  DESC: Izin minimumnya adalah**{{name}}** [{{level}}]
+ARG_ERRORS:
+  NOT_ENOUGH: Tidak ada cukup banyak argumen! Minimumnya {{length}}
+  INVALID:
+    ERROR: Perintah itu dipanggil dengan tidak benar.
+    INFO: "Penggunaan yang tepat adalah: `{{usage}}`"
+COOLDOWN: Anda tidak boleh menggunakan perintah `{{command}}` untuk {{time}} lainnya.
+CMD_ERROR:
+  TEXT: "Server Dukungan: {{invite}}"
+  TITLE: Uh-oh! Terjadi kesalahan.
+  DESC: Hubungi pengembang di server dukungan untuk memperingatkan mereka tentang kesalahan ini.
+PERM_MANAGE_EMOJIS: Kelola emoji
+PERM_KICK_MEMBERS: Tendang member
+PERM_BAN_MEMBERS: Larang member
+PERM_MANAGE_ROLES: Kelola peran
+PERM_MANAGE_MESSAGES: Kelola pesan
+PERM_EMBED_LINKS: Sematkan tautan
+PERM_USE_EXTERNAL_EMOJIS: Gunakan emoji eksternal
+PERM_ATTACH_FILES: Lampirkan file
+PERM_ADD_REACTIONS: Tambah reaksi
+PERMS:
+  "0":
+    NAME: Bot
+    DESC: Bot adalah potongan kode yang menjalankan tindakan saat dipicu.
+  "1":
+    NAME: Pengguna
+    DESC: Setiap orang yang bukan bot adalah pengguna.
+  "2":
+    NAME: Moderator server
+    DESC: Moderator server memoderasi server dan menjaganya tetap bersih.
+  "3":
+    NAME: Administrator server
+    DESC: Administrator server membantu pemilik mengelola server.
+  "4":
+    NAME: Pemilik server
+    DESC: Pemilik server adalah yang membuat server atau yang mendapatkannya diwarisi.
+  "9":
+    NAME: Pembantu bot
+    DESC: Pembantu bot membantu pemilik Bot mengelola bot.
+  "10":
+    NAME: Pemilik bot
+    DESC: Pemilik Bot, atau Pengembang, adalah yang membuat bot.
+  "-1":
+    NAME: Pengguna Daftar Hitam
+    DESC: Pengguna ini melanggar [Terms of Service]({{domain}}/terms) dan
+      masuk daftar hitam.
+USEFUL_LINKS: Link yang berguna
+USEFUL_LINKS_TEXT: "[Website Resmi]({{domain}}) |  [Semua Perintah]({{commands}}) | [Server Dukungan Resmi]({{server}})"
+MADE_BY: "{{name}} dibuat oleh {{tag}}"
+AND: dan
+REMINDER: |-
+  Anda mengatakan kepada saya untuk mengingatkan:
+  > {{text}}
+TIME_AGO: "{{time}} lalu"
+IN_TIME: pada {{time}}
+NO_BIO: Tidak ada bio
+
+STATUSES:
+  dnd: Jangan ganggu
+  idle: Diam
+  online: Online
+  offline: Offline
+
+REPS: "{{count}} poin reputasi"
+REPS_plural: "{{count}} poin reputasi"
+
+CANCELLING: Membatalkan...
+
+# Ini adalah tindakan (yaitu, pengguna dapat menggunakan ini untuk menyiratkan sesuatu dalam perintah)
+CLEAR: bersihkan
+ADD: tambah
+REMOVE: hapus
+CANCEL: batal
+CLOSE: tutup
+
+# Tipe pengaturan
+TYPES:
+  STRING: String
+  BOOL: True/False
+  ROLE: Peran
+  CHANNEL: Text Saluran
+  COMMAND: Perintah Bot
+  INTEGER: Nomor
+
+  LIST_OF: Daftar nilai {{type}}
+
+NO_CONTENT: Tidak ada konten
+MESSAGE_LINK: Link pesan
+GO_TO_MESSAGE: Pergi ke pesan
+UNCACHED_MESSAGE: Pesan tidak di-cache
+
+AFK: Pengguna ini AFK

@@ -1,0 +1,16 @@
+DESCRIPTION: Mengatur Anda pengingat sehingga Anda tidak melupakan sesuatu yang _sangat penting_... 😅
+FORMAT_ERROR: "Anda tidak memasukkan durasi. Untuk memasukkan durasi, ketik durasi sebelumnya
+  pengingat, dipisahkan oleh koma, seperti: `{{prefix}} reminderme 5m, do
+  sesuatu`. "
+INVALID_DURATION: |-
+  Anda memasukkan durasi yang tidak valid. Untuk bantuan, periksa panduan ini:
+  > {{duration}}
+  > {{date}}
+TIME_TOO_MUCH_PREMIUM: Durasi untuk pengguna Premium harus antara 5 detik dan 1 bulan.
+TIME_TOO_MUCH_REGULAR: Durasi untuk pengguna normal harus antara 5 detik dan 1 minggu. . **Memperbarui
+  ke Premium untuk perpanjangan durasi 1 bulan! ** Gunakan `{{prefix}} premium`
+  perintah untuk mengetahui caranya.
+NO_REMINDER: Anda harus memasukkan sesuatu untuk mengingatkan Anda.
+OK: |-
+  Baik! Saya akan mengingatkan Anda dalam {{duration}}:
+  > {{reminder}}

@@ -1,0 +1,10 @@
+JOIN: Pengguna bergabung
+COUNT: Server ini sekarang memiliki {{count}} member.
+COUNT_plural: Server ini sekarang memiliki {{count}} member.
+ACCT_AGE: Pembuatan akun
+FOOTER: "{{tag}} [{{id}}]"
+ADDED_ROLES: Peran ditambahkan kembali oleh Persistensi Peran
+ADDED_ROLES_plural: Peran ditambahkan kembali oleh Persistensi Peran
+
+# Digunakan di log audit
+ROLE_PERSISTENCE: Ditambahkan oleh Persistensi Peran

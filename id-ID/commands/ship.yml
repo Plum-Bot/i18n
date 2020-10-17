@@ -1,0 +1,14 @@
+DESCRIPTION: Kirimkan pasangan untuk menunjukkan kepada mereka seberapa baik menurut Anda mereka cocok bersama!
+NO_USERS: Anda harus memasukkan setidaknya satu pengguna untuk mengirim.
+SAME_PERSON_MONO: Mengirim sendiri? Tidakkah kamu pantas mendapatkan lebih banyak cinta?
+SAME_PERSON_DUO: Mengirim orang yang sama? Tidakkah menurutmu mereka pantas mendapatkan lebih banyak cinta?
+SHIP: |-
+  🛥 PENGIRIMAN BARU: **{{name}}** 💖
+  Afinitas: **{{affinity}}%** [{{progress}}]
+  {{line}}
+LINES:
+  - Ini bukan cinta... 😡
+  - Hanya teman. Kecuali... 😳
+  - Sedikit tertarik 😘
+  - Cinta 🥰
+  - Cinta di udara 😍

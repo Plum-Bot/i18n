@@ -1,0 +1,69 @@
+DESCRIPTION: Kelola pengaturan server
+
+ARRAY:
+    OPTIONS: |-
+        Penyimpanan kunci ini adalah daftar nilai.
+        Ucapkan salah satu dari berikut ini untuk bertindak `{{value}}` padanya:
+        > **{{add}}** untuk menambahkannya sebagai nilai sebagai elemen terakhir
+        > **{{remove}}** untuk menghapus nilai pada indeks itu
+        > **{{clear}}** untuk menghapus setiap nilai dalam daftar
+
+        Sebagai referensi, daftar nilai berisi nilai-nilai berikut:
+        {{orderedList}}
+
+        _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+    OPTIONS_NO_VAL: |-
+        Penyimpanan kunci ini adalah daftar nilai.
+        Ucapkan salah satu dari berikut ini untuk memanipulasinya:
+        > **{{add}}** untuk menambahkan sesuatu sebagai elemen terakhir
+        > **{{remove}}** untuk menghapus sesuatu di indeks
+        > **{{clear}}** untuk menghapus setiap nilai dalam daftar
+
+        Untuk referensi, daftar nilai berisi nilai-nilai berikut:
+        {{orderedList}}
+
+        _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+    INSERT_VAL:
+        ADD: |-
+            Harap ketikkan nilai untuk ditambahkan ke daftar.
+
+            _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+        REMOVE: |-
+            Harap ketik jumlah nilai yang akan dihapus.
+
+            _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+    OK_ADD: Nilai `{{value}}` berhasil ditambahkan ke item konfigurasi **{{name}}**
+    OK_REMOVE: Berhasil menghapus `{{value}}` dari konfigurasi **{{name}}**
+
+    INVALID_ACTION: Terjadi kesalahan fatal. Coba lagi.
+
+    NO_VALUES: List ini kosong.
+
+    ERRORS:
+        NO_VALUES: Tidak ada nilai untuk dihapus.
+        NAN: Masukkan jumlah nilai yang ingin Anda hapus!
+        OUT_OF_BOUNDS_LT0: Angka itu terlalu kecil! Pastikan untuk memasukkan angka antara 1 dan {{bound}} (inklusif).
+        OUT_OF_BOUNDS_GTI: Angka itu terlalu besar! Pastikan untuk memasukkan angka antara 1 dan {{bound}} (inklusif).
+
+NO_DESC: Tidak ada deskripsi
+NO_VAL: Tidak ada nilai
+
+ONE_OF: "Nilai untuk item konfigurasi **{{name}}** harus salah satu dari yang berikut: {{list}}"
+
+INSERT_VAL: |-
+    Harap ketikkan nilai untuk disetel, atau `null` untuk menghapusnya.
+
+    _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+
+INSERT_VAL_LIST: |-
+    Harap ketik nilai dari daftar berikut:
+
+    > {{list}}
+
+    _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+
+KEY: |-
+    **{{name}} (`{{key}}`)**
+    > **Deskripsi:** {{description}}
+    > **Tipe Valid:** {{type}}
+    > **Nilai:** {{value}}

@@ -1,0 +1,5 @@
+DESCRIPTION: Menjalankan kode shell (hanya pemilik)
+
+TITLE: Hasil eksekusi kode
+STDOUT: Output Standar
+STDERR: Kesalahan Standar
