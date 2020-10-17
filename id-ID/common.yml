@@ -1,97 +1,96 @@
-PAGINATION: Page {{page}} of {{pages}}
-EXPIRATION: This menu will expire in {{minutes}} minutes.
+PAGINATION: Halaman {{page}} dari {{pages}}
+EXPIRATION: Menu ini akan kadaluwarsa dalam {{minutes}} menit.
 NO_PERMS:
-  TITLE: You don't have the permission to run this command
-  DESC: The minimum permission is **{{name}}** [{{level}}]
+  TITLE: Anda tidak memiliki izin untuk menjalankan perintah ini
+  DESC: Izin minimumnya adalah**{{name}}** [{{level}}]
 ARG_ERRORS:
-  NOT_ENOUGH: There are not enough arguments! The minimum is {{length}}
+  NOT_ENOUGH: Tidak ada cukup banyak argumen! Minimumnya {{length}}
   INVALID:
-    ERROR: The command was called incorrectly.
-    INFO: "The proper usage is: `{{usage}}`"
-COOLDOWN: You may not use the `{{command}}` command for another {{time}}.
+    ERROR: Perintah itu dipanggil dengan tidak benar.
+    INFO: "Penggunaan yang tepat adalah: `{{usage}}`"
+COOLDOWN: Anda tidak boleh menggunakan perintah `{{command}}` untuk {{time}} lainnya.
 CMD_ERROR:
-  TEXT: "Support Server: {{invite}}"
-  TITLE: Uh-oh! An error occurred.
-  DESC: Contact the developers in the support server to alert them of this error.
-PERM_MANAGE_EMOJIS: Manage emojis
-PERM_KICK_MEMBERS: Kick members
-PERM_BAN_MEMBERS: Ban members
-PERM_MANAGE_ROLES: Manage roles
-PERM_MANAGE_MESSAGES: Manage messages
-PERM_EMBED_LINKS: Embed links
-PERM_USE_EXTERNAL_EMOJIS: Use external emojis
-PERM_ATTACH_FILES: Attach files
-PERM_ADD_REACTIONS: Add reactions
+  TEXT: "Server Dukungan: {{invite}}"
+  TITLE: Uh-oh! Terjadi kesalahan.
+  DESC: Hubungi pengembang di server dukungan untuk memperingatkan mereka tentang kesalahan ini.
+PERM_MANAGE_EMOJIS: Kelola emoji
+PERM_KICK_MEMBERS: Tendang member
+PERM_BAN_MEMBERS: Larang member
+PERM_MANAGE_ROLES: Kelola peran
+PERM_MANAGE_MESSAGES: Kelola pesan
+PERM_EMBED_LINKS: Sematkan tautan
+PERM_USE_EXTERNAL_EMOJIS: Gunakan emoji eksternal
+PERM_ATTACH_FILES: Lampirkan file
+PERM_ADD_REACTIONS: Tambah reaksi
 PERMS:
   "0":
     NAME: Bot
-    DESC: Bots are pieces of code that execute actions when triggered.
+    DESC: Bot adalah potongan kode yang menjalankan tindakan saat dipicu.
   "1":
-    NAME: User
-    DESC: Everyone who's not a bot is a user.
+    NAME: Pengguna
+    DESC: Setiap orang yang bukan bot adalah pengguna.
   "2":
-    NAME: Server moderator
-    DESC: Server moderators moderate the server and keep it clean.
+    NAME: Moderator server
+    DESC: Moderator server memoderasi server dan menjaganya tetap bersih.
   "3":
-    NAME: Server administrator
-    DESC: Server administrators help the owner administer the server.
+    NAME: Administrator server
+    DESC: Administrator server membantu pemilik mengelola server.
   "4":
-    NAME: Server owner
-    DESC: Server owners are who created the server or who got it inherited.
+    NAME: Pemilik server
+    DESC: Pemilik server adalah yang membuat server atau yang mendapatkannya diwarisi.
   "9":
-    NAME: Bot helper
-    DESC: Bot helpers help the Bot owner administer the bot.
+    NAME: Pembantu bot
+    DESC: Pembantu bot membantu pemilik Bot mengelola bot.
   "10":
-    NAME: Bot owner
-    DESC: The Bot owner, or the Developer, is who made the bot.
+    NAME: Pemilik bot
+    DESC: Pemilik Bot, atau Pengembang, adalah yang membuat bot.
   "-1":
-    NAME: Blacklisted User
-    DESC: These users violated the [Terms of Service]({{domain}}/terms) and got
-      blacklisted.
-USEFUL_LINKS: Useful links
-USEFUL_LINKS_TEXT: "[Official Website]({{domain}}) |  [All commands]({{commands}}) | [Official
-  Support Server]({{server}})"
-MADE_BY: "{{name}} is made by {{tag}}"
-AND: and
+    NAME: Pengguna Daftar Hitam
+    DESC: Pengguna ini melanggar [Terms of Service]({{domain}}/terms) dan
+      masuk daftar hitam.
+USEFUL_LINKS: Link yang berguna
+USEFUL_LINKS_TEXT: "[Website Resmi]({{domain}}) |  [Semua Perintah]({{commands}}) | [Server Dukungan Resmi]({{server}})"
+MADE_BY: "{{name}} dibuat oleh {{tag}}"
+AND: dan
 REMINDER: |-
-  You asked me to remind you:
+  Anda mengatakan kepada saya untuk mengingatkan:
   > {{text}}
-TIME_AGO: "{{time}} ago"
-IN_TIME: in {{time}}
-NO_BIO: No bio set
+TIME_AGO: "{{time}} lalu"
+IN_TIME: pada {{time}}
+NO_BIO: Tidak ada bio
 
 STATUSES:
-  dnd: Do not disturb
-  idle: Idle
+  dnd: Jangan ganggu
+  idle: Diam
   online: Online
   offline: Offline
 
-REPS: "{{count}} reputation point"
-REPS_plural: "{{count}} reputation points"
+REPS: "{{count}} poin reputasi"
+REPS_plural: "{{count}} poin reputasi"
 
-CANCELLING: Cancelling...
+CANCELLING: Membatalkan...
 
-# This is an action (ie, the user can use this to imply something in a command)
-CLEAR: clear
-ADD: add
-REMOVE: remove
-CANCEL: cancel
-CLOSE: close
+# Ini adalah tindakan (yaitu, pengguna dapat menggunakan ini untuk menyiratkan sesuatu dalam perintah)
+CLEAR: bersihkan
+ADD: tambah
+REMOVE: hapus
+CANCEL: batal
+CLOSE: tutup
 
-# Settings types
+# Tipe pengaturan
 TYPES:
   STRING: String
   BOOL: True/False
-  ROLE: Role
-  CHANNEL: Text Channel
-  COMMAND: Bot command
-  INTEGER: Number
+  ROLE: Peran
+  CHANNEL: Text Saluran
+  COMMAND: Perintah Bot
+  INTEGER: Nomor
 
-  LIST_OF: List of {{type}} values
+  LIST_OF: Daftar nilai {{type}}
 
-NO_CONTENT: No content
-MESSAGE_LINK: Message link
-GO_TO_MESSAGE: Go to message
-UNCACHED_MESSAGE: Uncached message # Alternatively: "Message not in cache"
+NO_CONTENT: Tidak ada konten
+MESSAGE_LINK: Link pesan
+GO_TO_MESSAGE: Pergi ke pesan
+UNCACHED_MESSAGE: Pesan tidak di-cache
 
-AFK: This user is AFK
+AFK: Pengguna ini AFK

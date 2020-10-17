@@ -1,3 +1,3 @@
-DESCRIPTION: Ping a website and preview its content.
+DESCRIPTION: Ping situs web dan pratinjau isinya.
 TITLE: "Ping: {{website}}"
 PING: "{{number}}ms"

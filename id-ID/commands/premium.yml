@@ -1,33 +1,33 @@
-DESCRIPTION: Check your premium status and what you can do to obtain it.
+DESCRIPTION: Periksa status premium Anda dan apa yang dapat Anda lakukan untuk mendapatkannya.
 
-TITLE_YOU: Your Premium status
-TITLE_OTHER: "{{user}}'s Premium status"
+TITLE_YOU: Premium status anda
+TITLE_OTHER: "Premium status {{user}}"
 
 YES:
-  YOU: You have Premium!
-  OTHER: "{{user}} has Premium!"
+  YOU: Anda dapat Premium!
+  OTHER: "{{user}} dapat Premium!"
 
-# When one of the owners of the server as Premium
+# Ketika satu dari pemilik server memiliki premium
 SERVER:
   YOU: >
-    You don't have Premium, but one of the owners
-    of this server does. This means that, while you're in this server,
-    you'll be able to use all of the Premium perks!
+    Anda tidak memiliki Premium, tetapi salah satu pemiliknya
+    server ini tidak. Artinya, saat Anda berada di server ini,
+    Anda akan dapat menggunakan semua keuntungan Premium!
   OTHER: >
-    {{user}} doesn't have Premium, but one of the owners
-    of this server does. This means that, while they're in this server,
-    {{user}}'ll be able to use all of the Premium perks!
+    {{user}} tidak memiliki Premium, tetapi salah satu pemiliknya
+    server ini tidak. Artinya, saat mereka berada di server ini,
+    {{user}} akan dapat menggunakan semua keuntungan Premium!
 
 NO:
-  YOU: You don't have Premium.
-  OTHER: "{{user}} doesn't have Premium."
+  YOU: Anda tidak memiliki Premium.
+  OTHER: "{{user}} tidak memiliki Premium."
 
   FIELD:
-    TITLE: What can I do to obtain Premium?
+    TITLE: Apa yang dapat saya lakukan untuk mendapatkan Premium?
     VALUE: >
-      Obtaining Premium is easy! First, you have to
-      be in [the Support server]({{invite}}).
-      Then, you can
-      [donate to the Patreon page]({{patreon}})
-      subscribe to one of the Premium tiers. Finally, alert Samplasion
-      and, if all went well, you can enjoy the Premium commands!
+      Mendapatkan Premium itu mudah! Pertama, Anda harus melakukannya
+      berada di [server Dukungan] ({{invite}}).
+      Maka kamu bisa
+      [donasikan ke halaman Patreon] ({{patreon}})
+      berlangganan salah satu tingkatan Premium. Terakhir, peringatkan Samplasion
+      dan, jika semuanya berjalan lancar, Anda dapat menikmati perintah Premium!

@@ -1,6 +1,6 @@
-DESCRIPTION: Deletes up to 100 messages at a time.
+DESCRIPTION: Menghapus hingga 100 pesan sekaligus.
 
-OK: The messages have been deleted
+OK: Pesan telah dihapus
 ERROR: |-
-  There's been an error:
+  Terjadi kesalahan:
   > {{error}}

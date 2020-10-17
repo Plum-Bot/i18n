@@ -1,6 +1,6 @@
-DESCRIPTION: Lets you play Scopa (the classic Italian game) with someone else.
-QUESTION: "{{member}}, do you want to play Scopa with {{user}}?"
+DESCRIPTION: Memungkinkan Anda bermain Scopa (permainan klasik Italia) dengan orang lain.
+QUESTION: "{{member}}, apakah Anda ingin bermain Scopa dengan {{user}}?"
 STATUS: |-
-  It's **{{next}}**'s turn
-  **{{stack}}** cards remain on the stack.
-CARD_NOT_IN_HAND: That card is not in your hand! You can't play it.
+  Giliran **{{next}}**
+  **{{stack}}** kartu tetap berada di tumpukan.
+CARD_NOT_IN_HAND: Kartu itu tidak ada di tangan Anda! Anda tidak bisa memainkannya.

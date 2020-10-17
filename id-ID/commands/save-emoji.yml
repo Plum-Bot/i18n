@@ -1,4 +1,4 @@
-DESCRIPTION: Lets you quickly save an image link or an attachment as an emoji.
+DESCRIPTION: Memungkinkan Anda dengan cepat menyimpan tautan gambar atau lampiran sebagai emoji.
 
-ADDED_BY: Added by {{user}}
-DONE: "The emoji was created: {{emoji}}"
+ADDED_BY: Ditambahkan oleh  {{user}}
+DONE: "Emoju telah dibuat: {{emoji}}"

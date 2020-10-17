@@ -1,5 +1,5 @@
-DESCRIPTION: Reloads a command, loading its changes.
-NO_CMD: A command with name or alias `{{command}}` wasn't found.
-CMD_OK: The `{{command}}` command was reloaded.
-CMD_ERROR: An unknown error occurred while reloading the `{{command}}` command.
-LANG: Updated languages have been downloaded and loaded.
+DESCRIPTION: Memuat ulang perintah, memuat perubahannya.
+NO_CMD: Perintah dengan nama atau alias `{{command}}` tidak ditemukan.
+CMD_OK: Perintah `{{command}}` telah dimuat ulang.
+CMD_ERROR: erjadi kesalahan yang tidak diketahui saat memuat ulang perintah `{{command}}`.
+LANG: Bahasa yang diperbarui telah diunduh dan dimuat.

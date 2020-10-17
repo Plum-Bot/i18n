@@ -1,20 +1,20 @@
-DESCRIPTION: Throw something at someone!
+DESCRIPTION: Lempar sesuatu ke seseorang!
 
 SOMETHING:
-  - a chair
-  - an alpaca
-  - cheap servers
-  - a wall clock
-  - a Pikachu plushie doll
-  - chairs, lots of them
-  - a wig
-  - an iPhone 4S
-  - a coffee machine
-  - a stereo headset
-  - a pack of bubblegum
-  - a taxi
-  - a keyboard
-  - a piano
-  - ~~a poster representing the awful society we live in~~ I mean... a piano
+  - kursi
+  - alpaka
+  - server murah
+  - jam dinding
+  - boneka boneka Pikachu
+  - kursi, banyak sekali
+  - rambut palsu
+  - iPhone 4S
+  - mesin kopi
+  - headset stereo
+  - sebungkus permen karet
+  - sebuah taksi
+  - keyboard
+  - sebuah piano
+  - ~~ poster yang mewakili masyarakat mengerikan yang kita tinggali ~~ Maksudku ... piano
 
-SENTENCE: Threw **{{something}}** at **{{someone}}**!
+SENTENCE: Lempar **{{something}}** ke **{{someone}}**!

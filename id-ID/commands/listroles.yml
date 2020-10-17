@@ -1,5 +1,5 @@
-DESCRIPTION: Lists the roles and says if they can mention everyone
+DESCRIPTION: Buat daftar peran dan katakan jika mereka dapat menyebut semua orang
 
-CAN_ME: Can mention everyone
-CANNOT_ME: Cannot mention everyone
-LISTING: Role listing
+CAN_ME: Bisa menyebut semua orang
+CANNOT_ME: Tidak dapat menyebut semua orang
+LISTING: Daftar peran

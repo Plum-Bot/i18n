@@ -1,5 +1,5 @@
-DESCRIPTION: Calculates how much of the year has passed and how many days are left.
-YEAR_PROGRESS: "{{year}} Progress"
-PERCENTAGE: Percentage
-PROGRESS: Progress
-DAYS_LEFT: Days left
+DESCRIPTION: Menghitung berapa banyak tahun telah berlalu dan berapa hari yang tersisa.
+YEAR_PROGRESS: "Proses {{year}}"
+PERCENTAGE: Persentase
+PROGRESS: Proses
+DAYS_LEFT: Sisa hari

@@ -1,33 +1,33 @@
-DESCRIPTION: Shows a list of command or more information about a command.
-CMD_LIST: List of all commands
+DESCRIPTION: Menampilkan daftar perintah atau informasi lebih lanjut tentang suatu perintah.
+CMD_LIST: Daftar semua perintah
 MORE_HELP:
-  TITLE: "{{info}} More info"
+  TITLE: "{{info}} Info lebih lanjut"
   DESC: >-
-    The command usage notation is the following:
+    Notasi penggunaan perintah adalah sebagai berikut:
 
 
-    `<argument>`: Denotes a required argument
+    `<argument>`: Menunjukkan argumen yang diperlukan
 
-    `[argument]`: Denotes an optional argument
+    `[argument]`: Menunjukkan argumen opsional
 
-    `(argument)`: Denotes an argument that, based on the other arguments, may be required or optional
+    `(argument)`: Menunjukkan argumen yang, berdasarkan argumen lain, mungkin diperlukan atau opsional
   FIELD:
-    TITLE: Exclusive arguments
-    DESC: Some arguments are in the notation `argument1|argument2`. In those cases,
-      you may only have either `argument1` or `argument2`, but not both.
-PREFIX: "The prefix for this server is: {{prefix}}"
+    TITLE: Argumen eksklusif
+    DESC: Beberapa argumen ada dalam notasi ʻargument1 | argument2`. Dalam kasus tersebut,
+      Anda mungkin hanya memiliki ʻargument1` atau ʻargument2`, tapi tidak keduanya.
+PREFIX: "Awalan untuk server ini adalah: {{prefix}}"
 COMMAND:
-  TITLE: "{{info}} Help for command: {{command}}"
-  MORE_INFO: "[More info about this command]({{domain}}/commands/{{command}})"
+  TITLE: "{{info}} Bantuan untuk perintah: {{command}}"
+  MORE_INFO: "[Info selengkapnya tentang perintah ini] ({{domain}}/perintah/{{command}})"
 LIMITATIONS:
-  TITLE: "{{lock}} Limitations"
-  GUILD: "{{server}} Server only"
-  OWNER: "{{user}} Bot Owner only"
-  NSFW: "{{channel}} NSFW channels only"
-  PREMIUM: "{{premium}} [Premium]({{domain}}/support) users only"
+  TITLE: "{{lock}} Batasan"
+  GUILD: "{{server}} Hanya server"
+  OWNER: "{{user}} Hanya bot pemilik"
+  NSFW: "{{channel}} Hanya saluran NSFW"
+  PREMIUM: "Hanya pengguna {{premium}} [Premium]({{domain}}/dukungan)"
 LEVEL: "{{numbers}} Level"
-EXAMPLES_KEY: "{{paper}} Examples"
-USAGE: "{{message}} Usage"
+EXAMPLES_KEY: "{{paper}} Contoh"
+USAGE: "Penggunaan {{message}}"
 ALIAS: "{{alias}} Alias"
-ALIAS_PLURAL: "{{alias}} Aliases"
-NO_CMDS: You have no usable commands. Contact the owner for more info.
+ALIAS_PLURAL: "{{alias}} Alias"
+NO_CMDS: Anda tidak memiliki perintah yang dapat digunakan. Hubungi pemilik untuk info lebih lanjut.

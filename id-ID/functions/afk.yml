@@ -1,11 +1,11 @@
-WELCOME_BACK: "{{user}}, welcome back!"
+WELCOME_BACK: "{{user}}, selamat datang kembali!"
 WELCOME_BACK_PINGS: |-
-  {{user}}, welcome back! While you were away, you were pinged once by **{{mentioner}}**: {{url}}
+  {{user}}, selamat datang kembali! Saat Anda pergi, Anda di-ping sekali **{{mentioner}}**: {{url}}
 WELCOME_BACK_PINGS_plural: |-
-  {{user}}, welcome back! You were pinged {{count}} times while you were away:
+  {{user}}, selamat datang kembali! Anda di-ping {{count}} kali saat Anda pergi:
 
   {{pings}}
 AFK: |-
-  **{{user}}** is AFK:
+  **{{user}}** sedang AFK:
 
   >>> {{message}}

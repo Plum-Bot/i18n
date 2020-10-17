@@ -1,6 +1,6 @@
 DESCRIPTION:
 
-TIMES: once
-TIMES_plural: "{{count}} times"
-TITLE: The 5 most popular commands
-LASTWEEK: Last 7 days
+TIMES: sekali
+TIMES_plural: "{{count}} kali"
+TITLE: 5 perintah paling populer
+LASTWEEK: 7 hari terakhir

@@ -1,12 +1,12 @@
-# AKF means Away From Keyboard. If it sounds right, maybe
-# use the appropriate translation, instead of "AFK"
+# AKF artinya Away From Keyboard. Jika kedengarannya benar, mungkin
+# gunakan terjemahan yang sesuai, bukan "AFK"
 
-DESCRIPTION: Sets your AFK status.
+DESCRIPTION: Atur status AFK anda.
 
-YOURE_AFK: You're AFK.
-YOU_ARENT_AFK: You aren't AFK.
+YOURE_AFK: Anda AFK.
+YOU_ARENT_AFK: Anda tidak AFK.
 
 STATUS_UPDATED: |-
-  Your AFK message has been updated:
+  Pesan AFK anda telah diperbarui:
 
   >>> {{message}}

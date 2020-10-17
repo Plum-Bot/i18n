@@ -1,31 +1,31 @@
-DESCRIPTION: Manages the bot's administration side
+DESCRIPTION: Mengelola sisi administrasi bot
 ERRORS:
   INVALID_ACTION: |-
-    The action must be one of these:
+    Aksi harus salah satu dari berikut ini:
 
     {{list}}
   INVALID_ACTION_SUB: |-
-    The action for `{{sub}}` must be one of these:
+    Aksi untuk `{{sub}}` harus salah satu dari berikut ini:
 
     {{list}}
-  NO_ID: This command requires an ID
-  NO_ID_USER: That ID doesn't resolve to a user.
-  NO_ID_SERVER: That ID doesn't resolve to a server.
-  HAS_FLAG: "**{{name}}** already has the flag `{{flag}}`"
-  DOES_NOT_HAVE_FLAG: "**{{name}}** doesn't have the flag `{{flag}}`"
-  UNKNOWN: Something went wrong! Please retry
+  NO_ID_USER: ID ini tidak mengatasi user.
+  NO_ID: Perintah ini mewajibkan ID
+  NO_ID_SERVER: ID ini tidak mengatasi server.
+  HAS_FLAG: "**{{name}}** telah memiliki bendera `{{flag}}`"
+  DOES_NOT_HAVE_FLAG: "**{{name}}** tidak memiliki bendera `{{flag}}`"
+  UNKNOWN: Terjadi kesalahan! Coba lagi
 USER:
   VIEW:
-    TITLE: User Administration
-    FLAGS: Flags
-    SERVERS: Mutual servers
-    TEXT: Here's more info about **{{name}}** [`{{id}}`]
+    TITLE: Administrasi Pengguna
+    FLAGS: Bendera
+    SERVERS: Server Yang Sama
+    TEXT: Berikut info lebih lanjut tentang **{{name}}** [`{{id}}`]
 SERVER:
   VIEW:
-    TITLE: Server Administration
-    FLAGS: Flags
-    TEXT: Here's more info about **{{name}}** [`{{id}}`]
+    TITLE: Administrasi Server
+    FLAGS: Bendera
+    TEXT: Berikut info lebih lanjut tentang **{{name}}** [`{{id}}`]
 FLAGS:
-  OK_ADD: The flag was added successfully.
-  OK_DELETE: The flag was deleted successfully.
-  NONE: No flags
+  OK_ADD: Bendara berhasil ditambah.
+  OK_DELETE: Bendera berhasil dihapus.
+  NONE: Tidak ada bendera

@@ -1,7 +1,6 @@
-DESCRIPTION: Award someone a global reputation point.
-SELF_REP: You can't award yourself a reputation point!
-BOT_REP: You can't award a bot a reputation point!
-AWARD: "**{{user}}** has been awarded a reputation point and now sits at **{{reps}}**
-  point(s)."
-TOO_SOON: You can't give **{{user}}** a reputation point because you already gave them
-  one recently. You can give them another reputation point in {{time}}.
+DESCRIPTION: Beri seseorang poin reputasi global.
+SELF_REP: Anda tidak bisa memberi diri anda sendiri poin reputasi!
+BOT_REP: Anda tidak bisa memberi poin reputasi kepada bot!
+AWARD: "**{{user}}** telah memberi poin reputasi dan sekarang menduduki **{{reps}}**
+  poin."
+TOO_SOON: Anda tidak bisa memberi **{{user}}** sebuah poin reputasi karena anda telah memberinya sekali baru-baru ini. Anda bisa memberinya poin reputasi lain pada {{time}}.

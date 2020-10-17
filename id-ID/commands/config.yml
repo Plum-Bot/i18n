@@ -1,69 +1,69 @@
-DESCRIPTION: Manage the settings of the server
+DESCRIPTION: Kelola pengaturan server
 
 ARRAY:
     OPTIONS: |-
-        This key holds is a list of values.
-        Say one of the following to act `{{value}}` onto it:
-        > **{{add}}** to add it as a value as the last element
-        > **{{remove}}** to remove the value at that index
-        > **{{clear}}** to remove every value in the list
+        Penyimpanan kunci ini adalah daftar nilai.
+        Ucapkan salah satu dari berikut ini untuk bertindak `{{value}}` padanya:
+        > **{{add}}** untuk menambahkannya sebagai nilai sebagai elemen terakhir
+        > **{{remove}}** untuk menghapus nilai pada indeks itu
+        > **{{clear}}** untuk menghapus setiap nilai dalam daftar
 
-        For reference, the list of values contains the following values:
+        Sebagai referensi, daftar nilai berisi nilai-nilai berikut:
         {{orderedList}}
 
-        _Wait 60 seconds or type **{{cancel}}** to cancel this_
+        _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
     OPTIONS_NO_VAL: |-
-        This key holds is a list of values.
-        Say one of the following to manipulate it:
-        > **{{add}}** to add something as the last element
-        > **{{remove}}** to remove something at an index
-        > **{{clear}}** to remove every value in the list
+        Penyimpanan kunci ini adalah daftar nilai.
+        Ucapkan salah satu dari berikut ini untuk memanipulasinya:
+        > **{{add}}** untuk menambahkan sesuatu sebagai elemen terakhir
+        > **{{remove}}** untuk menghapus sesuatu di indeks
+        > **{{clear}}** untuk menghapus setiap nilai dalam daftar
 
-        For reference, the list of values contains the following values:
+        Untuk referensi, daftar nilai berisi nilai-nilai berikut:
         {{orderedList}}
 
-        _Wait 60 seconds or type **{{cancel}}** to cancel this_
+        _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
     INSERT_VAL:
         ADD: |-
-            Please type a value to add to the list.
+            Harap ketikkan nilai untuk ditambahkan ke daftar.
 
-            _Wait 60 seconds or type **{{cancel}}** to cancel this_
+            _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
         REMOVE: |-
-            Please type the number of a value to remove.
+            Harap ketik jumlah nilai yang akan dihapus.
 
-            _Wait 60 seconds or type **{{cancel}}** to cancel this_
-    OK_ADD: The value `{{value}}` was successfully added to the **{{name}}** configuration item
-    OK_REMOVE: Successfully removed `{{value}}` from the **{{name}}** configuration item
+            _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
+    OK_ADD: Nilai `{{value}}` berhasil ditambahkan ke item konfigurasi **{{name}}**
+    OK_REMOVE: Berhasil menghapus `{{value}}` dari konfigurasi **{{name}}**
 
-    INVALID_ACTION: There was a fatal error. Retry.
+    INVALID_ACTION: Terjadi kesalahan fatal. Coba lagi.
 
-    NO_VALUES: This list is empty.
+    NO_VALUES: List ini kosong.
 
     ERRORS:
-        NO_VALUES: There are no values to delete.
-        NAN: Enter the number of the value you wish to delete!
-        OUT_OF_BOUNDS_LT0: That number is too small! Be sure to enter a number between 1 and {{bound}} (inclusive).
-        OUT_OF_BOUNDS_GTI: That number is too big! Be sure to enter a number between 1 and {{bound}} (inclusive).
+        NO_VALUES: Tidak ada nilai untuk dihapus.
+        NAN: Masukkan jumlah nilai yang ingin Anda hapus!
+        OUT_OF_BOUNDS_LT0: Angka itu terlalu kecil! Pastikan untuk memasukkan angka antara 1 dan {{bound}} (inklusif).
+        OUT_OF_BOUNDS_GTI: Angka itu terlalu besar! Pastikan untuk memasukkan angka antara 1 dan {{bound}} (inklusif).
 
-NO_DESC: No description
-NO_VAL: No value
+NO_DESC: Tidak ada deskripsi
+NO_VAL: Tidak ada nilai
 
-ONE_OF: "The value for the **{{name}}** configuration item must be one of the following: {{list}}"
+ONE_OF: "Nilai untuk item konfigurasi **{{name}}** harus salah satu dari yang berikut: {{list}}"
 
 INSERT_VAL: |-
-    Please type a value to set, or `null` to delete it.
+    Harap ketikkan nilai untuk disetel, atau `null` untuk menghapusnya.
 
-    _Wait 60 seconds or type **{{cancel}}** to cancel this_
+    _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
 
 INSERT_VAL_LIST: |-
-    Please type a value from the following list:
+    Harap ketik nilai dari daftar berikut:
 
     > {{list}}
 
-    _Wait 60 seconds or type **{{cancel}}** to cancel this_
+    _Tunggu 60 detik atau ketik **{{cancel}}** untuk membatalkan_
 
 KEY: |-
     **{{name}} (`{{key}}`)**
-    > **Description:** {{description}}
-    > **Valid Type:** {{type}}
-    > **Value:** {{value}}
+    > **Deskripsi:** {{description}}
+    > **Tipe Valid:** {{type}}
+    > **Nilai:** {{value}}

@@ -1,7 +1,7 @@
-DESCRIPTION: Get an invite link for the bot.
+DESCRIPTION: Dapatkan tautan undangan untuk bot..
 
-TITLE: Invite {{bot}}
+TITLE: Undang {{bot}}
 DESC: |-
-  Here's your invite link. It was just generated with the optimal permissions.
+  Ini tautan undangan Anda. Itu baru saja dibuat dengan izin optimal.
 
   {{link}}

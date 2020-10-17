@@ -1,16 +1,16 @@
-DESCRIPTION: Sets you up a reminder so you don't forget something _really_ important... 😅
-FORMAT_ERROR: "You didn't enter a duration. To enter a duration, type the duration before
-  the reminder, separated by a comma, like so: `{{prefix}}remindme 5m, do
-  something`."
+DESCRIPTION: Mengatur Anda pengingat sehingga Anda tidak melupakan sesuatu yang _sangat penting_... 😅
+FORMAT_ERROR: "Anda tidak memasukkan durasi. Untuk memasukkan durasi, ketik durasi sebelumnya
+  pengingat, dipisahkan oleh koma, seperti: `{{prefix}} reminderme 5m, do
+  sesuatu`. "
 INVALID_DURATION: |-
-  You entered an invalid duration. For help, check these guides:
+  Anda memasukkan durasi yang tidak valid. Untuk bantuan, periksa panduan ini:
   > {{duration}}
   > {{date}}
-TIME_TOO_MUCH_PREMIUM: The duration for Premium users must be between 5 seconds and 1 month.
-TIME_TOO_MUCH_REGULAR: The duration for normal users must be between 5 seconds and 1 week. **Update
-  to Premium for an extended duration of 1 month!** Use the `{{prefix}} premium`
-  command to know how.
-NO_REMINDER: You have to enter something to remind you of.
+TIME_TOO_MUCH_PREMIUM: Durasi untuk pengguna Premium harus antara 5 detik dan 1 bulan.
+TIME_TOO_MUCH_REGULAR: Durasi untuk pengguna normal harus antara 5 detik dan 1 minggu. . **Memperbarui
+  ke Premium untuk perpanjangan durasi 1 bulan! ** Gunakan `{{prefix}} premium`
+  perintah untuk mengetahui caranya.
+NO_REMINDER: Anda harus memasukkan sesuatu untuk mengingatkan Anda.
 OK: |-
-  Alright! I'll remind you this in {{duration}}:
+  Baik! Saya akan mengingatkan Anda dalam {{duration}}:
   > {{reminder}}

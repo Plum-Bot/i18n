@@ -1,9 +1,9 @@
-DESCRIPTION: Shows the disabled commands.
+DESCRIPTION: Menampilkan perintah yang dinonaktifkan.
 
-NO_COMMANDS: This server doesn't have any disabled commands.
+NO_COMMANDS: Server ini tidak memiliki perintah yang dinonaktifkan.
 COMMANDS: |-
-  The following commands are disabled:
+  Perintah berikut dinonaktifkan::
 
   {{commands}}
 
-  To enable a command, use `{{prefix}} enable <command>`.
+  Untuk mengaktifkan perintah, gunakan `{{prefix}} enable <command>`.

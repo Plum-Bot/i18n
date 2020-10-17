@@ -1,41 +1,41 @@
 DESCRIPTION: Creates and manages giveaways
 
 # Errors
-NO_DURATION: You entered an invalid duration.
-TOO_SMALL_DUR: "You entered a duration shorter than the minimum. The minimum is: **{{min}}**"
-TOO_LARGE_DUR: "You entered a duration longer than the maximum. The maximum is: **{{max}}**"
-NO_PRIZE: "You have to enter someting to give away!"
+NO_DURATION: Anda memasukkan durasi yang tidak valid.
+TOO_SMALL_DUR: "Anda memasukkan durasi yang lebih pendek dari minimum. Minimumnya adalah: **{{min}}**"
+TOO_LARGE_DUR: "Anda memasukkan durasi lebih lama dari maksimum. Maksimum adalah: **{{max}}**"
+NO_PRIZE: "Anda harus memasukkan sesuatu untuk dibagikan!"
 
 NEW: Giveaway!
 BODY: |-
-  It's giveaway time!
-  This giveaway is hosted by {{host}}
-ENDS_AT: "This giveaway ends:"
+  Waktunya giveaway!
+  Giveaway ini dihost oleh {{host}}
+ENDS_AT: "giveaway berakhir:"
 
 OVER: |-
-  This giveaway was won by {{winner}}
-ENDED_AT: Giveaway ended
+  Giveaway ini dimenangkan oleh {{winner}}
+ENDED_AT: Giveaway berakhir
 
-CANCELED: This giveaway has been canceled. No winner will be selected.
-OK_CANCELED: The giveaway has been canceled.
+CANCELED: Hadiah ini telah dibatalkan. Tidak ada pemenang yang akan dipilih.
+OK_CANCELED: Giveaway ini dibatalkan.
 
-CALL_TO_PRIZE: "{{user}}, you won **{{prize}}**!"
+CALL_TO_PRIZE: "{{user}}, anda memenangkan **{{prize}}**!"
 
 HELP:
-  TITLE: Giveaways
+  TITLE: Giveaway
   DESCRIPTION: |-
-    To start a giveaway, simply run `{{prefix}} giveaway <time> <prize>`.
+    Untuk memulai giveaway, jalankan `{{prefix}} giveaway <time> <prize>`.
 
-    To cancel a giveaway, run `{{prefix}} giveaway --{{cancel}} <ID>`
-    To close a giveaway (ie. immediately roll a winner), run `{{prefix}} giveaway --{{close}} <ID>`
-    To reroll a giveaway, run `{{prefix}} giveaway --{{reroll}} <ID>`
+    Untuk membatalkan giveaway, jalankan `{{prefix}} giveaway --{{cancel}} <ID>`
+    Untuk menutup giveaway (spt. segera mengumumkan pemenang), jalankan `{{prefix}} giveaway --{{close}} <ID>`
+    Untuk mengumumkan ulang giveaway, jalankan `{{prefix}} giveaway --{{reroll}} <ID>`
 
-    Altough `{{close}}` and `{{reroll}}` both do essentially the same thing, they aren't interchangeable. If the giveaway you're rerolling is still open, `{{reroll}}` will work exactly as `{{close}}`, but the same can't be said about the opposite; if the target giveaway is closed, `{{close}}` will simply ignore your command, while `{{reroll}}` will successfully reroll the winner.
+    Meskipun `{{close}}` dan `{{reroll}}` pada dasarnya melakukan hal yang sama, keduanya tidak dapat dipertukarkan. Jika giveaway yang Anda rerolling masih terbuka, `{{reroll}}` akan bekerja persis seperti `{{close}}`, tetapi hal yang sama tidak dapat dikatakan sebaliknya; jika giveaway target ditutup, `{{close}}` akan mengabaikan perintah Anda, sementara `{{reroll}}` akan berhasil memutar ulang pemenangnya.
 
-    `<ID>` is the Message ID of the Giveaway message. You can discover how to get IDs by following this guide: {{docs}}/guides/getting-ids
+    `<ID>` adalah ID Pesan dari pesan Giveaway. Anda bisa mengetahui cara mendapatkan ID dengan mengikuti panduan ini: {{docs}}/guides/getting-ids
 
 # lowercase
-REROLL: reroll
+REROLL: umumkan ulang
 
-NO_WINNER: Nobody reacted to the giveaway, so nobody was chosen.
-NO_GIVEAWAY_ID: There's no giveaway with that ID.
+NO_WINNER: Tidak ada yang bereaksi terhadap giveaway ini, jadi tidak ada yang dipilih..
+NO_GIVEAWAY_ID: Tidak ada giveaway dengan ID ini.

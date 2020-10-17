@@ -1,4 +1,4 @@
-DESCRIPTION: Enables a previously disabled command.
+DESCRIPTION: Mengaktifkan perintah yang sebelumnya dinonaktifkan.
 
-COMMAND_NOT_DISABLED: This command is already enabled!
-COMMAND_ENABLED: The {{command}} command has been enabled.
+COMMAND_NOT_DISABLED: Perintah ini sudah diaktifkan!
+COMMAND_ENABLED: Perintah {{command}} telah diaktifkan.

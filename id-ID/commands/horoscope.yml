@@ -1,13 +1,13 @@
-# please include something that says this command only shows the horoscope in English
-DESCRIPTION: Shows your horoscope. Use the `--chinese` flag to show your chinese horoscope.
-ERROR_MUST_SPECIFY: You must specify a sign!
-ERROR_MUST_SPECIFY_CHINESE: You must specify a chinese zodiac sign!
+# harap sertakan sesuatu yang mengatakan perintah ini hanya menampilkan horoskop dalam bahasa indonesia
+DESCRIPTION: Menunjukkan horoskop Anda. Gunakan flag `--chinese` flag untuk menunjukkan horoskop Cina Anda.
+ERROR_MUST_SPECIFY: Anda harus menentukan tanda!
+ERROR_MUST_SPECIFY_CHINESE: Anda harus menentukan tanda zodiak cina!
 ERROR_MUST_SPECIFY_INFO: >-
-  If you don't want to do that now, you can set up yours in the configuration
-  page.
+  Jika Anda tidak ingin melakukannya sekarang, Anda dapat menyiapkan milik Anda di konfigurasi
+  halaman.
 
   {{page}}
-INVALID_SIGN: You must specify a valid sign.
-INVALID_SIGN_CHINESE: You must specify a valid chinese zodiac sign.
-EMBED_FOOTER: Horoscope of
-EMBED_FOOTER_CHINESE: Chinese horoscope of
+INVALID_SIGN: Anda harus mencantumkan tanda yang valid.
+INVALID_SIGN_CHINESE: Anda harus mencantumkan tanda zodiak China yang valid.
+EMBED_FOOTER: Horoskop
+EMBED_FOOTER_CHINESE: Horoskop China tentang

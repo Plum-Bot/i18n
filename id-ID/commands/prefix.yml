@@ -1,3 +1,3 @@
-DESCRIPTION: Set the prefix for a server.
-PREFIX: Prefix
-PREFIX_DESC: The prefix for this server is `{{prefix}}`
+DESCRIPTION: Atur awalan untuk server.
+PREFIX: Awalan
+PREFIX_DESC: Awalan untuk server ini adalah `{{prefix}}`

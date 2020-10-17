@@ -1,2 +1,2 @@
-NO_OUTPUT: No output.
-ERROR: "The template has an error:\n>>> {{error}}"
+NO_OUTPUT: Tidak ada output.
+ERROR: "Ada kesalahan pada template:\n>>> {{error}}"

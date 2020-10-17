@@ -1,6 +1,6 @@
-DESCRIPTION: Enables a previously disabled command.
+DESCRIPTION: Mengaktifkan perintah yang sebelumnya dinonaktifkan.
 
-COMMAND_NOT_ENABLED: This command is already disabled!
-COMMAND_DISABLED: The {{command}} command has been disabled.
+COMMAND_NOT_ENABLED: Perintah ini sudah dinonaktifkan!
+COMMAND_DISABLED: Perintah {{command}} telah dinonaktifkan.
 
-SHIELDED: This command is protected and cannot be disabled.
+SHIELDED: Perintah ini dilindungi dan tidak dapat dinonaktifkan.

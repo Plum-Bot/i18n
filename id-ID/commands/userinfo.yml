@@ -1,23 +1,23 @@
-DESCRIPTION: Shows info about someone
+DESCRIPTION: Menunjukkan info tentang seseorang
 
 USERNAME: 'Username: **{{username}}**'
 NICKNAME: 'Nickname: **{{nickname}}**'
-DISCRIMINATOR: 'Discriminator: #**{{discrim}}**'
-ACCT_CREATE: On Discord since **{{date}}**
-SERVER_JOIN: In this server since **{{date}}**
+DISCRIMINATOR: 'Diskriminator: #**{{discrim}}**'
+ACCT_CREATE: Di discord sejak **{{date}}**
+SERVER_JOIN: Di server ini sejak **{{date}}**
 
-ACTIVITY: Activity
-NO_ACTIVITY: Not playing anything and no custom status set.
+ACTIVITY: Aktivitas
+NO_ACTIVITY: Tidak memainkan apa pun dan tidak ada pengaturan status khusus.
 
 ACTIVITY_TYPE:
-  '0': Playing **{{game}}**
+  '0': Memainkan **{{game}}**
   '1': Streaming **{{game}}**
-  '2': Listening to **{{game}}**
+  '2': Mendengarkan **{{game}}**
 
 STATUS: Status
 
-REPS: Reputation points
+REPS: Poin Reputasi
 
-ROLES: Role
-ROLES_plural: Roles
-ROLES_NONE: None
+ROLES: Wewenang
+ROLES_plural: Wewenang
+ROLES_NONE: Tidak ada

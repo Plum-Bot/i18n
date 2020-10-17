@@ -1,16 +1,16 @@
-DESCRIPTION: Shows statistics such as uptime, memory usage and lib versions.
-EMBED_TITLE: STATISTICS
-EMBED_DESC: "{{name}} version {{version}}"
-MEMORY_USAGE: Memory Usage
+DESCRIPTION: Menunjukkan statistik seperti uptime, penggunaan memori dan versi lib.
+EMBED_TITLE: STATISTIK
+EMBED_DESC: "{{name}} versi {{version}}"
+MEMORY_USAGE: Penggunaan memori
 MEMORY_USAGE_DESC: "{{mb}} MB"
-UPTIME: Uptime
-USERS: Users
+UPTIME: Waktu aktif
+USERS: Pengguna
 USERS_DESC: |-
-  **• Users**: {{users}}
-  **• Channels**: {{channels}}
-  **• Servers**: {{servers}}
-VERSIONS: Versions
+  **• Pengguna**: {{users}}
+  **• Saluran**: {{channels}}
+  **• Server**: {{servers}}
+VERSIONS: Versi
 VERSIONS_DESC: |-
   **• Eris**: v{{discord}}
   **• Node.js**: {{node}}
-CREATION_DATE: Creation date
+CREATION_DATE: Tanggal Dibuat

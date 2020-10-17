@@ -1,5 +1,5 @@
-DESCRIPTION: Executes shell code (owner only)
+DESCRIPTION: Menjalankan kode shell (hanya pemilik)
 
-TITLE: Code execution results
-STDOUT: Standard Output
-STDERR: Standard Error
+TITLE: Hasil eksekusi kode
+STDOUT: Output Standar
+STDERR: Kesalahan Standar

@@ -1,15 +1,15 @@
-DESCRIPTION: Lets you play Connect 4 with someone else.
-QUESTION: "{{member}}, do you want to play Connect Four with {{user}}?"
+DESCRIPTION: Memungkinkan Anda bermain Connect 4 dengan orang lain.
+QUESTION: "{{member}}, apakah Anda ingin bermain Connect Four dengan {{user}}?"
 STATES:
-  - Awaiting player 2
-  - Game in progress
-  - Red won
-  - Yellow won
-  - It's a tie!
-  - Invalid state
-WIN_MESSAGE: "{{user}}, you won!"
+  - Menunggu pemain 2
+  - Permainan sedang berlangsung
+  - Merah menang
+  - Kuning menang
+  - Ini seri!
+  - Negara bagian tidak valid
+WIN_MESSAGE: "{{user}}, anda menang!"
 EMBED:
-  TITLE: Connect Four game
-  NEXT_TURN: Next turn
-  TURN_AFTER: Turn after
-  STATE: State
+  TITLE: Hubungkan Empat game
+  NEXT_TURN: Giliran Berikutnya
+  TURN_AFTER: Giliran Setelah
+  STATE: Negara

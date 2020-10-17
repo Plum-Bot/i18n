@@ -1,21 +1,21 @@
 MORE_THAN_10M:
-  QUESTION: You already have an ongoing game, but it's been going on for more than 10
-    minutes. Do you wanna delete it?
-  DELETE_OK: The game was deleted
-  DELETE_NO: I won't delete the game.
+  QUESTION: Anda sudah memiliki game yang sedang berlangsung, tetapi sudah berlangsung selama lebih dari 10
+    menit. Apakah Anda ingin menghapusnya?
+  DELETE_OK: Game telah dihapus
+  DELETE_NO: Saya tidak akan menghapus game ini.
 ERRORS:
-  PLAY_AGAINST_SELF: You can't play against yourself!
-  PLAY_AGAINST_BOT: You can't play against a bot!
-  ONGOING_GAME_YOU: You already have an ongoing game.
-  ONGOING_GAME_OTHER: "{{user}} already has an ongoing game."
-  RUNNING_QUESTION: "{{user}} is already being asked something (probably another user asked them
-    to play). Wait for them to reply to that and retry."
-  RUNNING_QUESTION_YOU: You're already being asked something (probably another user asked you to
-    play). Reply to that and retry.
+  PLAY_AGAINST_SELF: Anda tidak bisa bermain melawan diri sendiri!
+  PLAY_AGAINST_BOT: Anda tidak bisa bermain melawan bot!
+  ONGOING_GAME_YOU: Anda sudah memiliki game yang sedang berlangsung.
+  ONGOING_GAME_OTHER: "{{user}} sudah memiliki game yang sedang berlangsung."
+  RUNNING_QUESTION: "{{user}} telah ditanyai sesuatu (mungkin pengguna lain yang menanyakannya
+    bermain). Tunggu sampai mereka membalasnya dan coba lagi."
+  RUNNING_QUESTION_YOU: Anda sudah ditanyai sesuatu (mungkin pengguna lain yang meminta Anda melakukannya
+    bermain). Balas itu dan coba lagi.
 
-  # Should never be called, but it's best to translate it anyways
-  GAME_ALREADY_STARTED: You already have an ongoing game.
+  # Tidak boleh dipanggil, tetapi yang terbaik adalah menerjemahkannya
+  GAME_ALREADY_STARTED: Anda sudah memiliki game yang sedang berlangsung.
 
-  NO_GAME: You don't have any ongoing games.
-  INVALID_MOVE: That isn't a valid move for this game.
-  NOT_YOUR_TURN: This is not your turn. Wait for your opponent to play and only _then_ go.
+  NO_GAME: Anda tidak memiliki permainan yang sedang berlangsung.
+  INVALID_MOVE: Itu bukan langkah yang valid untuk game ini.
+  NOT_YOUR_TURN: Ini bukan giliran Anda. Tunggu lawan Anda bermain dan hanya _lalu_ pergi.

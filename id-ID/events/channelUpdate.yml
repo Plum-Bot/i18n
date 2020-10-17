@@ -1,15 +1,15 @@
-TITLE: Channel updated
+TITLE: Saluran diperbarui
 
 OLD:
-  NAME: Old name
-  POS: Old position
-  NSFW: Old NSFW
-  TOPIC: Old topic
-  BITRATE: Old bitrate
+  NAME: Nama lama
+  POS: Posisi lama
+  NSFW: NSFW lama
+  TOPIC: Topik lama
+  BITRATE: Bitrate lama
 
 NEW:
-  NAME: New name
-  POS: New position
-  NSFW: New NSFW
-  TOPIC: New topic
-  BITRATE: New bitrate
+  NAME: Nama baru
+  POS: Posisi baru
+  NSFW: NSFW baru
+  TOPIC: Topik baru
+  BITRATE: Bitrate baru

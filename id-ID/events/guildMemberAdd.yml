@@ -1,10 +1,10 @@
-JOIN: User joined
-COUNT: This server now has {{count}} member.
-COUNT_plural: This server now has {{count}} members.
-ACCT_AGE: Account creation
+JOIN: Pengguna bergabung
+COUNT: Server ini sekarang memiliki {{count}} member.
+COUNT_plural: Server ini sekarang memiliki {{count}} member.
+ACCT_AGE: Pembuatan akun
 FOOTER: "{{tag}} [{{id}}]"
-ADDED_ROLES: Role added back by Role Persistence
-ADDED_ROLES_plural: Roles added back by Role Persistence
+ADDED_ROLES: Peran ditambahkan kembali oleh Persistensi Peran
+ADDED_ROLES_plural: Peran ditambahkan kembali oleh Persistensi Peran
 
-# Used in the audit logs
-ROLE_PERSISTENCE: Added by Role Persistence
+# Digunakan di log audit
+ROLE_PERSISTENCE: Ditambahkan oleh Persistensi Peran

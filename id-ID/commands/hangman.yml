@@ -1,25 +1,25 @@
-DESCRIPTION: Play a game of hangman, but with a friend.
+DESCRIPTION: Main game hangman, tapi dengan teman.
 
-QUESTION: "{{member}}, do you want to play Hangman with {{user}}?"
+QUESTION: "{{member}}, maukah anda bermain Hangman dengan {{user}}?"
 
 EMBED:
   TITLE: Hangman game
-  STATE: State
+  STATE: Negara
 
-  NEXT_TURN: Next turn
-  TURN_AFTER: Turn after
+  NEXT_TURN: Giliran berikutnya
+  TURN_AFTER: Giliran setelah
 
-  GUESSED: Guessed letters
-  FAILED: Failed attempts
-  GUESSED_NONE: None
-  FAILED_NONE: None
-  LIVES: Life
-  LIVES_plural: Lives
+  GUESSED: Huruf yang ditebal
+  FAILED: Upaya gagal
+  GUESSED_NONE: Tidak ada
+  FAILED_NONE: Tidak ada
+  LIVES: Nyawa
+  LIVES_plural: Nyawa
 
-WIN_MESSAGE: You won!
-LOSE_MESSAGE: You lost...
+WIN_MESSAGE: Anda menang!
+LOSE_MESSAGE: Anda kalah...
 
 # States
-IN_PROGRESS: In progress
-WON: You won
-LOST: You lost
+IN_PROGRESS: Dalam proses
+WON: Anda menang
+LOST: Anda kalah

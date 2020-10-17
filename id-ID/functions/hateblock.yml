@@ -1,12 +1,12 @@
-TITLE: Swear
+TITLE: Makian
 CONTENT: |-
-  Content:
-  
+  Konten:
+
   {{content}}
 
-TRIGGERING: "Triggering word: {{wordList}}"
-TRIGGERING_plural: "Triggering words: {{wordList}}"
+TRIGGERING: "Kata yang memicu: {{wordList}}"
+TRIGGERING_plural: "Kata yang memicu: {{wordList}}"
 
-CHANNEL: Channel
-CAUGHT_ON: Caught on
-MESSAGE_ID: Message ID
+CHANNEL: Saluran
+CAUGHT_ON: Tertangkap pada
+MESSAGE_ID: ID pesan
