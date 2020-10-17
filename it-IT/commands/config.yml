@@ -1,0 +1,63 @@
+DESCRIPTION: Gestisci le impostazioni del server Manage the settings of the server
+ARRAY:
+  OPTIONS: |-
+    Questa chiave è un elenco di valori
+    Scrivi una delle seguenti azioni per interagire con `{{value}}`:
+    > **{{add}}** per aggiungere il valore come ultimo elemento
+    > **{{remove}}** per rimuovere il valore dall'elenco
+    > **{{clear}}** per rimuovere tutti i valori dell'elenco
+
+    Per riferimento, ecco una lista dei valori contententi la variabile specificata:
+    {{orderedList}}
+
+    _Aspetta 60 secondi o scrivi **{{cancel}}** per annullare_
+  OPTIONS_NO_VAL: |-
+    Questa chiave è un elenco di valori
+    Scrivi una delle seguenti azioni per interagirci:
+    > **{{add}}** per aggiungere qualcosa come ultimo elemento
+    > **{{remove}}** per rimuovere il valore dall'elenco
+    > **{{clear}}** per rimuovere tutti i valori dall'elenco
+
+    Per riferimento, ecco una lista dei valori contenuti nell'elenco:
+    {{orderedList}}
+
+    _Aspetta 60 secondi o scrivi **{{cancel}}** per annullare_
+  INSERT_VAL:
+    ADD: |-
+      Per favore scrivi il valore da aggiungere
+
+      _Aspetta 60 secondi o scrivi **{{cancel}}** per annullare_
+    REMOVE: |-
+      Per favore scrivi il numero del valore da rimuovere
+
+      _Aspetta 60 secondi o scrivi **{{cancel}}** per annullare_
+  OK_ADD: Il valore `{{value}}` è stato aggiunto correttamente nella configurazione di **{{name}}**
+  OK_REMOVE: Il valore `{{value}}` è stato rimosso correttamente dalla configurazione di **{{name}}**
+  INVALID_ACTION: C'è stato un errore. Riprova.
+  NO_VALUES: Questa lista è vuota.
+  ERRORS:
+    NO_VALUES: Non ci sono elementi da eliminare.
+    NAN: Scrivi il numero del valore che vorresti rimuovere!
+    OUT_OF_BOUNDS_LT0: Questo numero è troppo piccolo! Assicurati di scrivere un numero tra 1
+      e {{bound}} (inclusi).
+    OUT_OF_BOUNDS_GTI: Questo numero è troppo grande! Assicurati di scrivere un numero tra 1
+      e {{bound}} (inclusi).
+NO_DESC: Nessuna descrizione
+NO_VAL: Nessun valore
+ONE_OF: "Il valore per la configurazione di **{{name}}** deve essere uno dei
+  seguenti: {{list}}"
+INSERT_VAL: |-
+  Per favore scrivi il valore da impostare, o `null` per eliminarlo
+
+  _Aspetta 60 secondi o scrivi **{{cancel}}** per annullare_
+INSERT_VAL_LIST: |-
+  Per favore scrivi un valore della seguente lista:
+
+  > {{list}}
+
+  _Aspetta 60 secondi o scrivi **{{cancel}}** per annullare_
+KEY: |-
+  **{{name}} (`{{key}}`)**
+  > **Descrizione:** {{description}}
+  > **Tipo di valore:** {{type}}
+  > **Valore:** {{value}}

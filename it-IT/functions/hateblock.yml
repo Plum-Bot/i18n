@@ -1,0 +1,10 @@
+TITLE: Parolaccia
+CONTENT: |-
+  Content:
+
+  {{content}}
+TRIGGERING: "Parola offensiva: {{wordList}}"
+TRIGGERING_plural: "Parole offensive: {{wordList}}"
+CHANNEL: Canale
+CAUGHT_ON: Beccato in
+MESSAGE_ID: ID Messaggio

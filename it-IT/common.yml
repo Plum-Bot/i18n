@@ -4,8 +4,8 @@ NO_PERMS:
   TITLE: Non hai il permesso di eseguire questo comando
   DESC: Il livello di permesso minimo è **{{name}}** [{{level}}]
 ARG_ERRORS:
-  NOT_ENOUGH: Non ci sono abbastanza argomenti per eseguire il
-    comando! Il minimo è {{length}}
+  NOT_ENOUGH: Non ci sono abbastanza argomenti per eseguire il comando! Il minimo
+    è {{length}}
   INVALID:
     ERROR: Il comando non è stato chiamato correttamente.
     INFO: "Il formato corretto è: `{{usage}}`"
@@ -13,7 +13,8 @@ COOLDOWN: Non potrai usare il comando `{{command}}` per altri {{time}}.
 CMD_ERROR:
   TEXT: "Server di supporto: {{invite}}"
   TITLE: Oh-oh! È capitato un errore.
-  DESC: Contatta gli sviluppatori nel server di supporto per avvisarli di questo errore.
+  DESC: Contatta gli sviluppatori nel server di supporto per avvisarli di questo
+    errore.
 PERM_MANAGE_EMOJIS: Gestire gli emoji
 PERM_KICK_MEMBERS: Espellere i membri
 PERM_BAN_MEMBERS: Bannare i membri
@@ -21,6 +22,8 @@ PERM_MANAGE_ROLES: Gestire i roli
 PERM_MANAGE_MESSAGES: Gestire i messaggi
 PERM_EMBED_LINKS: Incorporare link
 PERM_USE_EXTERNAL_EMOJIS: Usare emoji esterni
+PERM_ATTACH_FILES: Attach files
+PERM_ADD_REACTIONS: Add reactions
 PERMS:
   "0":
     NAME: Bot
@@ -33,21 +36,26 @@ PERMS:
     DESC: I moderatori del server moderano il server e lo mantengono pulito.
   "3":
     NAME: Amministratore del server
-    DESC: Gli amministratori del server aiutano il proprietario ad amministrare il server.
+    DESC: Gli amministratori del server aiutano il proprietario ad amministrare il
+      server.
   "4":
     NAME: Proprietario del server
-    DESC: I proprietari del server sono le persone che hanno creato il server o chi ne eredita.
+    DESC: I proprietari del server sono le persone che hanno creato il server o chi
+      ne eredita.
   "9":
     NAME: Helpers del bot
-    DESC: I cosiddetti "Helper del bot" aiutano il proprietario del bot ad amministrare il bot.
+    DESC: I cosiddetti "Helper del bot" aiutano il proprietario del bot ad
+      amministrare il bot.
   "10":
     NAME: Proprietario del bot
     DESC: Il proprietario del bot, o lo Sviluppatore, è colui che ha creato il bot.
   "-1":
     NAME: Utente bannato
-    DESC: Questi utenti hanno violato i [Termini di Servizio]({{domain}}/terms) e sono stati bannati.
+    DESC: Questi utenti hanno violato i [Termini di Servizio]({{domain}}/terms) e
+      sono stati bannati.
 USEFUL_LINKS: Link utili
-USEFUL_LINKS_TEXT: "[Sito web]({{domain}}) | [Tutti i comandi]({{commands}}) | [Server di supporto]({{server}})"
+USEFUL_LINKS_TEXT: "[Sito web]({{domain}}) | [Tutti i comandi]({{commands}}) |
+  [Server di supporto]({{server}})"
 MADE_BY: "{{name}} è fatto da {{tag}}"
 AND: e
 REMINDER: |-
@@ -56,18 +64,29 @@ REMINDER: |-
 TIME_AGO: "{{time}} fa"
 IN_TIME: tra {{time}}
 NO_BIO: Nessuna bio impostata
-
 STATUSES:
   dnd: Non disturbare
   idle: Inattivo
   online: Online
   offline: Offline
-
 REPS: "{{count}} punto reputazione"
 REPS_plural: "{{count}} punti reputazione"
-
-# This is an action (ie, the user can use this to imply something in a command)
+CANCELLING: Cancelling...
 CLEAR: cancella
 ADD: aggiungi
 REMOVE: rimuovi
 CANCEL: annulla
+CLOSE: chiudi
+TYPES:
+  STRING: Stringa
+  BOOL: Vero/Falso
+  ROLE: Ruolo
+  CHANNEL: Canale di Testo
+  COMMAND: Comando del Bot
+  INTEGER: Numero
+  LIST_OF: Lista di valori {{type}}
+NO_CONTENT: Nessun contenuto
+MESSAGE_LINK: Link messaggio
+GO_TO_MESSAGE: Vai al messaggio
+UNCACHED_MESSAGE: Messaggio uncatchato
+AFK: Questo utente è AFK

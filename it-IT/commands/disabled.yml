@@ -1,0 +1,8 @@
+DESCRIPTION: Mostra i comandi disabilitati.
+NO_COMMANDS: Questo server non ha nessun comando disabilitato.
+COMMANDS: |-
+  I seguenti comandi sono disabilitati:
+
+  {{commands}}
+
+  Per abilitare un comando, usa `{{prefix}} enable <command>`.

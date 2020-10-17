@@ -1,15 +1,19 @@
-DESCRIPTION: Imposta un promemoria così da non dimenticarti di fare qualcosa di _davvero_ importante... 😅
-FORMAT_ERROR: "Non hai specificato una durata. Per specificare la durata, scrivila prima
-  del promemoria, separata da una virgola, tipo così: `{{prefix}}remindme 5m, fare
-  qualcosa`."
-INVALID_DURATION: |-
-  Hai specificato una durata non valida. Per aiuto, dai un'occhiata a queste linee guida:
+DESCRIPTION: Imposta un promemoria così da non dimenticarti di fare qualcosa di
+  _davvero_ importante... 😅
+FORMAT_ERROR: "Non hai specificato una durata. Per specificare la durata,
+  scrivila prima del promemoria, separata da una virgola, tipo così:
+  `{{prefix}}remindme 5m, fare qualcosa`."
+INVALID_DURATION: >-
+  Hai specificato una durata non valida. Per aiuto, dai un'occhiata a queste
+  linee guida:
+
   > {{duration}}
+
   > {{date}}
 TIME_TOO_MUCH_PREMIUM: La durata per gli utenti Premium deve essere tra 5 secondi ed un mese.
-TIME_TOO_MUCH_REGULAR: La durata per gli utenti normali deve essere tra 5 secondi ed una settimana. **Passa
-  a Premium per estendere la durata ad un mese!** Usa il comando `{{prefix}} premium`
-  per scoprire come.
+TIME_TOO_MUCH_REGULAR: La durata per gli utenti normali deve essere tra 5
+  secondi ed una settimana. **Passa a Premium per estendere la durata ad un
+  mese!** Usa il comando `{{prefix}} premium` per scoprire come.
 NO_REMINDER: Devi scrivere cosa ti dovrei ricordare.
 OK: |-
   Ottimo! Ti ricorderò questo tra {{duration}}:

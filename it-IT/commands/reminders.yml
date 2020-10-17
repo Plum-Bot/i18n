@@ -5,4 +5,5 @@ ERRORS:
   NO_REM: Non c'è nessun promemoria salvato con questo ID. L'hai mica scritto male?
 DELETE_OK: Il promemoria è stato eliminato correttamente.
 EMBED_TITLE: I tuoi promemoria
-EMBED_EMPTY: Non hai promemoria impostati. Aggiungine uno con `{{prefix}}remindme 5m, fare qualcosa`
+EMBED_EMPTY: Non hai promemoria impostati. Aggiungine uno con
+  `{{prefix}}remindme 5m, fare qualcosa`

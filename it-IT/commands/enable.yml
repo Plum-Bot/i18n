@@ -1,0 +1,3 @@
+DESCRIPTION: Abilita un comando precedentemente disabilitato.
+COMMAND_NOT_DISABLED: Questo comando è già abilitato!
+COMMAND_ENABLED: Il comando {{command}} è stato abilitato.

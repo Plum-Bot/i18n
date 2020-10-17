@@ -1,0 +1,25 @@
+DESCRIPTION: Controlla lo stato Premium ed i relativi vantaggi.
+TITLE_YOU: Il tuo stato Premium
+TITLE_OTHER: "Stato Premium di {{user}}"
+YES:
+  YOU: Hai Premium!
+  OTHER: "{{user}} ha Premium!"
+SERVER:
+  YOU: >
+    Non hai Premium, ma uno dei proprietari di questo server sì. Ciò
+    significa che, mentre sei su questo server, sarai in grado di
+    utilizzare tutti i vantaggi Premium!
+OTHER: >
+    {{user}} non ha Premium, ma uno dei proprietari di questo server sì. Ciò
+    significa che, mentre sei è questo server, sarà in grado di
+    utilizzare tutti i vantaggi Premium!
+NO:
+  YOU: Non hai Premium.
+  OTHER: "{{user}} non ha Premium."
+  FIELD:
+    TITLE: Cosa posso fare per ottenere Premium?
+    VALUE: >
+      Ottenere Premium è facile! Prima di tutto, devi essere parte del [Server
+      di Supporto]({{invite}}). Poi, potrai [donare nella pagina Patreon]({{invite}}),
+      ed iscriverti ad uno dei livelli Premium. Finalmente, avverti Samplasion
+      e, se tutto è andato bene, potrai godere dei comandi esclusivi! 

@@ -3,3 +3,6 @@ COUNT: Ora il server ha {{count}} membro.
 COUNT_plural: Ora il server ha {{count}} membri.
 ACCT_AGE: Creazione dell'account
 FOOTER: "{{tag}} [{{id}}]"
+ADDED_ROLES: Ruolo riaggiunto dalla Presistenza Ruoli
+ADDED_ROLES_plural: Ruoli riaggiunti dalla Presistenza Ruoli
+ROLE_PERSISTENCE: Aggiunti dalla presistenza ruoli
