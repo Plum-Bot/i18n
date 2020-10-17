@@ -37,12 +37,7 @@ function manage(currentdir, directory) {
                     let raw = fs.readFileSync(tdir).toString();
                     translated = YAML.parse(raw);
                 } catch (e) {
-                    fs.writeFileSync(tdir, YAML.stringify(original))
                     translated = original;
-
-                    count++;
-
-                    continue;
                 }
             }
 
