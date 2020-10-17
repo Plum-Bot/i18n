@@ -1,0 +1,13 @@
+TITLE: Canale aggiornato
+OLD:
+  NAME: Vecchio nome
+  POS: Vecchia posizione
+  NSFW: Vecchio NSFW
+  TOPIC: Vecchio argomento
+  BITRATE: Vecchia frequenza di bit
+NEW:
+  NAME: Nuovo nome
+  POS: Nuova posizione
+  NSFW: Nuovo NSFW
+  TOPIC: Nuovo argomento
+  BITRATE: Nuova frequenza di bit

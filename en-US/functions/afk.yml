@@ -1,0 +1,11 @@
+WELCOME_BACK: "{{user}}, welcome back!"
+WELCOME_BACK_PINGS: |-
+  {{user}}, welcome back! While you were away, you were pinged once by **{{mentioner}}**: {{url}}
+WELCOME_BACK_PINGS_plural: |-
+  {{user}}, welcome back! You were pinged {{count}} times while you were away:
+
+  {{pings}}
+AFK: |-
+  **{{user}}** is AFK:
+
+  >>> {{message}}

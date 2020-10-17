@@ -1,0 +1,4 @@
+DESCRIPTION: Provvede un link rapido per il Pannello di Controllo Web
+MSG: |-
+  Ecco a te il link per il Pannello di Controllo Web del bot.
+  >>> {{link}}

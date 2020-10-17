@@ -12,8 +12,9 @@ MORE_HELP:
     `(argomento)`: Descrive un argomento che, in base agli altri argomenti, può essere obbligatorio o facoltativo
   FIELD:
     TITLE: Argomenti esclusivi
-    DESC: Alcuni argomenti possono essere mostrati come `argomento1|argomento2`. In questi casi,
-      potrai scrivere solo `argomento1` o `argomento2`, ma non entrambi.
+    DESC: Alcuni argomenti possono essere mostrati come `argomento1|argomento2`. In
+      questi casi, potrai scrivere solo `argomento1` o `argomento2`, ma non
+      entrambi.
 PREFIX: "Il prefisso per questo server è: {{prefix}}"
 COMMAND:
   TITLE: "{{info}} Pagina di aiuto per il comando: {{command}}"

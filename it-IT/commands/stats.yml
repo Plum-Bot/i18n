@@ -1,4 +1,5 @@
-DESCRIPTION: Mostra statistiche come da quanto il bot è online, il consumo di memoria e le versioni delle librerie.
+DESCRIPTION: Mostra statistiche come da quanto il bot è online, il consumo di
+  memoria e le versioni delle librerie.
 EMBED_TITLE: STATISTICHE
 EMBED_DESC: "{{name}} versione {{version}}"
 MEMORY_USAGE: Consumo di memoria

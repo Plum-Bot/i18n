@@ -1,0 +1,4 @@
+NO_OUTPUT: Nessun output.
+ERROR: |-
+  Il template ha degli errori:
+  >>> {{error}}

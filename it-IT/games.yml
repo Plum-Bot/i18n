@@ -1,5 +1,6 @@
 MORE_THAN_10M:
-  QUESTION: Hai già una partita in corso, ma è iniziata più di 10 minuti fa. Vuoi cancellarla?
+  QUESTION: Hai già una partita in corso, ma è iniziata più di 10 minuti fa. Vuoi
+    cancellarla?
   DELETE_OK: La partita è stata cancellata.
   DELETE_NO: Non cancellerò la partita.
 ERRORS:
@@ -7,14 +8,11 @@ ERRORS:
   PLAY_AGAINST_BOT: Non puoi giocare contro un bot!
   ONGOING_GAME_YOU: Hai già una partita in corso.
   ONGOING_GAME_OTHER: "{{user}} ha già una partita in corso."
-  RUNNING_QUESTION: "A {{user}} sta già venendo chiesto qualcosa (forse qualcuno gli ha
-    chiesto di giocare). Aspetta che risponda e riprova."
-  RUNNING_QUESTION_YOU: Ti sta già venendo chiesto qualcosa (forse qualcuno ti ha chiesto
-    di giocare). Rispondi a quello e riprova.
-
-  # Should never be called, but it's best to translate it anyways
+  RUNNING_QUESTION: A {{user}} sta già venendo chiesto qualcosa (forse qualcuno
+    gli ha chiesto di giocare). Aspetta che risponda e riprova.
+  RUNNING_QUESTION_YOU: Ti sta già venendo chiesto qualcosa (forse qualcuno ti ha
+    chiesto di giocare). Rispondi a quello e riprova.
   GAME_ALREADY_STARTED: Hai già una partita in corso.
-
   NO_GAME: Non hai partite in corso.
   INVALID_MOVE: Non è una mossa valida per questo gioco.
   NOT_YOUR_TURN: Non è il tuo turno. Aspetta che il tuo avversario faccia la sua mossa.

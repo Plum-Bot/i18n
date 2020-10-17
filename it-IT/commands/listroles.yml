@@ -1,0 +1,4 @@
+DESCRIPTION: Elenca i ruoli e mostra se possono menzionare everyone
+CAN_ME: Può menzionare everyone
+CANNOT_ME: Non può menzionare everyone
+LISTING: Elenco ruoli

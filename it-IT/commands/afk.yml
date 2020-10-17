@@ -1,0 +1,7 @@
+DESCRIPTION: Imposta il tuo stato AFK.
+YOURE_AFK: Sei AFK.
+YOU_ARENT_AFK: Non sei più AFK.
+STATUS_UPDATED: |-
+  Il tuo stato AFK è stato aggiornato:
+
+  >>> {{message}}

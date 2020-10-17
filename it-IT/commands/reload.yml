@@ -2,3 +2,4 @@ DESCRIPTION: Ricarica un comando, caricando i cambiamenti.
 NO_CMD: Un comando con il nome o alias `{{command}}` non è stato trovato.
 CMD_OK: Il comando `{{command}}` è stato ricaricato.
 CMD_ERROR: Errore nel ricaricare il comando`{{command}}`.
+LANG: Le lingue aggiornate sono state scaricate e caricate nel bot.

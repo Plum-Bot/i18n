@@ -37,3 +37,5 @@ Once you're done translating, just send a pull request. If it's accepted, you'll
 changes on the next reboot of the bot.
 
 Obviously, don't forget to [join our Discord!](https://discord.gg/MDtgmEM)
+
+By the way, if you help translating Plum, you'll get **1 month of free Premium!** Join!

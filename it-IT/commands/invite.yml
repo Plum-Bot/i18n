@@ -1,0 +1,6 @@
+DESCRIPTION: Ottieni un link di invito per il bot.
+TITLE: Invita {{bot}}
+DESC: |-
+  Ecco il tuo link d'invito. E' stato generato con i permessi consigliati.
+
+  {{link}}

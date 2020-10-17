@@ -1,0 +1,4 @@
+DESCRIPTION: Disabilita un comando precedentemente disabilitato.
+COMMAND_NOT_ENABLED: Questo comando è già stato disabilitato!
+COMMAND_DISABLED: Il comando {{command}} è stato disabilitato.
+SHIELDED: Questo comando è protetto e non può essere disabilitato.

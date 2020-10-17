@@ -1,0 +1,12 @@
+DESCRIPTION: Trova il testo di una canzone
+ERROR:
+  UNKNOWN: |-
+    Errore sconosciuto. Questa è la risposta del server:
+    > {{error}}
+  NOT_FOUND: Non ho potuto trovare la canzone che stai cercando. Prova con diversi
+    termini di ricerca o un'altra canzone.
+LYRICS: |-
+  **{{title}}**
+  _{{author}}_
+
+  {{lyrics}}

@@ -1,0 +1,33 @@
+DESCRIPTION: Check your premium status and what you can do to obtain it.
+
+TITLE_YOU: Your Premium status
+TITLE_OTHER: "{{user}}'s Premium status"
+
+YES:
+  YOU: You have Premium!
+  OTHER: "{{user}} has Premium!"
+
+# When one of the owners of the server as Premium
+SERVER:
+  YOU: >
+    You don't have Premium, but one of the owners
+    of this server does. This means that, while you're in this server,
+    you'll be able to use all of the Premium perks!
+  OTHER: >
+    {{user}} doesn't have Premium, but one of the owners
+    of this server does. This means that, while they're in this server,
+    {{user}}'ll be able to use all of the Premium perks!
+
+NO:
+  YOU: You don't have Premium.
+  OTHER: "{{user}} doesn't have Premium."
+
+  FIELD:
+    TITLE: What can I do to obtain Premium?
+    VALUE: >
+      Obtaining Premium is easy! First, you have to
+      be in [the Support server]({{invite}}).
+      Then, you can
+      [donate to the Patreon page]({{patreon}})
+      subscribe to one of the Premium tiers. Finally, alert Samplasion
+      and, if all went well, you can enjoy the Premium commands!

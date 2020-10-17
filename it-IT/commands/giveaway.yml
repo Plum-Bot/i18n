@@ -1,0 +1,35 @@
+DESCRIPTION: Crea e gestisce i Giveaway
+NO_DURATION: Hai specificato una durata invalida.
+TOO_SMALL_DUR: "Hai specificato una durata minore di **{{min}}**"
+TOO_LARGE_DUR: "Hai specificato una durata maggiore di **{{max}}**"
+NO_PRIZE: Devi specificare qualcosa da "dare via"!
+NEW: Giveaway!
+BODY: |-
+  È l'ora del Giveaway!
+  Questo Giveaway è offerto da {{host}}
+ENDS_AT: "Questo Giveaway terminerà:"
+OVER: Questo Giveaway è stato vinto da {{winner}}
+ENDED_AT: Giveaway terminato
+CANCELED: Questo Giveaway è stato annullato. Nessun vincitore verrà selezionato.
+OK_CANCELED: Il Giveaway è stato annullato.
+CALL_TO_PRIZE: "{{user}}, hai vinto **{{prize}}**!"
+HELP:
+  TITLE: Giveaways
+  DESCRIPTION: >-
+    Per iniziare un Giveaway, semplicemente esegui `{{prefix}} giveaway <scadenza> <premio>`.
+
+
+    Per annullare un Giveaway, esegui `{{prefix}} giveaway --{{cancel}} <ID>`
+
+    Per chiudere un Giveaway (es. scegliere immediatamente un vincitore), esegui `{{prefix}} giveaway --{{close}} <ID>`
+
+    Per rilanciare un Giveaway (es. cambiare vincitore), esegui `{{prefix}} giveaway --{{reroll}} <ID>`
+
+
+    Comunque `{{close}}` e `{{reroll}}` entrambi fanno in pratica la stessa cosa, non sono intercambiabili. Se un giveaway che stai rilanciando è ancora aperto, `{{reroll}}` funzionerà esattamente come `{{close}}`, ma lo stesso non può essere detto riguardo l'opposto; se il Giveaway è chiuso, `{{close}}` igniorerà il comando, mentre `{{reroll}}` rilancerà correttamente il vincitore.
+
+
+    `<ID>` è l'ID del Messaggio del Giveaway. Puoi scoprire come copiare gli ID seguendo questa guida: {{docs}}/guides/getting-ids
+REROLL: rilancia
+NO_WINNER: Nessuno ha reagito al Giveaway, quindi nessuno è stato scelto come vincitore.
+NO_GIVEAWAY_ID: Non c'è nessun Giveaway con questo ID

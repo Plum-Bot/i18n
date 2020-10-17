@@ -1,0 +1,5 @@
+DESCRIPTION: Elimina fino a 100 messaggi a botta.
+OK: I messaggi sono stati eliminati.
+ERROR: |-
+  C'è stato un errore:
+  > {{error}}

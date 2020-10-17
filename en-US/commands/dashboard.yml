@@ -1,0 +1,3 @@
+DESCRIPTION: Provides a quick link to the Web Dashboard
+
+MSG: "Here's your quick link.\n>>> {{link}}"
