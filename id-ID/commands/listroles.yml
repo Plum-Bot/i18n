@@ -1,0 +1,5 @@
+DESCRIPTION: Buat daftar peran dan katakan jika mereka dapat menyebut semua orang
+
+CAN_ME: Bisa menyebut semua orang
+CANNOT_ME: Tidak dapat menyebut semua orang
+LISTING: Daftar peran

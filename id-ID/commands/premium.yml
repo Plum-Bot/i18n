@@ -1,0 +1,33 @@
+DESCRIPTION: Periksa status premium Anda dan apa yang dapat Anda lakukan untuk mendapatkannya.
+
+TITLE_YOU: Premium status anda
+TITLE_OTHER: "Premium status {{user}}"
+
+YES:
+  YOU: Anda dapat Premium!
+  OTHER: "{{user}} dapat Premium!"
+
+# Ketika satu dari pemilik server memiliki premium
+SERVER:
+  YOU: >
+    Anda tidak memiliki Premium, tetapi salah satu pemiliknya
+    server ini tidak. Artinya, saat Anda berada di server ini,
+    Anda akan dapat menggunakan semua keuntungan Premium!
+  OTHER: >
+    {{user}} tidak memiliki Premium, tetapi salah satu pemiliknya
+    server ini tidak. Artinya, saat mereka berada di server ini,
+    {{user}} akan dapat menggunakan semua keuntungan Premium!
+
+NO:
+  YOU: Anda tidak memiliki Premium.
+  OTHER: "{{user}} tidak memiliki Premium."
+
+  FIELD:
+    TITLE: Apa yang dapat saya lakukan untuk mendapatkan Premium?
+    VALUE: >
+      Mendapatkan Premium itu mudah! Pertama, Anda harus melakukannya
+      berada di [server Dukungan] ({{invite}}).
+      Maka kamu bisa
+      [donasikan ke halaman Patreon] ({{patreon}})
+      berlangganan salah satu tingkatan Premium. Terakhir, peringatkan Samplasion
+      dan, jika semuanya berjalan lancar, Anda dapat menikmati perintah Premium!

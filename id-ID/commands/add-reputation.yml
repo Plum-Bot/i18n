@@ -1,0 +1,6 @@
+DESCRIPTION: Beri seseorang poin reputasi global.
+SELF_REP: Anda tidak bisa memberi diri anda sendiri poin reputasi!
+BOT_REP: Anda tidak bisa memberi poin reputasi kepada bot!
+AWARD: "**{{user}}** telah memberi poin reputasi dan sekarang menduduki **{{reps}}**
+  poin."
+TOO_SOON: Anda tidak bisa memberi **{{user}}** sebuah poin reputasi karena anda telah memberinya sekali baru-baru ini. Anda bisa memberinya poin reputasi lain pada {{time}}.

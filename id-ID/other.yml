@@ -1,0 +1,44 @@
+PAGINATION_MENU:
+  TITLE: Penomoran halaman
+  DESCRIPTION: |-
+    Ini adalah halaman bantuan untuk menu Penomoran halaman.
+    Berikut penjelasan untuk reaksi emoji.
+  FIELD_EMOJIS: Emoji
+  FIELD_EMOJIS_TEXT_A: |-
+    {{first}} Pergi ke halaman pertama.
+    {{prev}} Kembali satu halaman, atau putar ke halaman terakhir jika di halaman pertama.
+    {{stop}} Menghentikan menu interaktif.
+    {{next}} Maju satu halaman, atau putar ke halaman pertama jika di halaman terakhir.
+    {{last}} Pergi ke halaman terakhir.
+    {{info}} Alihkan menu ini.
+  FIELD_EMOJIS_TEXT_B: |-
+    {{first}} Pergi ke halaman pertama.
+    {{prev}} Kembali satu halaman, atau putar ke halaman terakhir jika di halaman pertama.
+    {{stop}} Menghentikan menu interaktif.
+    {{next}} Maju satu halaman, atau putar ke halaman pertama jika di halaman terakhir.
+    {{last}} Pergi ke halaman terakhir.
+    {{info}} Alihkan menu ini.
+    {{additional}} Menampilkan halaman informasi tambahan yang relevan dengan topik.
+  FIELD_BACK: Bagaimana saya bisa kembali?
+  FIELD_BACK_TEXT: Cukup bereaksi dengan {{info}} lagi.
+  EXPIRED_TIME: Menu interaktif telah kedaluwarsa.
+  EXPIRED_MANUAL: Menu interaktif telah berhasil dihentikan.
+ERRORS:
+  GUILD: `{{command}}` perintah harus digunakan di saluran server.
+  NSFW: `{{command}}` perintah harus digunakan di saluran NSFW.
+  PERMISSION: Anda tidak memiliki izin untuk menggunakan perintah `{{command}}`.
+  MISSING_PERM_ONE: Saya memerlukan izin **{{perm}}** untuk menjalankan perintah `{{command}}`.
+  MISSING_PERM_MORE: |-
+    Saya memerlukan izin berikut untuk menjalankan perintah `{{command}}`:
+
+    {{list}}
+  MISSING_PERM_USER_ONE: Anda memerlukan izin **{{perm}}** untuk menjalankan perintah `{{command}}`.
+  MISSING_PERM_USER_MORE: |-
+    Anda memerlukan izin berikut untuk menjalankan perintah `{{command}}`:
+
+    {{list}}
+  THROTTLING: Anda tidak boleh menggunakan perintah `{{command}}` lagi selama {{seconds}}
+  PAGINATION: Anda sudah membuka menu penomoran halaman! Tutup atau tunggu sampai kadaluarsa
+    dan coba lagi.
+  UNAVAILABLE_FLAVOR: Perintah ini tidak tersedia dalam versi bot ini. Hubungi
+    Pengembang untuk mengetahui lebih banyak.

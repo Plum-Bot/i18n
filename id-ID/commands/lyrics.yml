@@ -1,0 +1,11 @@
+DESCRIPTION: Menemukan lirik lagu
+
+ERROR:
+  UNKNOWN: "Terjadi kesalahan yang tidak diketahui. Server mengatakan ini:\n> {{error}}"
+  NOT_FOUND: Saya tidak bisa menemukan lagu yang Anda cari. Coba dengan istilah pencarian yang berbeda atau lagu lain.
+
+LYRICS: |-
+  **{{title}}**
+  _{{author}}_
+
+  {{lyrics}}

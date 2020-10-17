@@ -1,0 +1,8 @@
+LEAVE: Pengguna tersisa
+COUNT: Server ini sekarang memiliki {{count}} anggota.
+COUNT_plural: Server ini sekarang memiliki {{count}} anggota.
+ACCT_AGE: Pembuatan akun
+FOOTER: "{{tag}} [{{id}}]"
+JOINED_AT: Server bergabung
+ROLES: Peran
+ROLES_plural: Peran

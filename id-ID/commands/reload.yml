@@ -1,0 +1,5 @@
+DESCRIPTION: Memuat ulang perintah, memuat perubahannya.
+NO_CMD: Perintah dengan nama atau alias `{{command}}` tidak ditemukan.
+CMD_OK: Perintah `{{command}}` telah dimuat ulang.
+CMD_ERROR: erjadi kesalahan yang tidak diketahui saat memuat ulang perintah `{{command}}`.
+LANG: Bahasa yang diperbarui telah diunduh dan dimuat.

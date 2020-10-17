@@ -1,0 +1,6 @@
+DESCRIPTION: Menghapus hingga 100 pesan sekaligus.
+
+OK: Pesan telah dihapus
+ERROR: |-
+  Terjadi kesalahan:
+  > {{error}}

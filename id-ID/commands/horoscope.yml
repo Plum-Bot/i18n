@@ -1,0 +1,13 @@
+# harap sertakan sesuatu yang mengatakan perintah ini hanya menampilkan horoskop dalam bahasa indonesia
+DESCRIPTION: Menunjukkan horoskop Anda. Gunakan flag `--chinese` flag untuk menunjukkan horoskop Cina Anda.
+ERROR_MUST_SPECIFY: Anda harus menentukan tanda!
+ERROR_MUST_SPECIFY_CHINESE: Anda harus menentukan tanda zodiak cina!
+ERROR_MUST_SPECIFY_INFO: >-
+  Jika Anda tidak ingin melakukannya sekarang, Anda dapat menyiapkan milik Anda di konfigurasi
+  halaman.
+
+  {{page}}
+INVALID_SIGN: Anda harus mencantumkan tanda yang valid.
+INVALID_SIGN_CHINESE: Anda harus mencantumkan tanda zodiak China yang valid.
+EMBED_FOOTER: Horoskop
+EMBED_FOOTER_CHINESE: Horoskop China tentang

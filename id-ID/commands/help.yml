@@ -1,0 +1,33 @@
+DESCRIPTION: Menampilkan daftar perintah atau informasi lebih lanjut tentang suatu perintah.
+CMD_LIST: Daftar semua perintah
+MORE_HELP:
+  TITLE: "{{info}} Info lebih lanjut"
+  DESC: >-
+    Notasi penggunaan perintah adalah sebagai berikut:
+
+
+    `<argument>`: Menunjukkan argumen yang diperlukan
+
+    `[argument]`: Menunjukkan argumen opsional
+
+    `(argument)`: Menunjukkan argumen yang, berdasarkan argumen lain, mungkin diperlukan atau opsional
+  FIELD:
+    TITLE: Argumen eksklusif
+    DESC: Beberapa argumen ada dalam notasi ʻargument1 | argument2`. Dalam kasus tersebut,
+      Anda mungkin hanya memiliki ʻargument1` atau ʻargument2`, tapi tidak keduanya.
+PREFIX: "Awalan untuk server ini adalah: {{prefix}}"
+COMMAND:
+  TITLE: "{{info}} Bantuan untuk perintah: {{command}}"
+  MORE_INFO: "[Info selengkapnya tentang perintah ini] ({{domain}}/perintah/{{command}})"
+LIMITATIONS:
+  TITLE: "{{lock}} Batasan"
+  GUILD: "{{server}} Hanya server"
+  OWNER: "{{user}} Hanya bot pemilik"
+  NSFW: "{{channel}} Hanya saluran NSFW"
+  PREMIUM: "Hanya pengguna {{premium}} [Premium]({{domain}}/dukungan)"
+LEVEL: "{{numbers}} Level"
+EXAMPLES_KEY: "{{paper}} Contoh"
+USAGE: "Penggunaan {{message}}"
+ALIAS: "{{alias}} Alias"
+ALIAS_PLURAL: "{{alias}} Alias"
+NO_CMDS: Anda tidak memiliki perintah yang dapat digunakan. Hubungi pemilik untuk info lebih lanjut.

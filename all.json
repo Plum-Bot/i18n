@@ -4,6 +4,11 @@
         "localizedName": "American English",
         "flag": "🇺🇸"
     },
+    "id-ID": {
+        "name": "Indonesian",
+        "localizedName": "Indonesian",
+        "flag": "🇮🇩"
+    },
     "it-IT": {
         "name": "Italiano",
         "localizedName": "Italian",

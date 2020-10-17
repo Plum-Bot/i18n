@@ -1,0 +1,21 @@
+MORE_THAN_10M:
+  QUESTION: Anda sudah memiliki game yang sedang berlangsung, tetapi sudah berlangsung selama lebih dari 10
+    menit. Apakah Anda ingin menghapusnya?
+  DELETE_OK: Game telah dihapus
+  DELETE_NO: Saya tidak akan menghapus game ini.
+ERRORS:
+  PLAY_AGAINST_SELF: Anda tidak bisa bermain melawan diri sendiri!
+  PLAY_AGAINST_BOT: Anda tidak bisa bermain melawan bot!
+  ONGOING_GAME_YOU: Anda sudah memiliki game yang sedang berlangsung.
+  ONGOING_GAME_OTHER: "{{user}} sudah memiliki game yang sedang berlangsung."
+  RUNNING_QUESTION: "{{user}} telah ditanyai sesuatu (mungkin pengguna lain yang menanyakannya
+    bermain). Tunggu sampai mereka membalasnya dan coba lagi."
+  RUNNING_QUESTION_YOU: Anda sudah ditanyai sesuatu (mungkin pengguna lain yang meminta Anda melakukannya
+    bermain). Balas itu dan coba lagi.
+
+  # Tidak boleh dipanggil, tetapi yang terbaik adalah menerjemahkannya
+  GAME_ALREADY_STARTED: Anda sudah memiliki game yang sedang berlangsung.
+
+  NO_GAME: Anda tidak memiliki permainan yang sedang berlangsung.
+  INVALID_MOVE: Itu bukan langkah yang valid untuk game ini.
+  NOT_YOUR_TURN: Ini bukan giliran Anda. Tunggu lawan Anda bermain dan hanya _lalu_ pergi.

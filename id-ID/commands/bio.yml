@@ -1,0 +1,11 @@
+DESCRIPTION: Atur bio untuk dilihat pengguna lain
+INFO_BIO: |-
+  Bio anda:
+
+  > _{{bio}}_
+NO_BIO_TO_CLEAR: Tidak ada bio yang harus saya jelaskan!
+BIO_SET: |-
+  Bio anda berhasil disimpan:
+
+  > _{{bio}}_
+BIO_CLEARED: Bio anda telah dijelaskan.
