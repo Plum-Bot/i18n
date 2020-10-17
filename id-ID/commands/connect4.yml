@@ -1,0 +1,15 @@
+DESCRIPTION: Lets you play Connect 4 with someone else.
+QUESTION: "{{member}}, do you want to play Connect Four with {{user}}?"
+STATES:
+  - Awaiting player 2
+  - Game in progress
+  - Red won
+  - Yellow won
+  - It's a tie!
+  - Invalid state
+WIN_MESSAGE: "{{user}}, you won!"
+EMBED:
+  TITLE: Connect Four game
+  NEXT_TURN: Next turn
+  TURN_AFTER: Turn after
+  STATE: State

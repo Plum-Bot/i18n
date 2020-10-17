@@ -1,0 +1,15 @@
+TITLE: Channel updated
+
+OLD:
+  NAME: Old name
+  POS: Old position
+  NSFW: Old NSFW
+  TOPIC: Old topic
+  BITRATE: Old bitrate
+
+NEW:
+  NAME: New name
+  POS: New position
+  NSFW: New NSFW
+  TOPIC: New topic
+  BITRATE: New bitrate

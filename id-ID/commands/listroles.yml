@@ -1,0 +1,5 @@
+DESCRIPTION: Lists the roles and says if they can mention everyone
+
+CAN_ME: Can mention everyone
+CANNOT_ME: Cannot mention everyone
+LISTING: Role listing

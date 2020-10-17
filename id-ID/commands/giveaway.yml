@@ -1,0 +1,41 @@
+DESCRIPTION: Creates and manages giveaways
+
+# Errors
+NO_DURATION: You entered an invalid duration.
+TOO_SMALL_DUR: "You entered a duration shorter than the minimum. The minimum is: **{{min}}**"
+TOO_LARGE_DUR: "You entered a duration longer than the maximum. The maximum is: **{{max}}**"
+NO_PRIZE: "You have to enter someting to give away!"
+
+NEW: Giveaway!
+BODY: |-
+  It's giveaway time!
+  This giveaway is hosted by {{host}}
+ENDS_AT: "This giveaway ends:"
+
+OVER: |-
+  This giveaway was won by {{winner}}
+ENDED_AT: Giveaway ended
+
+CANCELED: This giveaway has been canceled. No winner will be selected.
+OK_CANCELED: The giveaway has been canceled.
+
+CALL_TO_PRIZE: "{{user}}, you won **{{prize}}**!"
+
+HELP:
+  TITLE: Giveaways
+  DESCRIPTION: |-
+    To start a giveaway, simply run `{{prefix}} giveaway <time> <prize>`.
+
+    To cancel a giveaway, run `{{prefix}} giveaway --{{cancel}} <ID>`
+    To close a giveaway (ie. immediately roll a winner), run `{{prefix}} giveaway --{{close}} <ID>`
+    To reroll a giveaway, run `{{prefix}} giveaway --{{reroll}} <ID>`
+
+    Altough `{{close}}` and `{{reroll}}` both do essentially the same thing, they aren't interchangeable. If the giveaway you're rerolling is still open, `{{reroll}}` will work exactly as `{{close}}`, but the same can't be said about the opposite; if the target giveaway is closed, `{{close}}` will simply ignore your command, while `{{reroll}}` will successfully reroll the winner.
+
+    `<ID>` is the Message ID of the Giveaway message. You can discover how to get IDs by following this guide: {{docs}}/guides/getting-ids
+
+# lowercase
+REROLL: reroll
+
+NO_WINNER: Nobody reacted to the giveaway, so nobody was chosen.
+NO_GIVEAWAY_ID: There's no giveaway with that ID.

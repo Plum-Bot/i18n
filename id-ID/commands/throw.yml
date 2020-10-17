@@ -1,0 +1,20 @@
+DESCRIPTION: Throw something at someone!
+
+SOMETHING:
+  - a chair
+  - an alpaca
+  - cheap servers
+  - a wall clock
+  - a Pikachu plushie doll
+  - chairs, lots of them
+  - a wig
+  - an iPhone 4S
+  - a coffee machine
+  - a stereo headset
+  - a pack of bubblegum
+  - a taxi
+  - a keyboard
+  - a piano
+  - ~~a poster representing the awful society we live in~~ I mean... a piano
+
+SENTENCE: Threw **{{something}}** at **{{someone}}**!

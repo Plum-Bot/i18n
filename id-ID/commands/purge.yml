@@ -1,0 +1,6 @@
+DESCRIPTION: Deletes up to 100 messages at a time.
+
+OK: The messages have been deleted
+ERROR: |-
+  There's been an error:
+  > {{error}}

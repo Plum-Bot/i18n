@@ -1,0 +1,7 @@
+DESCRIPTION: Get an invite link for the bot.
+
+TITLE: Invite {{bot}}
+DESC: |-
+  Here's your invite link. It was just generated with the optimal permissions.
+
+  {{link}}

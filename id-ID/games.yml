@@ -1,0 +1,21 @@
+MORE_THAN_10M:
+  QUESTION: You already have an ongoing game, but it's been going on for more than 10
+    minutes. Do you wanna delete it?
+  DELETE_OK: The game was deleted
+  DELETE_NO: I won't delete the game.
+ERRORS:
+  PLAY_AGAINST_SELF: You can't play against yourself!
+  PLAY_AGAINST_BOT: You can't play against a bot!
+  ONGOING_GAME_YOU: You already have an ongoing game.
+  ONGOING_GAME_OTHER: "{{user}} already has an ongoing game."
+  RUNNING_QUESTION: "{{user}} is already being asked something (probably another user asked them
+    to play). Wait for them to reply to that and retry."
+  RUNNING_QUESTION_YOU: You're already being asked something (probably another user asked you to
+    play). Reply to that and retry.
+
+  # Should never be called, but it's best to translate it anyways
+  GAME_ALREADY_STARTED: You already have an ongoing game.
+
+  NO_GAME: You don't have any ongoing games.
+  INVALID_MOVE: That isn't a valid move for this game.
+  NOT_YOUR_TURN: This is not your turn. Wait for your opponent to play and only _then_ go.

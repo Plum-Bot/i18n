@@ -1,0 +1,25 @@
+DESCRIPTION: Play a game of hangman, but with a friend.
+
+QUESTION: "{{member}}, do you want to play Hangman with {{user}}?"
+
+EMBED:
+  TITLE: Hangman game
+  STATE: State
+
+  NEXT_TURN: Next turn
+  TURN_AFTER: Turn after
+
+  GUESSED: Guessed letters
+  FAILED: Failed attempts
+  GUESSED_NONE: None
+  FAILED_NONE: None
+  LIVES: Life
+  LIVES_plural: Lives
+
+WIN_MESSAGE: You won!
+LOSE_MESSAGE: You lost...
+
+# States
+IN_PROGRESS: In progress
+WON: You won
+LOST: You lost

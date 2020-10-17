@@ -1,0 +1,69 @@
+DESCRIPTION: Manage the settings of the server
+
+ARRAY:
+    OPTIONS: |-
+        This key holds is a list of values.
+        Say one of the following to act `{{value}}` onto it:
+        > **{{add}}** to add it as a value as the last element
+        > **{{remove}}** to remove the value at that index
+        > **{{clear}}** to remove every value in the list
+
+        For reference, the list of values contains the following values:
+        {{orderedList}}
+
+        _Wait 60 seconds or type **{{cancel}}** to cancel this_
+    OPTIONS_NO_VAL: |-
+        This key holds is a list of values.
+        Say one of the following to manipulate it:
+        > **{{add}}** to add something as the last element
+        > **{{remove}}** to remove something at an index
+        > **{{clear}}** to remove every value in the list
+
+        For reference, the list of values contains the following values:
+        {{orderedList}}
+
+        _Wait 60 seconds or type **{{cancel}}** to cancel this_
+    INSERT_VAL:
+        ADD: |-
+            Please type a value to add to the list.
+
+            _Wait 60 seconds or type **{{cancel}}** to cancel this_
+        REMOVE: |-
+            Please type the number of a value to remove.
+
+            _Wait 60 seconds or type **{{cancel}}** to cancel this_
+    OK_ADD: The value `{{value}}` was successfully added to the **{{name}}** configuration item
+    OK_REMOVE: Successfully removed `{{value}}` from the **{{name}}** configuration item
+
+    INVALID_ACTION: There was a fatal error. Retry.
+
+    NO_VALUES: This list is empty.
+
+    ERRORS:
+        NO_VALUES: There are no values to delete.
+        NAN: Enter the number of the value you wish to delete!
+        OUT_OF_BOUNDS_LT0: That number is too small! Be sure to enter a number between 1 and {{bound}} (inclusive).
+        OUT_OF_BOUNDS_GTI: That number is too big! Be sure to enter a number between 1 and {{bound}} (inclusive).
+
+NO_DESC: No description
+NO_VAL: No value
+
+ONE_OF: "The value for the **{{name}}** configuration item must be one of the following: {{list}}"
+
+INSERT_VAL: |-
+    Please type a value to set, or `null` to delete it.
+
+    _Wait 60 seconds or type **{{cancel}}** to cancel this_
+
+INSERT_VAL_LIST: |-
+    Please type a value from the following list:
+
+    > {{list}}
+
+    _Wait 60 seconds or type **{{cancel}}** to cancel this_
+
+KEY: |-
+    **{{name}} (`{{key}}`)**
+    > **Description:** {{description}}
+    > **Valid Type:** {{type}}
+    > **Value:** {{value}}
