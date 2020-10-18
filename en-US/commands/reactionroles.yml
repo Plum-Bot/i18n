@@ -1,0 +1,14 @@
+DESCRIPTION: Allows you to add reaction roles to any message.
+
+ERRORS:
+  ONE_EMOJI: There must be at least one emoji and it must be a string.
+  ONE_ROLE: There must be at least one role and it must identify a role correctly
+    (it can be a @mention, an ID, or simply a role name)
+  EMOJI_ROLES: There must be exactly one emoji for every role. (Excess emojis will be discarded)
+  VALID_ROLE: There must be at least one valid role.
+  VALID_EMOJIS: Every emoji must be a valid emoji that the bot can see.
+  IN_DB: The message you specified is already set as a reaction roles message.
+
+OK: Successfully enabled reaction roles.
+INFO: If you see it doesn't work, put the highest role of the bot in a
+  higher position than the other roles in the Roles settings menu.
