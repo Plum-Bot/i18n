@@ -13,6 +13,7 @@ CMD_ERROR:
   TEXT: "Support Server: {{invite}}"
   TITLE: Uh-oh! An error occurred.
   DESC: Contact the developers in the support server to alert them of this error.
+UNKNOWN_ERROR: An unknown error occurred.
 PERM_MANAGE_EMOJIS: Manage emojis
 PERM_KICK_MEMBERS: Kick members
 PERM_BAN_MEMBERS: Ban members
@@ -70,6 +71,7 @@ REPS: "{{count}} reputation point"
 REPS_plural: "{{count}} reputation points"
 
 CANCELLING: Cancelling...
+CANCELED: Operation canceled.
 
 # This is an action (ie, the user can use this to imply something in a command)
 CLEAR: clear
@@ -77,6 +79,8 @@ ADD: add
 REMOVE: remove
 CANCEL: cancel
 CLOSE: close
+LIST: list
+EDIT: edit
 
 # Settings types
 TYPES:
@@ -95,3 +99,7 @@ GO_TO_MESSAGE: Go to message
 UNCACHED_MESSAGE: Uncached message # Alternatively: "Message not in cache"
 
 AFK: This user is AFK
+
+NA:
+  LONG: Not available
+  SHORT: N/A

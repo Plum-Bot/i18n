@@ -1,0 +1,57 @@
+DESCRIPTION: Create and manage warns for users.
+
+NO_REASON: No reason specified.
+
+HELP:
+  TITLE: "`warn` command."
+  DESCRIPTION: "Create and manage warns for users.
+    
+
+    You can warn a user with `{{prefix}} warn @User [reason]` (the reason is optional).
+    If you don't want the user to be alerted of this, you can use the `--no-dm-user` flag (shadow-warn).
+    The bot will then show you the ID for the infraction.
+    
+    
+    You can always see all the infractions with `{{prefix}} warn @User --{{list}}`.
+    
+    
+    If you messed up, you can edit a reason with `{{prefix}} warn @User --{{edit}} <id>`.
+    The bot will then ask you the new reason. You can use `{{old}}` to reference the current reason (if maybe you're adding stuff to that).
+    
+    
+    To delete an infraction, use `{{prefix}} warn @User --{{remove}} <id>`.
+    If you, instead, want to delete all the infractions of a user, you may do so with `{{prefix}} warn @User --{{clear}}`."
+
+OK:
+  WARN: "{{user}} has been warned. Infraction ID: `{{id}}`"
+  EDIT: "The infraction has been edited."
+  REMOVE: "The infraction has been removed."
+  CLEAR: "{{user}}'s infractions have been cleared."
+
+ERRORS:
+  NO_ID: An infraction with ID `{{id}}` doesn't exist.
+  NO_WARNS: "{{user}} has no infractions."
+  NO_STAFF: You can't warn someone with a permission level equal or higher than yours!
+  IDX_GT_0: The index must be a number greater than 0.
+
+ADD:
+  TITLE: User warned
+  USER: User
+  MOD: Moderator
+  REASON: Reason
+  ID: Infraction ID
+  DM:
+    TITLE: Warning
+    DESC: "You've been warned in {{server}} for the following reason:\n\n{{reason}}"
+    FOOTER: This action was taken by the {{server}} Staff, and not by the Plum Bot staff.
+
+LIST:
+  TITLE: "{{user}}'s infractions"
+  FORMAT: "`{{id}}`. Added {{date}} by {{mod}}."
+  FORMAT_EDITED: "`{{id}}`. Added {{date}} (edited {{edited}}) by {{mod}}"
+
+EDIT:
+  QUESTION: Enter the new reason below, or alternatively type `{{cancel}}` to cancel the operation. You can use the `{{old}}` variable to insert the current reason.
+
+CLEAR:
+  QUESTION: Are you sure you want to clear {{user}}'s infractions?
