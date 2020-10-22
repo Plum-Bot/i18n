@@ -39,3 +39,16 @@ changes on the next reboot of the bot.
 Obviously, don't forget to [join our Discord!](https://discord.gg/MDtgmEM)
 
 By the way, if you help translating Plum, you'll get **1 month of free Premium!** Join!
+
+## Updating the translations
+If you want to update translations without checking by hand where the strings have been added, we provide a simple script to manually add strings where they are missing. We recommend combining it with Gitpod or Visual Studio code which have the particularity of showing which files have been modified by the script.
+
+Listed below are the steps for the best procedure for updating strings.
+### Using Gitpod
+1. Fork the repository into your account
+2. Connect Gitpod to GitHub and open the repository on Gitpod
+3. In Terminal, run `npm install yaml`
+4. Run `node addstrs.sh lang-code` where instead of lang-code you have to put the language code (eg it-IT)
+5. Check the files modified by the program and update them
+
+### Using VSC [soon]
