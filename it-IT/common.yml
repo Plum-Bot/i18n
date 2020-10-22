@@ -15,6 +15,7 @@ CMD_ERROR:
   TITLE: Oh-oh! È capitato un errore.
   DESC: Contatta gli sviluppatori nel server di supporto per avvisarli di questo
     errore.
+UNKNOWN_ERROR: An unknown error occurred.
 PERM_MANAGE_EMOJIS: Gestire gli emoji
 PERM_KICK_MEMBERS: Espellere i membri
 PERM_BAN_MEMBERS: Bannare i membri
@@ -72,11 +73,14 @@ STATUSES:
 REPS: "{{count}} punto reputazione"
 REPS_plural: "{{count}} punti reputazione"
 CANCELLING: Cancelling...
+CANCELED: Operation canceled.
 CLEAR: cancella
 ADD: aggiungi
 REMOVE: rimuovi
 CANCEL: annulla
 CLOSE: chiudi
+LIST: list
+EDIT: edit
 TYPES:
   STRING: Stringa
   BOOL: Vero/Falso
@@ -90,3 +94,6 @@ MESSAGE_LINK: Link messaggio
 GO_TO_MESSAGE: Vai al messaggio
 UNCACHED_MESSAGE: Messaggio uncatchato
 AFK: Questo utente è AFK
+NA:
+  LONG: Not available
+  SHORT: N/A

@@ -1,0 +1,51 @@
+DESCRIPTION: Crea e gestisce le infrazioni di un utente.
+NO_REASON: Motivo non specificato.
+HELP:
+  TITLE: "Comando `warn`."
+  DESCRIPTION: >-
+    Crea e gestisce le infrazioni di un utente.
+
+
+    Puoi avvertire un utente con `{{prefix}} warn @User [reason]` (il motivo è facoltativo). Se non vuoi che l'utente venga informato di ciò, puoi usare il flag `--no-dm-user` (avvertimento-fantasma). Il bot ti mostrerà quindi l'ID dell'infrazione.
+
+
+    Puoi sempre vedere tutte le infrazioni con `{{prefix}} warn @User --{{list}}`.
+
+
+    Se hai sbagliato, puoi modificare un motivo con `{{prefix}} warn @User --{{edit}} <id>`. Il bot poi ti chiederà il nuovo motivo. Puoi usare `{{old}}` per fare riferimento al motivo corrente (utile quando si vuole aggiungere qualcosa).
+
+
+    Per eliminare un'infrazione, usa `{{prefix}} warn @User --{{remove}} <id>`. Se tu, invece, vuoi eliminare tutte le infrazioni di un utente, puoi usare `{{prefix}} warn @User --{{clear}}`.
+OK:
+  WARN: "{{user}} è stato avvertito. ID infrazione: `{{id}}`"
+  EDIT: L'infrazione è stata modificata.
+  REMOVE: L'infrazione è stata rimossa.
+  CLEAR: "Tutte le infrazioni di {{user}} sono state cancellate."
+ERRORS:
+  NO_ID: Non esiste alcuna infrazione con ID `{{id}}`.
+  NO_WARNS: "{{user}} non ha infrazioni."
+  NO_STAFF: Non puoi avvertire qualcuno con un permesso uguale o maggiore al tuo!
+  IDX_GT_0: Il numero di indice deve essere maggiore di 0.
+ADD:
+  TITLE: Utente avvertito
+  USER: Utente
+  MOD: Moderatore
+  REASON: Motivo
+  ID: ID infrazione
+  DM:
+    TITLE: Avvertimento
+    DESC: |-
+      Sei stato avvertito in {{server}} per il seguente motivo:
+
+      {{reason}}
+    FOOTER: Questa infrazione è stata presa dallo stagg di {{server}}, e non dallo staff di Plum Bot.
+LIST:
+  TITLE: "Infrazioni di {{user}}"
+  FORMAT: "`{{id}}`. Aggiunta il {{date}} da {{mod}}."
+  FORMAT_EDITED: "`{{id}}`. Aggiunta il {{date}} (modificata {{edited}}) da {{mod}}"
+EDIT:
+  QUESTION: Scrivi il nuovo motivo qua sotto, oppure scrivi `{{cancel}}` per
+    annullare l'operazione. Puoi usare la variabile `{{old}}` per inserire il
+    motivo corrente.
+CLEAR:
+  QUESTION: Sei sicuro di voler eliminare tutte le infrazioni di {{user}}?

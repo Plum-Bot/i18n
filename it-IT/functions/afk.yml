@@ -1,6 +1,6 @@
 WELCOME_BACK: "{{user}}, bentornato!"
-WELCOME_BACK_PINGS: "{{user}}, bentornato! Mentre eri via, sei
-  stato menzionato da **{{mentioner}}**: {{url}}"
+WELCOME_BACK_PINGS: "{{user}}, bentornato! Mentre eri via, sei stato menzionato
+  da **{{mentioner}}**: {{url}}"
 WELCOME_BACK_PINGS_plural: |-
   {{user}}, bentornato! Sei stato menzionato {{count}} volte mentre eri via:
 
