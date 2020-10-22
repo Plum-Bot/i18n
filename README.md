@@ -50,5 +50,9 @@ Listed below are the steps for the best procedure for updating strings.
 3. In Terminal, run `npm install yaml`
 4. Run `node addstrs.js lang-code` where instead of lang-code you have to put the language code (eg it-IT)
 5. Check the files modified by the program and update them
+6. Once you finished translating, move to Source Control section
+7. Press the "+" in "CHANGES" to stage the changes
+8. Write a commit message in the top and CTRL+ENTER to submit it.
+9. Run `git push` in terminal and you should be ready to pull request!
 
 ### Using VSC [soon]
