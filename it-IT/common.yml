@@ -79,8 +79,8 @@ ADD: aggiungi
 REMOVE: rimuovi
 CANCEL: annulla
 CLOSE: chiudi
-LIST: list
-EDIT: edit
+LIST: lista
+EDIT: modifica
 TYPES:
   STRING: Stringa
   BOOL: Vero/Falso
