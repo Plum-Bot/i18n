@@ -48,7 +48,7 @@ Listed below are the steps for the best procedure for updating strings.
 1. Fork the repository into your account
 2. Connect Gitpod to GitHub and open the repository on Gitpod
 3. In Terminal, run `npm install yaml`
-4. Run `node addstrs.sh lang-code` where instead of lang-code you have to put the language code (eg it-IT)
+4. Run `node addstrs.js lang-code` where instead of lang-code you have to put the language code (eg it-IT)
 5. Check the files modified by the program and update them
 
 ### Using VSC [soon]
