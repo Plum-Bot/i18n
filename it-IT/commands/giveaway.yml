@@ -1,7 +1,7 @@
 DESCRIPTION: Crea e gestisce i Giveaway
 NO_DURATION: Hai specificato una durata invalida.
-TOO_SMALL_DUR: "Hai specificato una durata minore di **{{min}}**"
-TOO_LARGE_DUR: "Hai specificato una durata maggiore di **{{max}}**"
+TOO_SMALL_DUR: Hai specificato una durata minore di **{{min}}**
+TOO_LARGE_DUR: Hai specificato una durata maggiore di **{{max}}**
 NO_PRIZE: Devi specificare qualcosa da "dare via"!
 NEW: Giveaway!
 BODY: |-
@@ -16,7 +16,8 @@ CALL_TO_PRIZE: "{{user}}, hai vinto **{{prize}}**!"
 HELP:
   TITLE: Giveaways
   DESCRIPTION: >-
-    Per iniziare un Giveaway, semplicemente esegui `{{prefix}} giveaway <scadenza> <premio>`.
+    Per iniziare un Giveaway, semplicemente esegui `{{prefix}} giveaway
+    <scadenza> <premio>`.
 
 
     Per annullare un Giveaway, esegui `{{prefix}} giveaway --{{cancel}} <ID>`
