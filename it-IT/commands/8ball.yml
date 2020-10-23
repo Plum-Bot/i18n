@@ -1,0 +1,31 @@
+DESCRIPTION: null
+LINES:
+  - Certamente.
+  - Decisamente.
+  - Senza ombra di dubbio.
+  - Assolutamente sì.
+  - Ci puoi contare.
+  - Per come la vedo, sì.
+  - Molto probabilmente.
+  - La prospettiva è buona.
+  - Sì.
+  - Affermativo.
+  - La risposta non è chiara, riprova più tardy.
+  - Chiedi tra un po'.
+  - Meglio non dirtelo ora.
+  - Non lo posso predire ora.
+  - Concentrati e chiedi di nuovo.
+  - Forse.
+  - No.
+  - Nah.
+  - Nada.
+  - Non contarci.
+  - La mia risposta è no.
+  - Le mie fonti dicono di no.
+  - La prospettiva non è un granché.
+  - Ho tanti dubbi.
+  - Hmm, fammici pensare...
+  - Le stelle dicono di no.
+TITLE: Palla Magica
+QUESTION: "**Domanda:** {{q}}"
+ANSWER: Risposta
