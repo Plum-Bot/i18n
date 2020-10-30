@@ -1,0 +1,8 @@
+DESCRIPTION: Shows your points (or someone else's).
+
+TITLE: Points
+POINTS: Points
+POINT_COUNT: "{{count}} point"
+POINT_COUNT_plural: "{{count}} points"
+LEVEL: Level
+LEVEL_COUNT: "Level {{count}}"

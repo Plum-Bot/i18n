@@ -1,0 +1,7 @@
+DESCRIPTION: Shows the best users in the server (points-wise)!
+
+TITLE: Leaderboard
+VALUE: "{{count}} point (level {{level}})"
+VALUE_plural: "{{count}} points (level {{level}})"
+
+DESC_NO_MEMBERS: There are no best users. It's your time to shine!
