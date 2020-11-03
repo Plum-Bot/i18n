@@ -103,3 +103,14 @@ AFK: This user is AFK
 NA:
   LONG: Not available
   SHORT: N/A
+
+PARSE_ERRORS:
+  ARG_EMPTY: The `{{name}}` argument is empty.
+  ARG_NULL: The `{{name}}` required argument is empty.
+  ARG_OOB_INT_MAX: The `{{name}}` argument must be between at most {{max}}.
+  ARG_OOB_INT_MIN: The `{{name}}` argument must be between at least {{min}}.
+  ARG_OOB_INT: The `{{name}}` argument must be between {{min}} and {{max}}.
+  ARG_OOB_LEN_MAX: The length of the `{{name}}` argument must be between at most {{max}}.
+  ARG_OOB_LEN_MIN: The length of the `{{name}}` argument must be between at least {{min}}.
+  ARG_OOB_LEN: The length of the `{{name}}` argument must be between {{min}} and {{max}}.
+  GENERIC_INVALID: The `{{name}}` argument is not valid.

@@ -1,0 +1,10 @@
+DESCRIPTION: Shows extended information about a Discord ID.
+
+ERR_NOT_AN_ID: That's not a Discord ID!
+
+TITLE: Snowflake Info
+TIMESTAMP: Timestamp
+PROCESS: Process ID
+WORKER: Worker ID
+INCREMENT: Increment
+BINARY: Binary representation
