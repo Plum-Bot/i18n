@@ -47,6 +47,10 @@ ARRAY:
 
 NO_DESC: No description
 NO_VAL: No value
+WEB_ONLY: This value must be changed from the Web Dashboard.
+
+LIST: List of {{count}} item.
+LIST_plural: List of {{count}} items.
 
 ONE_OF: "The value for the **{{name}}** configuration item must be one of the following: {{list}}"
 
