@@ -53,6 +53,9 @@ ARRAY:
       numero tra 1 e {{bound}} (inclusi).
 NO_DESC: Nessuna descrizione
 NO_VAL: Nessun valore
+WEB_ONLY: Questo valore può essere cambiato solo dal Pannello di Controllo Web.
+LIST: Elenco di {{count}} elemento.
+LIST_plural: Elenco di {{count}} elementi.
 ONE_OF: "Il valore per la configurazione di **{{name}}** deve essere uno dei
   seguenti: {{list}}"
 INSERT_VAL: |-

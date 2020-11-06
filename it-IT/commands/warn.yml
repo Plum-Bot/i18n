@@ -1,7 +1,7 @@
 DESCRIPTION: Crea e gestisce le infrazioni di un utente.
 NO_REASON: Motivo non specificato.
 HELP:
-  TITLE: "Comando `warn`."
+  TITLE: Comando `warn`.
   DESCRIPTION: >-
     Crea e gestisce le infrazioni di un utente.
 
@@ -20,7 +20,7 @@ OK:
   WARN: "{{user}} è stato avvertito. ID infrazione: `{{id}}`"
   EDIT: L'infrazione è stata modificata.
   REMOVE: L'infrazione è stata rimossa.
-  CLEAR: "Tutte le infrazioni di {{user}} sono state cancellate."
+  CLEAR: Tutte le infrazioni di {{user}} sono state cancellate.
 ERRORS:
   NO_ID: Non esiste alcuna infrazione con ID `{{id}}`.
   NO_WARNS: "{{user}} non ha infrazioni."
@@ -38,9 +38,10 @@ ADD:
       Sei stato avvertito in {{server}} per il seguente motivo:
 
       {{reason}}
-    FOOTER: Questa infrazione è stata presa dallo stagg di {{server}}, e non dallo staff di Plum Bot.
+    FOOTER: Questa infrazione è stata presa dallo stagg di {{server}}, e non dallo
+      staff di Plum Bot.
 LIST:
-  TITLE: "Infrazioni di {{user}}"
+  TITLE: Infrazioni di {{user}}
   FORMAT: "`{{id}}`. Aggiunta il {{date}} da {{mod}}."
   FORMAT_EDITED: "`{{id}}`. Aggiunta il {{date}} (modificata {{edited}}) da {{mod}}"
 EDIT:

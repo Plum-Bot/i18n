@@ -1,7 +1,5 @@
 DESCRIPTION: Mostra informazioni estese su un ID di Discord.
-
 ERR_NOT_AN_ID: Quello non è un ID di Discord!
-
 TITLE: Informazioni ID
 TIMESTAMP: Timestamp
 PROCESS: ID processo

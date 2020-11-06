@@ -1,13 +1,15 @@
-DESCRIPTION: Ti permette di creare ruoli assegnabili con le reazioni su un messaggio qualsiasi 
+DESCRIPTION: Ti permette di creare ruoli assegnabili con le reazioni su un
+  messaggio qualsiasi
 ERRORS:
   ONE_EMOJI: Deve esserci almeno un'emoji e deve essere una stringa.
-  ONE_ROLE: Deve esserci almeno un ruolo e devi identificarlo correttamente.
-    (può essere una @menzione, un ID, o semplicemente il nome del ruolo)
+  ONE_ROLE: Deve esserci almeno un ruolo e devi identificarlo correttamente. (può
+    essere una @menzione, un ID, o semplicemente il nome del ruolo)
   EMOJI_ROLES: Deve esserci esattamente un'emoji per ogni ruolo. (Le emoji in
     aggiunta verranno scartate)
   VALID_ROLE: Deve esserci almeno un ruolo valido.
   VALID_EMOJIS: Ogni emoji deve essere un'emoji valida che il bot può usare.
-  IN_DB: Il messaggio che hai specificato è già impostato come un messaggio interattivo.
+  IN_DB: Il messaggio che hai specificato è già impostato come un messaggio
+    interattivo.
 OK: Ruoli interattivi impostati correttamente.
 INFO: Se vedi che non funziona, metti il ruolo più alto del bot in una posizione
   superiore rispetto agli altri ruoli nel menu dei ruoli.
