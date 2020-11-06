@@ -97,3 +97,13 @@ AFK: Questo utente è AFK
 NA:
   LONG: Not available
   SHORT: N/A
+PARSE_ERRORS:
+  ARG_EMPTY: L'argomento `{{name}}` è vuoto.
+  ARG_NULL: L'argomento richiesto `{{name}}` è vuoto.
+  ARG_OOB_INT_MAX: L'argomento `{{name}}` deve essere al massimo {{max}}.
+  ARG_OOB_INT_MIN: L'argomento `{{name}}` deve essere almeno {{min}}.
+  ARG_OOB_INT: L'argomento `{{name}}` deve essere un valore racchiuso tra {{min}} e {{max}}.
+  ARG_OOB_LEN_MAX: La lunghezza dell'argomento `{{name}}` deve essere al massimo {{max}}.
+  ARG_OOB_LEN_MIN: La lunghezza dell'argomento `{{name}}` deve essere almeno {{min}}.
+  ARG_OOB_LEN: La lunghezza dell'argomento `{{name}}` deve essere un valore racchiuso tra {{min}} e {{max}}.
+  GENERIC_INVALID: L'argomento `{{name}}` non è valido.

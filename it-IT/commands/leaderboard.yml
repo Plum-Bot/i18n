@@ -1,7 +1,5 @@
 DESCRIPTION: Mostra gli utenti migliori del server (a livello di punti)!
-
 TITLE: Leaderboard
 VALUE: "{{count}} punto (livello {{level}})"
 VALUE_plural: "{{count}} punti (livello {{level}})"
-
 DESC_NO_MEMBERS: Non ci sono utenti migliori. È il tuo momento!
