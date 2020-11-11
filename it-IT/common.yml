@@ -105,5 +105,6 @@ PARSE_ERRORS:
   ARG_OOB_INT: L'argomento `{{name}}` deve essere un valore racchiuso tra {{min}} e {{max}}.
   ARG_OOB_LEN_MAX: La lunghezza dell'argomento `{{name}}` deve essere al massimo {{max}}.
   ARG_OOB_LEN_MIN: La lunghezza dell'argomento `{{name}}` deve essere almeno {{min}}.
-  ARG_OOB_LEN: La lunghezza dell'argomento `{{name}}` deve essere un valore racchiuso tra {{min}} e {{max}}.
+  ARG_OOB_LEN: La lunghezza dell'argomento `{{name}}` deve essere un valore
+    racchiuso tra {{min}} e {{max}}.
   GENERIC_INVALID: L'argomento `{{name}}` non è valido.
