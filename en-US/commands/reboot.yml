@@ -1,1 +1,3 @@
 DESCRIPTION: Logs the shutdown to the corresponding log channel and reboots.
+
+REBOOTING: Rebooting...
