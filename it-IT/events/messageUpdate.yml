@@ -3,3 +3,13 @@ OLD: Vecchio Messaggio
 NEW: Nuovo Messaggio
 MSG_ID: ID Messaggio
 CHANNEL: Canale
+EMBEDS: Embeds
+EMBEDS_ADDED: Un embed è stato aggiunto
+EMBEDS_REMOVED: Un embed è stato rimosso
+EMBEDS_ADDED_plural: "{{count}} embed sono stati aggiunti"
+EMBEDS_REMOVED_plural: "{{count}} embed sono stati rimossi"
+ATTACHMENTS: Allegati
+ATTACHMENTS_ADDED: Un allegato è stato aggiunto
+ATTACHMENTS_REMOVED: Un allegato è stato rimosso
+ATTACHMENTS_ADDED_plural: "{{count}} allegati sono stati aggiunti"
+ATTACHMENTS_REMOVED_plural: "{{count}} allegati sono stati aggiunti"
