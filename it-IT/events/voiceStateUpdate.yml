@@ -1,0 +1,11 @@
+TITLE: L'utente ha cambiato stato nel canale vocale
+DEAF: L'utente è stato **silenziato dal server**
+MUTE: L'utente è stato **mutato dal server**
+DEAF_SELF: L'utente si è **silenziato localmente**
+MUTE_SELF: L'utente si è **mutato localmente**
+STREAM: L'utente ha **avviato una diretta**
+UNDEAF: L'utente è stato **desilenziato dal server**
+UNMUTE: L'utente è stato **smutato dal server**
+UNDEAF_SELF: L'utente si è **desilenziato localmente**
+UNMUTE_SELF: L'utente si è **smutato localmente**
+UNSTREAM: L'utente ha **chiuso la diretta**

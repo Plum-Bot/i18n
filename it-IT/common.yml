@@ -15,16 +15,16 @@ CMD_ERROR:
   TITLE: Oh-oh! È capitato un errore.
   DESC: Contatta gli sviluppatori nel server di supporto per avvisarli di questo
     errore.
-UNKNOWN_ERROR: An unknown error occurred.
-PERM_MANAGE_EMOJIS: Gestire gli emoji
+UNKNOWN_ERROR: E' capitato un errore sconosciuto.
+PERM_MANAGE_EMOJIS: Gestire le emoji
 PERM_KICK_MEMBERS: Espellere i membri
 PERM_BAN_MEMBERS: Bannare i membri
-PERM_MANAGE_ROLES: Gestire i roli
+PERM_MANAGE_ROLES: Gestire i ruoli
 PERM_MANAGE_MESSAGES: Gestire i messaggi
 PERM_EMBED_LINKS: Incorporare link
-PERM_USE_EXTERNAL_EMOJIS: Usare emoji esterni
-PERM_ATTACH_FILES: Attach files
-PERM_ADD_REACTIONS: Add reactions
+PERM_USE_EXTERNAL_EMOJIS: Usare emoji esterne
+PERM_ATTACH_FILES: Allegare file
+PERM_ADD_REACTIONS: Aggiungere reazioni
 PERMS:
   "0":
     NAME: Bot
@@ -105,5 +105,6 @@ PARSE_ERRORS:
   ARG_OOB_INT: L'argomento `{{name}}` deve essere un valore racchiuso tra {{min}} e {{max}}.
   ARG_OOB_LEN_MAX: La lunghezza dell'argomento `{{name}}` deve essere al massimo {{max}}.
   ARG_OOB_LEN_MIN: La lunghezza dell'argomento `{{name}}` deve essere almeno {{min}}.
-  ARG_OOB_LEN: La lunghezza dell'argomento `{{name}}` deve essere un valore racchiuso tra {{min}} e {{max}}.
+  ARG_OOB_LEN: La lunghezza dell'argomento `{{name}}` deve essere un valore
+    racchiuso tra {{min}} e {{max}}.
   GENERIC_INVALID: L'argomento `{{name}}` non è valido.
