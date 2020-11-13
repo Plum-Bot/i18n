@@ -1,0 +1,13 @@
+TITLE: User changed state in a voice channel
+
+DEAF: User has been **server deafened**
+MUTE: User has been **server muted**
+DEAF_SELF: User has **deafened** themselves
+MUTE_SELF: User has **muted** themselves
+STREAM: User has **started** a streaming session
+
+UNDEAF: User has been **server undeafened**
+UNMUTE: User has been **server unmuted**
+UNDEAF_SELF: User has **undeafened** themselves
+UNMUTE_SELF: User has **unmuted** themselves
+UNSTREAM: User has **stopped** their streaming session
