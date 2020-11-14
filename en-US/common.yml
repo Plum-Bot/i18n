@@ -114,3 +114,9 @@ PARSE_ERRORS:
   ARG_OOB_LEN_MIN: The length of the `{{name}}` argument must be at least {{min}}.
   ARG_OOB_LEN: The length of the `{{name}}` argument must be between {{min}} and {{max}}.
   GENERIC_INVALID: The `{{name}}` argument is not valid.
+
+INFRACTIONS:
+  warn: Warn
+  ban: Ban
+  kick: Kick
+  unban: Unban

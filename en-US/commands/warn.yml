@@ -1,10 +1,10 @@
-DESCRIPTION: Create and manage warns for users.
+DESCRIPTION: Create warns and manage infractions for users.
 
 NO_REASON: No reason specified.
 
 HELP:
   TITLE: "`warn` command."
-  DESCRIPTION: "Create and manage warns for users.
+  DESCRIPTION: "Create warns and manage infractions for users.
     
 
     You can warn a user with `{{prefix}} warn @User [reason]` (the reason is optional).
@@ -47,8 +47,8 @@ ADD:
 
 LIST:
   TITLE: "{{user}}'s infractions"
-  FORMAT: "`{{id}}`. Added {{date}} by {{mod}}."
-  FORMAT_EDITED: "`{{id}}`. Added {{date}} (edited {{edited}}) by {{mod}}"
+  FORMAT: "`{{id}}`. Added {{date}} by {{mod}}. Type: {{type}}"
+  FORMAT_EDITED: "`{{id}}`. Added {{date}} (edited {{edited}}) by {{mod}}. Type: {{type}}"
 
 EDIT:
   QUESTION: Enter the new reason below, or alternatively type `{{cancel}}` to cancel the operation. You can use the `{{old}}` variable to insert the current reason.
