@@ -1,0 +1,5 @@
+DESCRIPTION: Sets or removes the slowmode in the current channel
+
+BOUNDS: The duration must be somewhere between {{min}} and {{max}}.
+OK: The slowmode has been set to {{duration}}.
+OK_DISABLE: The slowmode has been disabled.
