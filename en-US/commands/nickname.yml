@@ -1,0 +1,3 @@
+DESCRIPTION: Changes the nickname of another user.
+
+ERROR: "There was an error trying to change the nickname.\nEnsure that my highest role is higher in the role list than the user you're editing the nickname of's highest role."

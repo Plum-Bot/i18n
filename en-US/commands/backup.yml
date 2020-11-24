@@ -1,0 +1,5 @@
+DESCRIPTION: Backs a channel or the server up.
+
+LOADING: Backing up! This may take some time, so grab a coffee and/or a snack.
+SIZE: Oh snap! The backup is too large for Discord. Try backing up less channels, or just one channel at a time.
+DONE: Done! Here's your backup.

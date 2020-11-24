@@ -21,6 +21,7 @@ PERM_KICK_MEMBERS: Espellere i membri
 PERM_BAN_MEMBERS: Bannare i membri
 PERM_MANAGE_ROLES: Gestire i ruoli
 PERM_MANAGE_MESSAGES: Gestire i messaggi
+PERM_MANAGE_WEBHOOKS: Gestire i webhook
 PERM_EMBED_LINKS: Incorporare link
 PERM_USE_EXTERNAL_EMOJIS: Usare emoji esterne
 PERM_ATTACH_FILES: Allegare file
@@ -92,7 +93,7 @@ TYPES:
 NO_CONTENT: Nessun contenuto
 MESSAGE_LINK: Link messaggio
 GO_TO_MESSAGE: Vai al messaggio
-UNCACHED_MESSAGE: Messaggio uncatchato
+UNCACHED_MESSAGE: Messaggio non salvato
 AFK: Questo utente è AFK
 NA:
   LONG: Not available

@@ -1,0 +1,4 @@
+DESCRIPTION: Moves a message to a different channel.
+
+OK: "Message moved.\n\n_This message will be deleted in {{time}}_"
+ERROR: "The message couldn't be moved.\n\n_This message will be deleted in {{time}}_"

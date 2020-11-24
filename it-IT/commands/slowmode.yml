@@ -1,5 +1,5 @@
-DESCRIPTION: Imposta o rimuove la modalità lenta nel canale corrente.
+DESCRIPTION: Imposta o rimuove la slowmode nel canale corrente.
 
 BOUNDS: La durata deve essere compresa tra {{min}} e {{max}}.
-OK: La modalità lenta è stata impostata a {{duration}}.
-OK_DISABLE: La modalità lenta è stata disabilitata.
+OK: La slowmode è stata impostata a {{duration}}.
+OK_DISABLE: La slowmode è stata disabilitata.

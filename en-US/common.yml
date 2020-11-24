@@ -19,6 +19,8 @@ PERM_KICK_MEMBERS: Kick members
 PERM_BAN_MEMBERS: Ban members
 PERM_MANAGE_ROLES: Manage roles
 PERM_MANAGE_MESSAGES: Manage messages
+PERM_MANAGE_WEBHOOKS: Manage Webhooks
+PERM_MANAGE_NICKNAMES: Manage nicknames
 PERM_EMBED_LINKS: Embed links
 PERM_USE_EXTERNAL_EMOJIS: Use external emojis
 PERM_ATTACH_FILES: Attach files

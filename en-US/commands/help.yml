@@ -19,6 +19,7 @@ PREFIX: "The prefix for this server is: {{prefix}}"
 COMMAND:
   TITLE: "{{info}} Help for command: {{command}}"
   MORE_INFO: "[More info about this command]({{domain}}/commands/{{command}})"
+ARGSLIDE: This command supports Argument Sliding. Check the guide for more info.
 LIMITATIONS:
   TITLE: "{{lock}} Limitations"
   GUILD: "{{server}} Server only"
