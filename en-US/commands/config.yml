@@ -71,3 +71,11 @@ KEY: |-
     > **Description:** {{description}}
     > **Valid Type:** {{type}}
     > **Value:** {{value}}
+KEY_PRO: |-
+    **{{name}} (`{{key}}`)**
+    > **Premium Feature**
+    > **Description:** {{description}}
+    > **Valid Type:** {{type}}
+    > **Value:** {{value}}
+
+OK: "The value for **{{key}}** has been changed to:\n>>> {{value}}"
