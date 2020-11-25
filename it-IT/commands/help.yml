@@ -19,6 +19,7 @@ PREFIX: "Il prefisso per questo server è: {{prefix}}"
 COMMAND:
   TITLE: "{{info}} Pagina di aiuto per il comando: {{command}}"
   MORE_INFO: "[Ulteriori informazioni su questo comando]({{domain}}/commands/{{command}})"
+ARGSLIDE: Questo comando supporta lo Scorrimento di Argomenti. Controlla la guida per maggiori informazioni.
 LIMITATIONS:
   TITLE: "{{lock}} Limitazioni"
   GUILD: "{{server}} Eseguibile solo in un Server"

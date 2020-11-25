@@ -1,0 +1,5 @@
+DESCRIPTION: Cambia il soprannome di un altro utente.
+ERROR: >-
+  C'è stato un errore nel cambiare il soprannome.
+
+  Assicurati che il mio ruolo più alto è _più alto_ del ruolo _più alto_ dell'utente cui stai modificando il nickname.

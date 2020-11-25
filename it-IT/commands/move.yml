@@ -1,0 +1,9 @@
+DESCRIPTION: Spostaun messaggio in un canale differente.
+OK: |-
+  Messaggio spostato.
+
+  _Questo messaggio verrà eliminato in {{time}}_
+ERROR: |-
+  Il messaggio non può essere spostato.
+
+  _Questo messaggio verrà eliminato in {{time}}_
