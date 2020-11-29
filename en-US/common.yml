@@ -122,3 +122,6 @@ INFRACTIONS:
   ban: Ban
   kick: Kick
   unban: Unban
+
+ATTACHMENTS: Attachment
+ATTACHMENTS_plural: Attachments

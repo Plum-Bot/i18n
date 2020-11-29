@@ -115,3 +115,6 @@ INFRACTIONS:
   ban: Ban
   kick: Espulsione
   unban: Unban
+
+ATTACHMENTS: Allegato
+ATTACHMENTS_plural: Allegati
