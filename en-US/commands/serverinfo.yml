@@ -12,6 +12,8 @@ EMOJIS: Emoji
 EMOJIS_plural: Emojis
 ROLES: Role
 ROLES_plural: Roles
+OTHER: "...and {{count}} other"
+OTHER_plural: "...and {{count}} others"
 SERVER_LEVEL: Server Level
 LEVEL:
   0: Base level
