@@ -11,8 +11,10 @@ CATEGORY: "Categorie: **{{cat}}**"
 EMOJIS: Emoji
 ROLES: Ruolo
 ROLES_plural: Ruoli
-OTHER: "...e un altro"
-OTHER_plural: "...e altri {{count}}"
+OTHER_EMOJIS: "...e un'altra"
+OTHER_EMOJIS_plural: "...e altre {{count}}"
+OTHER_ROLES: "...e un altro"
+OTHER_ROLES_plural: "...e altri {{count}}"
 SERVER_LEVEL: Livello del server
 LEVEL:
   0: Nessun livello
