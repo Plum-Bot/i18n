@@ -1,0 +1,62 @@
+DESCRIPTION: Shows information about the current server.
+
+TITLE: Server Info
+CREATED_AT: "Server creation: **{{date}}**"
+CREATOR: "Server created by: **{{user}}**"
+CHANNELS: Channels
+TOTAL: "Total: **{{total}}**"
+TEXT: "Text: **{{text}}**"
+AUDIO: "Voice: **{{audio}}**"
+CATEGORY: "Categories: **{{cat}}**"
+EMOJIS: Emoji
+EMOJIS_plural: Emojis
+ROLES: Role
+ROLES_plural: Roles
+SERVER_LEVEL: Server Level
+LEVEL:
+  0: Base level
+  1: Level 1
+  2: Level 2
+  3: Level 3
+BOOSTS: "{{count}} boost"
+BOOSTS_plural: "{{count}} boosts"
+REGION: Region
+SECURITY: Security Level
+EMCF: Explicit Media Content Filter
+
+EXPLICIT_CONTENT_FILTER:
+  - "**Don't scan any media content.**\nMy friends are nice most of the time."
+  - "**Scan media content from members without a role.**\nRecommended option for servers that use roles for trusted membership."
+  - "**Scan media content from all members.**\nRecommended option for when you want that squeaky clean shine."
+
+VERIFICATION:
+  - "**None**\nUnrestricted"
+  - "**Low**\nMust have a verified email on Discord."
+  - "**Medium**\nMust also be registered on Discord for longer than 5 minutes."
+  - "**High**\nMust also be a member of this server for longer than 10 minutes."
+  - "**Highest**\nMust have a verified phone on their Discord account."
+
+REGIONS:
+  us-west: US West
+  us-east: US East
+  us-central: US Central
+  us-south: US South
+  singapore: Singapore
+  southafrica: South Africa
+  sydney: Sydney
+  europe: Europe
+  brazil: Brazil
+  hongkong: Hong Kong
+  russia: Russia
+  japan: Japan
+  india: India
+  dubai: Dubai
+  amsterdam: Amsterdam
+  london: London
+  frankfurt: Frankfurt
+  eu-central: Central Europe
+  eu-west: Western Europe
+
+NO_EMOJIS: No emojis
+NO_ROLES: No roles
+UNKNOWN_USER: Unknown user

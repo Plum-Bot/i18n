@@ -76,13 +76,14 @@ CANCELLING: Cancelling...
 CANCELED: Operation canceled.
 
 # This is an action (ie, the user can use this to imply something in a command)
-CLEAR: clear
 ADD: add
-REMOVE: remove
+ADVANCED: advanced
 CANCEL: cancel
+CLEAR: clear
 CLOSE: close
-LIST: list
 EDIT: edit
+LIST: list
+REMOVE: remove
 
 # Settings types
 TYPES:
