@@ -1,0 +1,6 @@
+DESCRIPTION: Removes all the messages in the channel.
+
+QUESTION: >-
+  You're about to clear this channel (ie. _remove all the messages_).
+  This is a **destructive action**. Proceed?
+OK_CANCEL: The channel won't be cleared.
