@@ -73,3 +73,12 @@ KEY: |-
   > **Descrizione:** {{description}}
   > **Tipo di valore:** {{type}}
   > **Valore:** {{value}}
+KEY_PRO: |-
+  **{{name}} (`{{key}}`)**
+  > **Funzionalità Premium**
+  > **Descrizione:** {{description}}
+  > **Tipo di valore:** {{type}}
+  > **Valore:** {{value}}
+OK: |-
+  Il valore di **{{key}}** è stato cambiato in:
+  >>> {{value}}

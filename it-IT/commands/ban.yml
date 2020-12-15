@@ -1,0 +1,20 @@
+DESCRIPTION: Banna qualcuno dal server.
+ERR:
+  FELLOW_STAFF: Non puoi bannare un'altro membro dello staff.
+  UNKNOWN: null
+DM:
+  TITLE: Sei stato bannato.
+  DESC: |-
+    Sei stato bannato da {{server}} per il seguente motivo:
+
+    {{reason}}
+  FOOTER: Quest'azione è stata presa dallo staff di {{server}}, e non dallo staff di Plum Bot.
+TITLE: Utente bannato
+USER: Utente
+MOD: Moderatore
+REASON: Motivo
+ID: ID
+OK:
+  NO_DM: "{{user}} è stato bannato, ma non ho potuto mandargli un Messaggio Diretto.
+    ID infrazione: `{{id}}`."
+  DM: "{{user}} è stato bannato. Infraction ID: `{{id}}`."
