@@ -1,0 +1,20 @@
+DESCRIPTION: Espelle qualcuno dal server.
+ERR:
+  FELLOW_STAFF: Non puoi espellere un altro membro dello staff.
+  UNKNOWN: null
+DM:
+  TITLE: Sei stato espulso.
+  DESC: |-
+    Sei stato espulso da {{server}} per il seguente motivo:
+
+    {{reason}}
+  FOOTER: Quest'azione è stata presa dallo staff di {{server}}, e non dallo staff di Plum Bot.
+TITLE: Utente espulso
+USER: Utente
+MOD: Moderatore
+REASON: Motivo
+ID: ID
+OK:
+  NO_DM: "{{user}} è stato espulso, ma non ho potuto inviare un Messaggio Diretto.
+    ID Infrazione: `{{id}}`."
+  DM: "{{user}} è stato espulso. ID Infrazione: `{{id}}`."

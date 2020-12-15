@@ -1,5 +1,4 @@
 DESCRIPTION: Mostra informazioni sul server.
-
 TITLE: Informazioni sul server
 CREATED_AT: "Creazione server: **{{date}}**"
 CREATOR: "Server creato da: **{{user}}**"
@@ -9,36 +8,54 @@ TEXT: "Testuali: **{{text}}**"
 AUDIO: "Vocali: **{{audio}}**"
 CATEGORY: "Categorie: **{{cat}}**"
 EMOJIS: Emoji
+EMOJIS_plural: Emojis
 ROLES: Ruolo
 ROLES_plural: Ruoli
-OTHER_EMOJIS: "...e un'altra"
-OTHER_EMOJIS_plural: "...e altre {{count}}"
-OTHER_ROLES: "...e un altro"
-OTHER_ROLES_plural: "...e altri {{count}}"
+OTHER_EMOJIS: ...e un'altra
+OTHER_EMOJIS_plural: ...e altre {{count}}
+OTHER_ROLES: ...e un altro
+OTHER_ROLES_plural: ...e altri {{count}}
 SERVER_LEVEL: Livello del server
 LEVEL:
-  0: Nessun livello
-  1: Livello 1
-  2: Livello 2
-  3: Livello 3
+  "0": Nessun livello
+  "1": Livello 1
+  "2": Livello 2
+  "3": Livello 3
 BOOSTS: "{{count}} potenziamento"
 BOOSTS_plural: "{{count}} potenziamenti"
 REGION: Regione
 SECURITY: Livello di verifica
 EMCF: Filtro contenuti espliciti
-
 EXPLICIT_CONTENT_FILTER:
-  - "**Non controllare i contenuti.**\nI miei amici sono perlopiù cordiali."
-  - "**Controlla i contenuti dei membri senza un ruolo.**\nOpzione consigliata per i server che danno un ruolo ai membri fidati."
-  - "**Controlla i contenuti di tutti i membri.**\nOpzione consigliata per quando aspettarsi il meglio dai membri del server non basta."
+  - |-
+    **Non controllare i contenuti.**
+    I miei amici sono perlopiù cordiali.
+  - |-
+    **Controlla i contenuti dei membri senza un ruolo.**
+    Opzione consigliata per i server che danno un ruolo ai membri fidati.
+  - >-
+    **Controlla i contenuti di tutti i membri.**
 
+    Opzione consigliata per quando aspettarsi il meglio dai membri del server non basta.
 VERIFICATION:
-  - "**Nessuno**\nSenza limitazioni"
-  - "**Basso**\nGli utenti devono avere un indirizzo e-mail verificato sul loro account di Discord."
-  - "**Medio**\nGli utenti devono anche avere un account di Discord registrato da più di 5 minuti."
-  - "**Alto**\nGli utenti devono anche essere membri del server da più di 10 minuti."
-  - "**Massimo**\nGli utenti devono avere un numero di telefono verificato sul loro account di Discord."
+  - |-
+    **Nessuno**
+    Senza limitazioni
+  - >-
+    **Basso**
 
+    Gli utenti devono avere un indirizzo e-mail verificato sul loro account di Discord.
+  - >-
+    **Medio**
+
+    Gli utenti devono anche avere un account di Discord registrato da più di 5 minuti.
+  - |-
+    **Alto**
+    Gli utenti devono anche essere membri del server da più di 10 minuti.
+  - >-
+    **Massimo**
+
+    Gli utenti devono avere un numero di telefono verificato sul loro account di Discord.
 REGIONS:
   us-west: US West
   us-east: US East
@@ -59,7 +76,6 @@ REGIONS:
   frankfurt: Frankfurt
   eu-central: Central Europe
   eu-west: Western Europe
-
 NO_EMOJIS: Nessuna emoji
 NO_ROLES: Nessun ruolo
 UNKNOWN_USER: Utente sconosciuto

@@ -17,9 +17,10 @@ HELP:
 
     Per eliminare un'infrazione, usa `{{prefix}} warn @User --{{remove}} <id>`. Se tu, invece, vuoi eliminare tutte le infrazioni di un utente, puoi usare `{{prefix}} warn @User --{{clear}}`.
 OK:
-  WARN: 
+  WARN:
     DM: "{{user}} è stato avvertito. ID infrazione: `{{id}}`"
-    MO_DM: "{{user}} è stato avvertito, ma non è stato possibile recapitare il messaggio privato. ID infrazione: `{{id}}`"
+    MO_DM: "{{user}} è stato avvertito, ma non è stato possibile recapitare il
+      messaggio privato. ID infrazione: `{{id}}`"
   EDIT: L'infrazione è stata modificata.
   REMOVE: L'infrazione è stata rimossa.
   CLEAR: Tutte le infrazioni di {{user}} sono state cancellate.

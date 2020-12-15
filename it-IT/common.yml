@@ -76,13 +76,14 @@ REPS: "{{count}} punto reputazione"
 REPS_plural: "{{count}} punti reputazione"
 CANCELLING: Cancelling...
 CANCELED: Operation canceled.
-CLEAR: cancella
 ADD: aggiungi
-REMOVE: rimuovi
+ADVANCED: advanced
 CANCEL: annulla
+CLEAR: cancella
 CLOSE: chiudi
-LIST: lista
 EDIT: modifica
+LIST: lista
+REMOVE: rimuovi
 TYPES:
   STRING: Stringa
   BOOL: Vero/Falso
@@ -115,6 +116,6 @@ INFRACTIONS:
   ban: Ban
   kick: Espulsione
   unban: Unban
-
 ATTACHMENTS: Allegato
 ATTACHMENTS_plural: Allegati
+TEMPBAN: "Tempban expired: {{reason}}"
