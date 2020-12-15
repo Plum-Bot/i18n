@@ -1,0 +1,8 @@
+DESCRIPTION: Enables or disables Loop 1 mode.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to toggle Loop mode.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to toggle Loop mode.
+OK_OFF: Loop mode has been disabled.
+OK_ON: Loop mode has been enabled.

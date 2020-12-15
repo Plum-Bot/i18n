@@ -1,0 +1,7 @@
+DESCRIPTION: Clears the queue.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to clear the queue.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to clear the queue.
+OK: The queue has been cleared.

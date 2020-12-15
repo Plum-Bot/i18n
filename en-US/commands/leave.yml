@@ -1,0 +1,6 @@
+DESCRIPTION: Stops the bot from playing and makes it leave the channel.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to make me leave.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to make me leave.

@@ -1,0 +1,8 @@
+DESCRIPTION: Pauses the music.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to pause the music.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to pause the music.
+  ALREADY_PAUSED: The music is already paused.
+OK: I've paused the music.
