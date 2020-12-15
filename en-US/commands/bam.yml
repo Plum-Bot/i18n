@@ -1,0 +1,3 @@
+DESCRIPTION: Bams someone from the server.
+
+OK: "{{user}} has been banned."

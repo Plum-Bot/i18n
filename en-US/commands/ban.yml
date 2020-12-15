@@ -1,0 +1,20 @@
+DESCRIPTION: Bans someone from the server.
+
+ERR:
+  FELLOW_STAFF: You can't ban another staff member.
+  UNKNOWN:
+
+DM:
+  TITLE: You've been banned.
+  DESC: "You've been banned from {{server}} for the following reason:\n\n{{reason}}"
+  FOOTER: This action was taken by the {{server}} Staff, and not by the Plum Bot staff.
+
+TITLE: User banned
+USER: User
+MOD: Moderator
+REASON: Reason
+ID: ID
+
+OK:
+  NO_DM: "{{user}} has been banned, but I was unable to send a Direct Message. Infraction ID: `{{id}}`."
+  DM: "{{user}} has been banned. Infraction ID: `{{id}}`."

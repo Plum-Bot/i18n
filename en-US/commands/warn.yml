@@ -23,7 +23,9 @@ HELP:
     If you, instead, want to delete all the infractions of a user, you may do so with `{{prefix}} warn @User --{{clear}}`."
 
 OK:
-  WARN: "{{user}} has been warned. Infraction ID: `{{id}}`"
+  WARN:
+    DM: "{{user}} has been warned. Infraction ID: `{{id}}`"
+    NO_DM: "{{user}} has been warned, but I was unable to send the Direct Message. Infraction ID: `{{id}}`"
   EDIT: "The infraction has been edited."
   REMOVE: "The infraction has been removed."
   CLEAR: "{{user}}'s infractions have been cleared."

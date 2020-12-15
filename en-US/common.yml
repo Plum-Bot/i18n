@@ -126,3 +126,5 @@ INFRACTIONS:
 
 ATTACHMENTS: Attachment
 ATTACHMENTS_plural: Attachments
+
+TEMPBAN: "Tempban expired: {{reason}}"
