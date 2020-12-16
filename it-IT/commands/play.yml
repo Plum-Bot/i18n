@@ -9,6 +9,6 @@ NOW_PLAYING: In riproduzione
 QUEUED: Canzone in coda
 REQUESTED_BY: Richiesto da
 DESC: |-
-  Author: {{author}}
-  Duration: {{duration}}
-  Requested by: {{requester}}
+  Autore: {{author}}
+  Durata: {{duration}}
+  Richiesto da: {{requester}}
