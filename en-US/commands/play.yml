@@ -4,6 +4,7 @@ ERR:
   RESUME_NOT_PAUSED: You can't resume if there's no music playing at all, or if it isn't paused.
   NO_CHANNEL: Join a voice channel before attempting to play a song.
   ANOTHER_CHANNEL: I'm playing music in another channel! Join that one or wait for the queue to be over.
+  DJ: "The DJ role is configured for this server, but you don't have it. Ask someone with the DJ role to play that song for you. The configured DJ role is:\n>>> {{role}}"
   UNKNOWN: An unknown error happened while I was fetching the song's information.
 
 NOW_PLAYING: Now playing
