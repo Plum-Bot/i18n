@@ -1,4 +1,4 @@
 DESCRIPTION: Rimuove tutti i messaggi in nel canale.
-QUESTION: Stai per ripulire questo canale (per gli amici. _cancella tutti i messaggi_).
-  Questa azione è **distruttiva**. Vuoi procedere?
+QUESTION: Stai per ripulire questo canale (per gli amici. _cancella tutti i
+  messaggi_). Questa azione è **distruttiva**. Vuoi procedere?
 OK_CANCEL: Il canale non verrà ripulito.

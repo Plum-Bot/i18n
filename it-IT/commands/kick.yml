@@ -8,7 +8,8 @@ DM:
     Sei stato espulso da {{server}} per il seguente motivo:
 
     {{reason}}
-  FOOTER: Quest'azione è stata presa dallo staff di {{server}}, e non dallo staff di Plum Bot.
+  FOOTER: Quest'azione è stata presa dallo staff di {{server}}, e non dallo staff
+    di Plum Bot.
 TITLE: Utente espulso
 USER: Utente
 MOD: Moderatore

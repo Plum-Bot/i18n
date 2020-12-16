@@ -1,4 +1,4 @@
-DESCRIPTION: Enables or disables Loop 1 mode.
+DESCRIPTION: Toggles Loop mode.
 
 ERR:
   NO_CHANNEL: Join a voice channel before attempting to toggle Loop mode.

@@ -1,0 +1,6 @@
+DESCRIPTION: Cancella la coda.
+ERR:
+  NO_CHANNEL: Entra in un canale vocale prima di provare a cancellare la coda.
+  NO_MUSIC: Non sto riproducendo alcuna musica.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un'altro canale! Entra in quest'ultimo per cancellare la coda.
+OK: La coda è stata cancellata.

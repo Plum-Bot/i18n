@@ -1,0 +1,9 @@
+DESCRIPTION: Mostra la musica in coda di riproduzione.
+ERR:
+  NO_CHANNEL: Entra in un canale vocale prima di provare a mostrare la codas.
+  NO_MUSIC: Non sto riproducendo alcuna musica.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un'altro canale! Entra in quest'ultimo per vedere la coda di riproduzione.
+EMPTY: La coda è vuota.
+TITLE: Coda di riproduzione
+NOW_PLAYING: "IN RIPRODUZIONE:"
+REQUESTED_BY: "Richiesto da: **{{user}}**"

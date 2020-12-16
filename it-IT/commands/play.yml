@@ -1,0 +1,14 @@
+DESCRIPTION: Riproduce una canzone a tua scelta.
+ERR:
+  RESUME_NOT_PAUSED: Non puoi riprendere la riproduzione se non c'è musica, o se non è in pausa.
+  NO_CHANNEL: Entra in un canale vocale prima di provare a riprodurre un brano.
+  ANOTHER_CHANNEL: Sto già riproducendo musica in un altro canale! Entra in quest'ultimo o aspetta che
+    la coda finisca.
+  UNKNOWN: Un errore sconosciuto è accaduto mentre provavo a caricare le informazioni del brano.
+NOW_PLAYING: In riproduzione
+QUEUED: Canzone in coda
+REQUESTED_BY: Richiesto da
+DESC: |-
+  Author: {{author}}
+  Duration: {{duration}}
+  Requested by: {{requester}}
