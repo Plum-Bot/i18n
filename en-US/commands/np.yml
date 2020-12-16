@@ -1,0 +1,13 @@
+DESCRIPTION: Shows what's currently playing.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to see what's playing.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to see what's playing.
+
+DESC: |-
+  Author: {{author}}
+  Duration: {{duration}}
+  Requested by: {{requester}}
+
+  `{{progress}}`
