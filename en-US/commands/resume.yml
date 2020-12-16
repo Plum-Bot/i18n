@@ -1,0 +1,8 @@
+DESCRIPTION: Resumes the music.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to resume the music.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to resume the music.
+  NOT_PAUSED: The music is not paused.
+OK: I've resumed the music.

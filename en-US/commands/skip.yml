@@ -1,0 +1,6 @@
+DESCRIPTION: Skips a song.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to skip a song.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to skip a song.
