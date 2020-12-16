@@ -9,3 +9,8 @@ ERR:
 NOW_PLAYING: Now playing
 QUEUED: Song queued
 REQUESTED_BY: Requested by
+
+DESC: |-
+  Author: {{author}}
+  Duration: {{duration}}
+  Requested by: {{requester}}
