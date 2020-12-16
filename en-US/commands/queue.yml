@@ -1,0 +1,10 @@
+DESCRIPTION: Shows the music that's queued to play.
+
+ERR:
+  NO_CHANNEL: Join a voice channel before attempting to show the queue.
+  NO_MUSIC: I'm not playing any music.
+  ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to see the queue.
+EMPTY: The queue is empty.
+TITLE: Song queue
+NOW_PLAYING: "NOW PLAYING:"
+REQUESTED_BY: "Requested by: **{{user}}**"
