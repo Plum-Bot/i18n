@@ -3,5 +3,7 @@ ERR:
   NO_CHANNEL: Entra in un canale vocale prima di provare a cambiare lo stato della modalità ripetizione.
   NO_MUSIC: Non sto riproducendo alcuna musica.
   ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in quest'ultimo per cambiare lo stato della modalità ripetizione.
-OK_OFF: La modalità di ripetizione è stata disabilitata.
-OK_ON: La modalità di ripetizione è stata abilitata.
+
+OK_OFF: La modalità ripetizione è stata disabilitata.
+OK_ALL: La modalità ripetizione è stata impostata su Ripeti tutto.
+OK_ONE: La modalità ripetizione è stata impostata su Ripeti uno.

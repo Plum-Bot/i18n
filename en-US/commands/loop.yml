@@ -5,5 +5,7 @@ ERR:
   NO_MUSIC: I'm not playing any music.
   ANOTHER_CHANNEL: I'm playing music in another channel! Join that one to toggle Loop mode.
   DJ: "The DJ role is configured for this server, but you don't have it. Ask someone with the DJ role to toggle Loop mode for you. The configured DJ role is:\n>>> {{role}}"
+
 OK_OFF: Loop mode has been disabled.
-OK_ON: Loop mode has been enabled.
+OK_ALL: Loop mode has been set to Loop All.
+OK_ONE: Loop mode has been set to Loop One.
