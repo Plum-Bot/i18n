@@ -27,7 +27,7 @@ HELP:
     Per rilanciare un Giveaway (es. cambiare vincitore), esegui `{{prefix}} giveaway --{{reroll}} <ID>`
 
 
-    Comunque `{{close}}` e `{{reroll}}` entrambi fanno in pratica la stessa cosa, non sono intercambiabili. Se un giveaway che stai rilanciando è ancora aperto, `{{reroll}}` funzionerà esattamente come `{{close}}`, ma lo stesso non può essere detto riguardo l'opposto; se il Giveaway è chiuso, `{{close}}` igniorerà il comando, mentre `{{reroll}}` rilancerà correttamente il vincitore.
+    Sebbene `{{close}}` e `{{reroll}}` siano molto simili, non sono intercambiabili. Se un giveaway che stai rilanciando è ancora aperto, `{{reroll}}` funzionerà esattamente come `{{close}}`, ma lo stesso non può essere detto riguardo l'opposto; se il Giveaway è chiuso, `{{close}}` ignorerà il comando, mentre `{{reroll}}` sceglierà correttamente un nuovo vincitore.
 
 
     `<ID>` è l'ID del Messaggio del Giveaway. Puoi scoprire come copiare gli ID seguendo questa guida: {{docs}}/guides/getting-ids
