@@ -128,3 +128,5 @@ ATTACHMENTS: Attachment
 ATTACHMENTS_plural: Attachments
 
 TEMPBAN: "Tempban expired: {{reason}}"
+
+VOTE: Vote registered. [{{count}}/{{total}}]
