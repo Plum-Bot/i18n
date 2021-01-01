@@ -1,0 +1,4 @@
+DESCRIPTION: Announces something in the server's announcement channel.
+
+NO_CHANNEL: "You haven't set an announcement channel. You can set one with `config annchan #channel`."
+TITLE: Announcement
