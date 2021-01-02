@@ -1,0 +1,12 @@
+DESCRIPTION: Creates a yes/no poll.
+
+TITLE: Vote
+EXPIRING: "Vote ends:"
+RESULTS: Results
+VOTES: "{{count}} vote"
+VOTES_plural: "{{count}} votes"
+EXPIRED: "Vote ended:"
+STATUS:
+  positive: The vote ended with a YES vote.
+  negative: The vote ended with a NO vote.
+  tie: The vote ended with a tie.
