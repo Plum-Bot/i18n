@@ -1,4 +1,4 @@
-DESCRIPTION:
+DESCRIPTION: Shows the most popular commands in the server.
 
 TIMES: once
 TIMES_plural: "{{count}} times"
