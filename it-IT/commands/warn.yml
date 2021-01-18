@@ -41,7 +41,7 @@ ADD:
       Sei stato avvertito in {{server}} per il seguente motivo:
 
       {{reason}}
-    FOOTER: Questa infrazione è stata presa dallo stagg di {{server}}, e non dallo
+    FOOTER: Questa infrazione è stata presa dallo staff di {{server}}, e non dallo
       staff di Plum Bot.
 LIST:
   TITLE: Infrazioni di {{user}}
