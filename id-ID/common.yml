@@ -52,9 +52,9 @@ USEFUL_LINKS: Link yang berguna
 USEFUL_LINKS_TEXT: "[Website Resmi]({{domain}}) |  [Semua Perintah]({{commands}}) | [Server Dukungan Resmi]({{server}})"
 MADE_BY: "{{name}} dibuat oleh {{tag}}"
 AND: dan
-REMINDER: |-
+REMINDER_SELF: |-
   Anda mengatakan kepada saya untuk mengingatkan:
-  > {{text}}
+  >>> {{text}}
 TIME_AGO: "{{time}} lalu"
 IN_TIME: pada {{time}}
 NO_BIO: Tidak ada bio

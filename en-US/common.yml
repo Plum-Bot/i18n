@@ -56,9 +56,12 @@ USEFUL_LINKS_TEXT: "[Official Website]({{domain}}) |  [All commands]({{commands}
   Support Server]({{server}})"
 MADE_BY: "{{name}} is made by {{tag}}"
 AND: and
-REMINDER: |-
+REMINDER_SELF: |-
   You asked me to remind you:
-  > {{text}}
+  >>> {{text}}
+REMINDER_OTHER: |-
+  I was asked by {{user}}, in {{guild}}, to remind you:
+  >>> {{text}}
 TIME_AGO: "{{time}} ago"
 IN_TIME: in {{time}}
 NO_BIO: No bio set

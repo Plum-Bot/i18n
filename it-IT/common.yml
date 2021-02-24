@@ -61,9 +61,9 @@ USEFUL_LINKS_TEXT: "[Sito web]({{domain}}) | [Tutti i comandi]({{commands}}) |
   [Server di supporto]({{server}})"
 MADE_BY: "{{name}} è fatto da {{tag}}"
 AND: e
-REMINDER: |-
+REMINDER_SELF: |-
   Mi hai chiesto di ricordarti:
-  > {{text}}
+  >>> {{text}}
 TIME_AGO: "{{time}} fa"
 IN_TIME: tra {{time}}
 NO_BIO: Nessuna bio impostata
