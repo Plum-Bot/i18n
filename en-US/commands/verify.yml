@@ -3,7 +3,7 @@ DESCRIPTION: If configured, allows you to complete a captcha to get a role.
 MESSAGE: |-
   **Verification**
 
-  Enter the letters below to verify yourself. Please note that it's case-sensitive.
+  Enter the letters below to verify yourself. Please note that it's case-insensitive.
 
   $t(commands/verify:EXPIRY)
 
