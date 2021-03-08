@@ -1,0 +1,18 @@
+DESCRIPTION: If configured, allows you to complete a captcha to get a role.
+
+MESSAGE: |-
+  **Verification**
+
+  Enter the letters below to verify yourself.
+
+  $t(commands/verify:EXPIRY)
+
+VERIFYING: "You're already being verified. Please try again later.\n\n$t(commands/verify:EXPIRY_SHORT)"
+VERIFIED: "You're already verified. Please try again later.\n\n$t(commands/verify:EXPIRY_SHORT)"
+EXPIRED: "You've waited too long. To verify yourself, please re-run the command.\n\n$t(commands/verify:EXPIRY_SHORT)"
+VALID: "You've entered a valid CAPTCHA and are now verified.\n\n$t(commands/verify:EXPIRY_SHORT)"
+INVALID: "You've entered a wrong CAPTCHA and are not verified. Please re-run this command again to retry.\n\n$t(commands/verify:EXPIRY_SHORT)"
+DISABLED: "Verification is disabled for the current server."
+
+EXPIRY: _This message will be deleted in 60 seconds_
+EXPIRY_SHORT: _This message will be deleted in 5 seconds_
