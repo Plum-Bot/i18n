@@ -2,4 +2,5 @@ DESCRIPTION: Salta una canzone.
 ERR:
   NO_CHANNEL: Entra in un canale vocale prima di provare a saltare una canzone.
   NO_MUSIC: Non sto riproducendo alcuna canzone.
-  ANOTHER_CHANNEL: Sto riproducendo musica in un'altro canale! Entra in quest'ultimo per saltare una canzone.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un'altro canale! Entra in
+    quest'ultimo per saltare una canzone.

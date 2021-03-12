@@ -1,0 +1,11 @@
+DESCRIPTION: Crea sondaggi sì/no.
+TITLE: Votazione
+EXPIRING: "La votazione termina:"
+RESULTS: Risultati
+VOTES: "{{count}} voto"
+VOTES_plural: "{{count}} voti"
+EXPIRED: "La votazione è terminata:"
+STATUS:
+  positive: La votazione è terminata ed ha vinto il SÌ.
+  negative: La votazione è terminata ed ha vinto il NO.
+  tie: La votazione è terminata e si è verficato un pareggio.

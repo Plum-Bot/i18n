@@ -2,4 +2,5 @@ DESCRIPTION: Ferma il bot dal riprodurre musica e lo fa uscire dal canale.
 ERR:
   NO_CHANNEL: Entra in un canale vocale prima di provare a farmi uscire.
   NO_MUSIC: Non sto riproducendo alcuna musica.
-  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in quest'ultimo per farmi uscire.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in
+    quest'ultimo per farmi uscire.

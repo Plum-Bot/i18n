@@ -2,6 +2,7 @@ DESCRIPTION: Riprende la musica.
 ERR:
   NO_CHANNEL: Entra in un canale vocale prima di provare a ripendere la musica.
   NO_MUSIC: Non sto riproducendo alcuna musica.
-  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in quest'ultimo per riprendere la musica.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in
+    quest'ultimo per riprendere la musica.
   NOT_PAUSED: La musica non è in pausa.
 OK: Ho ripreso la musica.

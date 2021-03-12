@@ -1,0 +1,4 @@
+DESCRIPTION: Annuncia qualcosa nel canale annunci del server.
+NO_CHANNEL: "Non hai impostato un canale per gli annunci. Puoi impostarne uno con
+  `config annchan #channel`."
+TITLE: Annuncio

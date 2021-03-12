@@ -2,6 +2,7 @@ DESCRIPTION: Mette in pausa la musica.
 ERR:
   NO_CHANNEL: Entra in un canale vocale prima di provare a mettere in pausa la musica.
   NO_MUSIC: Non sto riproducendo alcuna musica.
-  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in quest'ultimi per mettere in pausa la musica.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in
+    quest'ultimo per mettere in pausa la musica.
   ALREADY_PAUSED: La musica è già in pausa.
 OK: Ho messo in pausa la musica.

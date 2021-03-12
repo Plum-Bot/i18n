@@ -2,4 +2,5 @@ DESCRIPTION: Ferma la riproduzione della musica.
 ERR:
   NO_CHANNEL: Entra in un canale vocale prima di provare a fermare la riproduzione.
   NO_MUSIC: Non c'è alcuna musica da fermare.
-  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in quest'ultimo per fermare la riproduziones.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un altro canale! Entra in
+    quest'ultimo per fermare la riproduziones.

@@ -64,6 +64,9 @@ AND: e
 REMINDER_SELF: |-
   Mi hai chiesto di ricordarti:
   >>> {{text}}
+REMINDER_OTHER: |-
+  I was asked by {{user}}, in {{guild}}, to remind you:
+  >>> {{text}}
 TIME_AGO: "{{time}} fa"
 IN_TIME: tra {{time}}
 NO_BIO: Nessuna bio impostata
@@ -119,3 +122,5 @@ INFRACTIONS:
 ATTACHMENTS: Allegato
 ATTACHMENTS_plural: Allegati
 TEMPBAN: "Tempban expired: {{reason}}"
+VOTE: Vote registered. [{{count}}/{{total}}]
+ALREADY_VOTED: You've already voted.

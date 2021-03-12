@@ -1,0 +1,11 @@
+DESCRIPTION: Mostra cosa c'è attualmente in riproduzione.
+ERR:
+  NO_CHANNEL: Entra in un canale vocale prima di provare a vedere cosa c'è in riproduzione.
+  NO_MUSIC: Non sto riproducendo musica.
+  ANOTHER_CHANNEL: Sto riproducendo musica in un'altro canale! Entra in quest'ultimo per vedere cosa c'è in riproduzione.
+DESC: |-
+  Autore: {{author}}
+  Durata: {{duration}}
+  Richiesto da: {{requester}}
+
+  `{{progress}}`

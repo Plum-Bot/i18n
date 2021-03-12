@@ -1,0 +1,5 @@
+TITLE: "{{count}} message has been deleted"
+TITLE_plural: "{{count}} messages have been deleted"
+CHANNEL: Channel
+DELETED_BY: Deleted by
+REASON: Reason
