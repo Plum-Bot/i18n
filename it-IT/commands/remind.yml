@@ -7,9 +7,9 @@ INVALID_DURATION: |-
   > {{duration}}
   > {{date}}
 TIME_TOO_MUCH_PREMIUM: La durata per gli utenti Premium deve essere tra 5 secondi ed un mese.
-TIME_TOO_MUCH_REGULAR: La durata per gli utenti normali deve essere tra 5 secondi
-  ed una settimana. **Passa a premium per una durata estesa di 1 mese!** Usa il comando
-  `{{prefix}} premium` per sapere come.
+TIME_TOO_MUCH_REGULAR: La durata per gli utenti normali deve essere tra 5
+  secondi ed una settimana. **Passa a premium per una durata estesa di 1 mese!**
+  Usa il comando `{{prefix}} premium` per sapere come.
 NO_REMINDER: Devi scrivere ciò che ti devo ricordare.
 OK: |-
   Va bene! Ricorderò a {{user}} questo tra {{duration}}:

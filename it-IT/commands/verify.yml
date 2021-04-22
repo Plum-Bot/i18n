@@ -1,9 +1,8 @@
-DESCRIPTION: Se configurata, ti da la possibilità di completare una verifica 'Non sono un robot' per guadagnare un ruolo.
-MESSAGE: >-
+DESCRIPTION: Se configurata, ti da la possibilità di completare una verifica
+  'Non sono un robot' per guadagnare un ruolo.
+MESSAGE: |-
   **Verificazione**
-
   Scrivi le lettere che compaiono nell'immagine per verificarti.
-
   $t(commands/verify:EXPIRY)
 VERIFYING: |-
   Sei già in una fase di verifica. Per favore, prova più tardi.
@@ -13,8 +12,10 @@ VERIFIED: |-
   Sei già verificato. Per favore, prova più tardi.
 
   $t(commands/verify:EXPIRY_SHORT)
-EXPIRED: |-
-  Ci stai mettendo fin troppo tempo. Per verificarti, per favore riesegui il comando.
+EXPIRED: >-
+  Ci stai mettendo fin troppo tempo. Per verificarti, per favore riesegui il
+  comando.
+
 
   $t(commands/verify:EXPIRY_SHORT)
 VALID: |-
@@ -22,8 +23,8 @@ VALID: |-
 
   $t(commands/verify:EXPIRY_SHORT)
 INVALID: >-
-  Hai inserito un CAPTCHA errato e non sei verificato. Per favore riesegui questo
-  comando per riprovare.
+  Hai inserito un CAPTCHA errato e non sei verificato. Per favore riesegui
+  questo comando per riprovare.
 
   $t(commands/verify:EXPIRY_SHORT)
 DISABLED: Il sistema di verifica è disabilitato per questo server.

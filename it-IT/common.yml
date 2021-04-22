@@ -13,7 +13,9 @@ COOLDOWN: Non potrai usare il comando `{{command}}` per altri {{time}}.
 CMD_ERROR:
   TEXT: "Server di supporto: {{invite}}"
   TITLE: Oh-oh! È capitato un errore.
-  DESC: Contatta gli sviluppatori nel server di supporto. E' consigliato non eseguire una seconda volta questo comando se non sotto autorizzazione di uno sviluppatore.
+  DESC: Contatta gli sviluppatori nel server di supporto. E' consigliato non
+    eseguire una seconda volta questo comando se non sotto autorizzazione di uno
+    sviluppatore.
 UNKNOWN_ERROR: E' capitato un errore sconosciuto.
 PERM_MANAGE_EMOJIS: Gestire le emoji
 PERM_KICK_MEMBERS: Espellere i membri
