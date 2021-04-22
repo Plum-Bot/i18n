@@ -12,7 +12,7 @@ COOLDOWN: You may not use the `{{command}}` command for another {{time}}.
 CMD_ERROR:
   TEXT: "Support Server: {{invite}}"
   TITLE: Uh-oh! An error occurred.
-  DESC: Contact the developers in the support server to alert them of this error.
+  DESC: Contact the developers in the support server. It is recommended not to run this command a second time unless authorized by a developer.
 UNKNOWN_ERROR: An unknown error occurred.
 PERM_MANAGE_EMOJIS: Manage emojis
 PERM_KICK_MEMBERS: Kick members
